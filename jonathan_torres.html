@@ -1,0 +1,625 @@
+<!DOCTYPE html> 
+ <html> 
+ <head> 
+ <meta charset='utf-8'>  
+ <meta name='viewport' content='width=device-width, initial-scale=1'> 
+ <title>BJJ in Arabic | Learn Jiu Jitsu</title> 
+ <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'> 
+ <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script> 
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'></script> 
+ <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script> 
+ <script src='https://use.fontawesome.com/releases/v5.0.8/js/all.js'></script> 
+ <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>  
+ <script type='text/javascript'>  
+       google.charts.load('current', {packages:['corechart']});  
+       google.charts.setOnLoadCallback(drawChart);  
+       function drawChart() {  
+         var data = google.visualization.arrayToDataTable([  
+           ['wins', 'percent over total wins'],
+           ['by Points',     54], 
+           ['by Advantages',      5], 
+           ['by Submission',  113], 
+           ['by Decision', 9],
+ ]); 
+
+        var options = { 
+ 			title: 'Total of Wins', 
+ 			pieHole: 0.6, 
+ 		  colors: ['#a812f8', '#9012d4', '#7a0fb3','#3e075b'] 
+         }; 
+  
+         var chart = new google.visualization.PieChart(document.getElementById('donutchart')); 
+         chart.draw(data, options); 
+       } 
+ 	</script> 
+ 	<!-- bar chart  --> 
+     <script type='text/javascript'> 
+ 		google.charts.load('current', {'packages':['bar']}); 
+ 		google.charts.setOnLoadCallback(drawChart); 
+    
+ 		function drawChart() { 
+ 		  var data = google.visualization.arrayToDataTable([ 
+ 			['Tounament', 'Gold', 'Silver', 'Coper'], 
+ 			['Worlds', 2, 0, 1], 
+ 			['Europeans', 1,0, 0], 
+ 			['Brazil Nationals', 1, 0, 0] 
+ 		  ]); 
+    
+ 		  var options = { 
+ 			chart: { 
+ 			  title: 'Gold, Silver and Copper in IBJJF Tournamets', 
+ 			  subtitle: '', 
+ 			}, 
+ 			bars: 'horizontal', // Required for Material Bar Charts. 
+ 			hAxis: {format: 'decimal'}, 
+           	height: 300, 
+           	colors: ['#FFD700', '#C0C0C0', '#CD7F32'] 
+ 		  }; 
+    
+ 		  var chart = new google.charts.Bar(document.getElementById('barchart_material')); 
+    
+ 		  chart.draw(data, google.charts.Bar.convertOptions(options)); 
+ 		} 
+ 	  </script>  
+  
+ 	<link href='style.css' rel='stylesheet'>  
+ 	<link rel='stylesheet' href='https://m.w3newbie.com/you-tube.css'> 
+     </head> 
+  
+         <body> 
+ 
+            <!--navigation--> 
+  
+         <nav class='navbar navbar-expand-md navbar-light fixed-top'> 
+             <div class='container-fluid'> 
+                 <a class='navbar-brand' href='#'><img src='img/logo.png'></a> 
+                 <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarResponsive'> 
+                     <span class='navbar-toggler-icon'></span> 
+                 </button> 
+  
+                 <div class='collapse navbar-collapse' id='navbarResponsive'> 
+                     <ul class='navbar-nav ml-auto' dir='rtl'> 
+                         <li class='nav-item active'> 
+                             <a class='nav-link' href='https://dbbatalha.github.io/bjjinarabic/' dir='rtl' lang='ar'>Home | الصفحة الرئيسية للموقع</a>  
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#athleteslist' dir='rtl' lang='ar'>athletes list | قائمة الرياضيين</a>                   
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#about' dir='rtl' lang='ar'>About Us | معلومات عنا</a> 
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#connect' dir='rtl' lang='ar'>Connect | الاتصال</a> 
+  
+                         </li> 
+                     </ul> 
+                 </div> 
+             </div> 
+         </nav> 
+  
+ <div class='main-logo-ads-wrap'> 
+ <div class='main-logo-ads'> 
+ <body class='post-template-default single single-post postid-8141 single-format-standard mh-body gecko'> 
+ <div id='body-maha' class='body-maha'> 
+  
+ <div id='body-background'> 
+  
+ <div class='main-logo-ads-wrap'> 
+ <div class='main-logo-ads'> 
+  
+ <div class='container'> 
+ <div class='row '> 
+ <div class='col-sm-12'> 
+  
+ <div id='thelogo' class='logo '> 
+ <a href='https://dbbatalha.github.io/bjjinarabic/'> 
+ <img alt='BJJ in arabic' src='img/logo.png' data-retina='img/logo.png' data-first='img/logo.png' width=70% height=70%> 
+ </a> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+  
+ <div class='page-wrapper'> 
+  <div class='mh-el page-sidebar single-boxed' itemscope itemtype='https://schema.org/Article'> 
+ <div class='container'> 
+ <div class='row'> 
+ <div class='col-sm-12'> 
+ <div class='cover-wrap'> 
+ <div class='player-wrap'><div class='row'> 
+ <div class='col-sm-12'> 
+ <div class='back-nav'> 
+ <i class='tm-cancel'></i> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div class='cover'> 
+ <div class='detail'> 
+ <div class='row' dir='rtl'> 
+ <div class='col-sm-8' dir='rtl'> 
+ <span class='hidden' itemprop='publisher' itemscope itemtype='https://schema.org/Organization'> 
+ <span class='hidden' itemprop='logo' itemscope itemtype='https://schema.org/ImageObject'></span>
+ <meta itemprop='name' content='BJJ in Arabic'> 
+ </span> 
+ <h1 itemprop='name'> 
+ keenan cornelius | كينان كورنيليوس 
+ 
+ </h1> 
+  
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div class='row'> 
+ <div class='col-sm-8' dir='rtl'> 
+ <div class='main-content'> 
+ <div class='maha-crumbs' hidden> 
+ <span class='current'> keenan cornelius | كينان كورنيليوس </span></div> 
+ <article id='post-8141' class='main-content single-post-box'> 
+ <div class='text-content' dir='rtl' style='text-align:justify'> 
+ 	 
+ 
+<div class='g g-4' ><div class='g-single a-142'></div></div> 
+ <p style='text-align:justify'> 
+كينان كورنيليوس هو رياضي محترف ولد في هاواي في رياضة / فنون الدفاع عن النفس من البرازيلي جيو جيتسوهو يتنافس كوكيل حر ، بعد أن مثل سابقًا فريق أتوساس بالإضافة إلى فريق لويد إيرفين. اكتسبت حياته المهنية اعترافًا عالميًا من خلال انتصاراته المبكرة في أقسام الحزام السفلي ، في الوقت الذي تغلب فيه كورنيليوس على "جيو جيتسو جراند سلام" (IBJJF World ، Pans ، الألقاب الأوروبية والبرازيلية) ، ثم رفع مكانته كأفضل براون إنجاز الحزام في كل العصور. تلقى المصارع الموهوب حزامه الأسود من André Galvãoin سبتمبر 2013 ، لاحقًا ، في أبريل 2019 ، تاركًا فريق Atos لفتح انتمائه الخاص ، Legion. 
+ </p>
+<p dir='ltr' style='text-align:justify'> 
+Keenan Cornelius is a Hawaii born professional athlete in the sport/martial art ofBrazilian Jiu-Jitsuwho competes as a free agent, having previously represented theAtosas well as Lloyd Irvin’s team. His career gathered worldwide recognition through his early wins in the lower belt divisions, a time when Cornelius conquered the “Jiu-Jitsu Grand Slam” (IBJJF World, Pans, European and Brazilian National titles), then raising his status as the Most Accomplished Brown Belt Of All Time. The talented grappler received his black belt fromAndré Galvãoin September 2013, later, in April 2019, leaving the Atos team to open his own affiliation, Legion. 
+ </p> 
+<p> 
+الاسم الكامل: كينان كاي جيمس كورنيليوس 
+ </p> 
+<p> 
+Full Name:Keenan Kai-James Cornelius 
+ </p> 
+<p> 
+الفريق / الاتحاد: Legion 
+ </p> 
+<p> 
+Team/Association:Legion 
+ </p> 
+<p> 
+قسم الوزن: بيزو بيزو (94.30 كجم / 208.0 رطل) 
+ </p> 
+<p> 
+Weight Division:Peso Pesado (94,30 kg / 208.0 lbs) 
+ </p> 
+<p> 
+Lineage:C. Gracie>R. Gracie>Osvaldo Alves> Luis Dagmar >André Galvão> Keenan Cornelius 
+ </p> 
+
+<a href='#' class='btn btn-primary' data-toggle='modal' data-target='#highlights' lang='ar'>See Here Athlete Highlights | انظر هنا أبرز الرياضيين</a> 
+ 
+ 	<div class='modal fade' id='highlights'> 
+ 		<div class='modal-dialog modal-dialog-centered modal-lg'> 
+ 			<div class='modal-content'> 
+ 				<div class='modal-body'> 
+ 					<iframe src='https://www.youtube.com/embed/fzAvkg_nrtU' width='770' height='500' frameborder='0' style='border:0;' allowfullscreen='' aria-hidden='false' tabindex='0'></iframe>  
+ 						
+ 				</div> 
+ 			</div> 
+ 		</div> 
+ 	</div> 
+ 	<p> </p> 
+ 
+<h3> 
+ keenan cornelius Biography | سيرة  كورنيليوس كينان  
+ </h3>
+
+<p> 
+ولد كينان كورنيليوس في هاواي في الخامس والعشرين من فبراير عام 1992. والد كينان ، توم كالوس ، كان الحزام الأسود تاي كوون دو من الدرجة السادسة الذي بدأ تعليم كورنيليوس الفن الكوري المذهل عندما كان عمره 4 سنوات فقط ، على الرغم من أن ابنه لم يكن مهتمًا في فنون الدفاع عن النفس في ذلك العمر وتوقف عن التدريب في وقت مبكر. وجد Jiu-Jitsu في سن 14 ، مرة أخرى من خلال والده. كان والده من أشد المعجبين بفنون الدفاع عن النفس المختلطة وكان لديه بعض المفاهيم الأساسية للصراع ، في الواقع ، كان السيد كالوس هو من قدم بي جي بينتو بي جيه جيه قبل وقت طويل من مشاركة كينان في هذه الرياضة. كان والد كينان عبارة عن حزام أزرق في ذلك الوقت وفتح صالة ألعاب رياضية صغيرة لابنه ليتدرب مع أصدقائه مرة أو مرتين في الأسبوع ، وكان الأطفال (جميعهم من كبار المعجبين في UFC) يستخدمون المساحة أشبه بساط مفتوح مثل معظمهم لديه بعض الخبرة في المصارعة من المدرسة. صنفه كارلوس فالنتي إلى رتبة الحزام الأخضر حيث مر السيد فالنتي ببلدة كينان لإعطاء ندوة وتقييم مستوى مهارته على أنه حزام أبيض أعلى. 
+</p>
+<p></p>
+<p> 
+في سن الخامسة عشرة ، بدأ كينان في الاهتمام أكثر بالجيو جيتسو واختار زيارة صالة الألعاب الرياضية حيث كان كاسيو ويرنيكوتشيد. لقد استمتع بالدروس لكنه لم يستطع التعامل مع التنقلات اليومية ، لذلك كان يزور الأكاديمية مرتين أو ثلاث مرات فقط في الشهر. في صالة Werneck الرياضية ، التقى كورنيليوس بأندريس برونوفسكيس ، وهو طفل (في ذلك الوقت) من شأنه أن يدفع كينان الصغير إلى تطوير مهاراته بشكل أكبر. 
+</p>
+<p></p>
+<p> 
+عندما كان في منتصف سن المراهقة ، اصطحبه والد كورنيليوس لقضاء عطلة نهاية الأسبوع للتدريب في أكاديمية BJ Penn في هيلو. هناك قضى وقتًا مع BJ (أحد أصنام كينان في ذلك الوقت) وشقيقه ، كورنيليوس أحب ذلك كثيرًا لدرجة أنه قرر الالتحاق بكلية في هيلو حتى يتمكن من التدريب يوميًا في صالة Penn. 
+</p>
+<p></p>
+<p> 
+على الرغم من أن كينان تدرب لمدة عامين في أكاديمية BJ Penn ، فقد كانت هذه الأوقات عندما كان BJ لا يزال منافسًا نشطًا للغاية في UFC وغالبًا ما كان يتجول في البلاد في معسكرات التدريب والأنشطة الأخرى المتعلقة بالقتال ، مما يعني أن الصالة الرياضية لم يكن بها الحزام الأسود المتفرغ كمدرب وفوق كل ذلك ، لم يكن موجهًا للغاية. كان لدى كينان الكثير من المواهب وحصل على حزامه الأرجواني تحت قيادة BJ بعد ميدالية فضية في حدث NAGA مهم. ومع ذلك ، بعد أشهر في محادثة مع صديقه أندريس برونوفسكيس ، اكتشف لويد إيرفيناند معسكره ، حيث يتدرب برونوفسكيس الآن. تحدث أندريس عن مثل هذه الأشياء الجيدة عن معسكر تدريب "ماستر" لويد ، وأصبح كينان مقتنعًا أن هذا هو المكان المناسب له ، ولذلك ترك بي جيه بين وبدأ التدريب مع إيرفين في ماريلاند. 
+</p>
+<p></p>
+<p> 
+في أكاديمية لويد إيرفين ، ازدهرت موهبة كينان كورنيليوس الخام لتصبح واحدة من أكثر المقاتلين موهبة في جيله وفازوا بجميع المسابقات الكبرى في قائمة الاتحاد الدولي للجوجيتسو ، ظهر إلى الوراء كحزام أرجواني وحزام بني. انتعشت مسيرة كينان بسرعة وأصبح مشهورًا إلى حد ما بين عشاق BJJ في الولايات المتحدة الذين رأوا كورنيليوس على أنه الأمل الكبير للولايات المتحدة في الحصول على لقب عالمي مطلق في قسم الحزام الأسود في المستقبل. 
+</p>
+<p></p>
+<p> 
+في عام 2013 ، بعد اتهام اثنين من طلاب Lloyd Irvin باغتصاب زميل زميل في أكاديمية Lloyd Irvin في علاقة بربرية ، تعرض Lloyd Irvin نفسه للتدقيق عندما تم الإعلان عن اتهام Irvin بارتكاب اغتصاب جماعي في قضية مؤرخة مرة أخرى إلى عام 1990. في استمرار للقضية المروعة التي ظهرت للضوء في يناير 2013 ، في أوائل مارس من نفس العام ، كشف زميل زميل في فريق كينان يُدعى جوردون شولتز أن إحدى الطالبات في TLI أتت إليه شارحة كيف حاول لويد إيرفين التحرش بها جنسياً. أدى التدفق المستمر للمعلومات السلبية المحيطة بـ TLI إلى قيام عدد قليل من المنافسين الرئيسيين للفريق بالتخلي عن المنظمة ، بما في ذلك كينان. 
+</p>
+<p></p>
+<p> 
+انتقل كينان إلى معسكر فريق أتوس بقيادة أندريه جالفاووهو قبل المعجزة التي تصارع بأذرع مفتوحة. بعد بضعة أشهر في 14 سبتمبر 2013 ، منح جالفاو كورنيليوس حزامه الأسود. 
+</p>
+<p></p>
+<p> 
+في أبريل 2019 ، قطع كينان العلاقات مع Galvão وفريق Atos Jiu-Jitsu. على الرغم من تدهور العلاقة مع مرور الوقت ، وفقًا لمصادر داخل المعسكر التدريبي ، فإن "القشة الأخيرة" جاءت عندما رفض المدرب أندريه مشاركة كورنيليوس في الفصل بسبب ضعف ضبط الوقت. كشفت هذه الحلقة عن صدام طويل الأمد بين الشخصيات / السلوك بين الشخصيتين القويتين ، جالفاو مع سلوك حصيرة "ماستر سينسي" الأكثر تقليدية ، وكينان الذي يسعى إلى علاقة غربية أكثر للمدرب الرياضي. 
+</p>
+<p></p>
+<p> 
+حدث الانقسام قبل أسابيع من الحدث الرئيسي للرياضة ، بطولة العالم للاتحاد البرازيلي الدولي للجوجيتسو (IBJJF). بدون فريق في ذلك الوقت ، استعد كورنيليوس لتلك البطولة في عدد قليل من الصالات الرياضية المختلفة ، وهي أكاديمية ريبيرو جيو جيتسو في سان دييغو ، كاليفورنيا ، وكذلك جرايسي بارا - نورثريدج ، التي تمثل راية BJJ Globetrotters في البطولة. 
+</p>
+<p></p>
+<p> 
+خلال الأشهر الأخيرة من عام 2019 ، افتتح كينان صالة الألعاب الرياضية الخاصة به في منطقة سان دييغو ، كاليفورنيا ، والتي أطلق عليها اسم Legion Jiu-Jitsu. 
+</p>
+<p></p>
+<p> 
+صورة بانر بواسطة جرايسي ماج. 
+</p>
+<p></p>
+<p dir='ltr'> 
+Keenan Cornelius was born in Hawaii on the 25th of February, 1992. Keenan’s father, Tom Callos was a 6th degree Tae Kwon Do black belt who started teaching Cornelius the Korean striking art when he was just 4 years old, though his son was not interested in martial arts at that age and stopped training early on. He found Jiu-Jitsu at the age of 14, again through his father. His dad was a big fan of mixed martial arts and had some basic grappling concepts, in fact, it was Mr. Callos who introducedBJ Pennto BJJ a long time before Keenan ever got involved in the sport. Keenan’s father was a blue belt at the time and opened a small gym for his son to train with his friends once or twice per week, the kids (all big fans of the UFC) used the space more like an open mat as most of them had some wrestling experience from school. He was graded by Carlos Valente to the green belt rank as Mr. Valente passed by Keenan’s town to give a seminar and assessed his skill level as an above white belt. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+By the age of 15, Keenan started getting more interested in Jiu-Jitsu and chose to visit a gym whereCassio Werneckcoached. He enjoyed the classes but couldn’t deal with the commute every day, so only visited the academy two or three times per month. At Werneck’s gym, Cornelius metAndris Brunovskis, a kid (at the time) who would push young Keenan to further develop his skills. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+When in his mid-teens, Cornelius’ father took him for a weekend of training at the BJ Penn academy in Hilo. There he spent time with BJ (one of Keenan’s idols at the time) and his brother, Cornelius liked it so much he decided to enroll in a college in Hilo so he could train every day at Penn’s gym. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+Although Keenan did train for two years at the BJ Penn academy, these were times when BJ was still a very active competitor in the UFC and often wandered the country in training camps and other fighting related activities, which meant the gym didn’t have a full-time black belt as a coach and on top of that, wasn’t very gi orientated. Keenan had a ton of talent and earned his purple belt under BJ after a silver medal at an important NAGA event. However, months later in a conversation with his friend Andris Brunovskis, he found out aboutLloyd Irvinand his camp, where Brunovskis was now training. Andris spoke such good things about “Master” Lloyd’s training camp, Keenan became convinced this was the place for him, and so he left BJ Penn and started training with Irvin in Maryland. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+At Lloyd Irvin’s academy, Keenan Cornelius’ raw talent flourished into one of the most talented fighters of his generation winning all major competitions on the IBJJF roster, back to back as a purple belt and a brown belt. Keenan’s career picked up quickly and he became somewhat of a celebrity among BJJ enthusiasts in the United States who saw Cornelius as the big US hope for a future shot at an absolute world title in the black belt division. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+On 2013, after two of Lloyd Irvin’s students were accused of raping a fellow teammate of Lloyd Irvin’s academy in a barbaric affair, Lloyd Irvin himself came under scrutiny when it was made public that Irvin to had been accused of gang rape in a case that dated back to 1990. In a continuation of the shocking case that came to light on January 2013, early in March of the same year, a fellow teammate of Keenan named Jordon Shultz revealed that one of the female students at TLI had come to him explaining how Lloyd Irvin tried to sexually molest her. The continuous stream of negative information surrounding TLI led a few of the main competitors of the team to abandon the organization, Keenan included. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+Keenan moved on to the Atos team camp led byAndré Galvãowho accepted the grappling prodigy with open arms. A few months later on September, the 14th, 2013, Galvão awarded Cornelius his black belt. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+In April 2019 Keenan severed ties with Galvão and the Atos Jiu-Jitsu team. Although the relationship had been deteriorating over time, according to sources inside the training camp, the ‘last straw’ came when coach André refused Cornelius’ participation in class due to his poor timekeeping. This episode exposed a long-running clash of personalities/conduct between the two strong personalities, Galvão with the more traditional ‘Master-Sensei’ mat conduct and Keenan seeking a more westerner relationship of athlete-coach. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+The split took place weeks prior to the sport’s main event, the International Brazilian Jiu-Jitsu Federation’s (IBJJF) World Championship. Without a team at the time, Cornelius prepared for that tournament in a few different gyms, namely the Ribeiro Jiu-Jitsu Academy in San Diego, California, as well as Gracie Barra – Northridge, representing the BJJ Globetrotters banner at the tournament. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+During the later months of 2019, Keenan opened up his own gym in the San Diego, California region, which he named Legion Jiu-Jitsu. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+Banner picture byGracie Mag. 
+</p>
+<p></p> 
+
+ <p> 
+ Source: https://www.bjjheroes.com/bjj-fighters/keenan_cornelius 
+ </p> 
+ <p> </p> 
+  
+ </div> 
+ </article> 
+   
+ </div> 
+ </div>  
+ <div class='col-sm-4'><div class='sidebar' style='background-color:rgb(207, 207, 207);'> 
+ 	<img src='img/keenan_cornelius.jpg' style='width: 100%; height: 100%; '> 
+ 	<div id='donutchart' style='width: 500px; height: 300px;'></div> 
+ 	<div class='ainachievements' dir='rtl' style='font-size:11px'> 
+ 		<strong> 
+ 				Main Achievements | الانجازات الرئيسية: 
+ 		</strong> 
+ 		</p> 
+ 		<p> </p> 
+ 
+<ul>
+
+<li> 
+ المركز الأول IBJJF European Open (2018 ** / 2020) 
+ </li> 
+ <li> 
+ 1st Place IBJJF European Open (2018**/2020) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة الاتحاد الدولي للجيتريات (2018/2015/2014) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Pan Championship (2018/2015/2014) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة No-Gi للإتحاد الدولي للجامعات اليابانية (2019 *) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Pan Championship No-Gi (2019*) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة العالم IBJJF No-Gi (2014) 
+ </li> 
+ <li> 
+ 1st Place IBJJF World Championship No-Gi (2014) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF آسيا المفتوحة (2018 **) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Asian Open (2018**) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF Pro League (2014) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Pro League (2014) 
+ </li> 
+
+<li> 
+ المركز الأول FIVE Grappling Grand Prix (2013) 
+ </li> 
+ <li> 
+ 1st Place FIVE Grappling Grand Prix (2013) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF American Nationals (2017 **) 
+ </li> 
+ <li> 
+ 1st Place IBJJF American Nationals (2017**) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF / JBJJF اليابانيون (2017) 
+ </li> 
+ <li> 
+ 1st Place IBJJF/JBJJF Japanese Nationals (2017) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF / JBJJF Asian Open (2017 **) 
+ </li> 
+ <li> 
+ 1st Place IBJJF/JBJJF Asian Open (2017**) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF Boston Summer Open (2017 **) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Boston Summer Open (2017**) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF Chicago Summer Open (2017 **) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Chicago Summer Open (2017**) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF سياتل المفتوحة (2017 **) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Seattle Open (2017**) 
+ </li> 
+
+<li> 
+ المركز الثاني IBJJF European Open (2020 *) 
+ </li> 
+ <li> 
+ 2nd Place IBJJF European Open (2020*) 
+ </li> 
+
+<li> 
+ المركز الثاني في بطولة العالم ADCC (2017) 
+ </li> 
+ <li> 
+ 2nd Place ADCC World Championship (2017) 
+ </li> 
+
+<li> 
+ المركز الثالث في بطولة العالم ADCC (2013 **) 
+ </li> 
+ <li> 
+ 3rd Place ADCC World Championship (2013**) 
+ </li> 
+
+<li> 
+ المركز الثالث في بطولة العالم IBJJF (2018) 
+ </li> 
+ <li> 
+ 3rd Place IBJJF World Championship (2018) 
+ </li> 
+
+<li> 
+ المركز الثالث في بطولة الاتحاد الدولي للجيتريات (2018) 
+ </li> 
+ <li> 
+ 3rd Place IBJJF Pan Championship (2018) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة العالم IBJJF (2013 بني ، 2012 ** بنفسجي) 
+ </li> 
+ <li> 
+ 1st Place IBJJF World Championship (2013 brown, 2012** purple) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة العالم لا جي جي إف (2012 ** بني ، 2011 بنفسجي) 
+ </li> 
+ <li> 
+ 1st Place IBJJF World No-Gi Championship (2012** brown, 2011 purple) 
+ </li> 
+
+<li> 
+ أول بكاء BEAT Kumite - Guy and No-Guy (2012 Brown) 
+ </li> 
+ <li> 
+ 1st Place BJJ Kumite – Gi and No-Gi (2012 brown) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة الاتحاد الدولي للجماهير (2013 ** بني ، 2012 ** بنفسجي) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Pan Championship (2013** brown, 2012** purple) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF European Open (2013 ** Brown ، 2012 ** Purple) 
+ </li> 
+ <li> 
+ 1st Place IBJJF European Open (2013** brown, 2012** purple) 
+ </li> 
+
+<li> 
+ المركز الأول CBJJ البرازيلي الوطني (2012 ** بنفسجي) 
+ </li> 
+ <li> 
+ 1st Place CBJJ Brazilian National (2012** purple) 
+ </li> 
+
+<li> 
+ المركز الثاني في بطولة العالم IBJJF (2013 * بني) 
+ </li> 
+ <li> 
+ 2nd Place IBJJF World Championship (2013* brown) 
+ </li> 
+
+<li> 
+ حارس العنكبوت 
+ </li> 
+ <li> 
+ Spider Guard 
+ </li> 
+
+<li> 
+ حارس دي لا ريفا 
+ </li> 
+ <li> 
+ De La Riva Guard 
+ </li> 
+
+<li> 
+ دودة الحرس 
+ </li> 
+ <li> 
+ Worm Guard 
+ </li> 
+
+</ul>
+	<p> 
+ 	* Absolute<br /> 
+ 	** Weight and Absolute 
+ 	</p> 
+ 	<p> </p> 
+ 	</div> 
+ 	<div id='barchart_material' style='width: 100%; height: 100%;'></div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+  
+ <footer> 
+ 	<div class='container-fluid padding'> 
+ 	<div class='row text-center' dir='rtl'> 
+ 		<div class='col-md-4'> 
+ 			<img src='img/logo2.png'> 
+ 			<hr class='light'> 
+ 			<div class='row'> 
+ 				<div class='col-md-12'> 
+ 					<p><i class='fab fa-whatsapp'></i>     +٥٥ ٢١ ٩٦٩١٧٩٢٢٩</p> 
+ 					<p><i class='fas fa-envelope-open'></i>        db_batalha@hotmail.com</p> 
+ 				</div> 
+ 			</div> 
+ 		</div> 
+  
+ 		<div class='col-md-4'> 
+ 			<hr class='light'> 
+  
+ 			<!-- <h5>Our hours</h5> --> 
+  
+ 			<h5 dir='rtl' lang='ar'>ساعاتنا</h5> 
+  
+ 			<hr class='light'> 
+ 			<!-- <p>Monday - Friday: 8am - 10pm </p> --> 
+ 			<p dir='rtl' lang='ar'>الإثنين - الجمع: ٨ ص - ١٠ م - 10 مساءً</p> 
+  
+ 			<!-- <p>Saturday: Closed </p> --> 
+ 			<p dir='rtl' lang='ar'>السبت: مغلق </p> 
+  
+ 			<!-- <p>Sunday: 8am - 10pm  </p> --> 
+ 			<p dir='rtl' lang='ar'> الأحد: ٨ ص - ١٠ م  </p> 
+ 		</div> 
+  
+ 		<div class='col-md-4'> 
+ 			<hr class='light'> 
+ 			<!-- <h5>Our Place</h5> --> 
+ 			<h5 dir='rtl' lang='ar'>مكاننا</h5> 
+ 			<hr class='light'> 
+ 			<p>شارع فيسكوندي دي أورو بريتو،  ٥٥ - ٥٠٤ - بوتافوغو </p> 
+ 			<p>ريو دي جانيرو ، ريو دي جانيرو -  ٢٢٢٥٠١٨٠ ، </p> 
+ 			<div class='mapend'>  
+ 				<i class='fa fa-map' data-toggle='modal' data-target='#mapplace'></i> 
+ 			</div> 
+  
+ 		<!-- map Section / Modal map --> 
+  
+ 		<div class='modal fade' id='mapplace'> 
+ 			<div class='modal-dialog modal-dialog-centered modal-lg'> 
+ 				<div class='modal-content'> 
+ 					<div class='modal-body'> 
+ 						<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.1082620268853!2d-43.18680018485081!3d-22.94623968499181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fedf6f1aeef%3A0x6f14b63b4ce646b0!2sR.%20Visc.%20de%20Ouro%20Preto%2C%2055%20-%20Botafogo%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022250-180!5e0!3m2!1sen!2sbr!4v1593196739709!5m2!1sen!2sbr' width='770' height='500' frameborder='0' style='border:0;' allowfullscreen='' aria-hidden='false' tabindex='0'></iframe> 
+ 					</div> 
+ 				</div> 
+ 			</div> 
+ 		</div> 
+ 		</div> 
+ 		<div class='col-12'> 
+ 			<hr class='light'> 
+ 			<h5>&copy; dbbatalha.github.io/bjjinarabic/</h5> 
+ 		</div> 
+ 	</div> 
+ 	</div> 
+ </footer> 
+  
+ </div> 
+  
+ <div id='scrolltop'> 
+ <a><i class='tm-go-top'></i></a> 
+ </div> 
+ </div> 
+ </body> 
+ </html> 
+ 

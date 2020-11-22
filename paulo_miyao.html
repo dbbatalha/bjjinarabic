@@ -1,0 +1,535 @@
+<!DOCTYPE html> 
+ <html> 
+ <head> 
+ <meta charset='utf-8'>  
+ <meta name='viewport' content='width=device-width, initial-scale=1'> 
+ <title>BJJ in Arabic | Learn Jiu Jitsu</title> 
+ <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'> 
+ <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script> 
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'></script> 
+ <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script> 
+ <script src='https://use.fontawesome.com/releases/v5.0.8/js/all.js'></script> 
+ <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>  
+ <script type='text/javascript'>  
+       google.charts.load('current', {packages:['corechart']});  
+       google.charts.setOnLoadCallback(drawChart);  
+       function drawChart() {  
+         var data = google.visualization.arrayToDataTable([  
+           ['wins', 'percent over total wins'],
+           ['by Points',     99], 
+           ['by Advantages',      19], 
+           ['by Submission',  71], 
+           ['by Decision', 8],
+ ]); 
+
+        var options = { 
+ 			title: 'Total of Wins', 
+ 			pieHole: 0.6, 
+ 		  colors: ['#a812f8', '#9012d4', '#7a0fb3','#3e075b'] 
+         }; 
+  
+         var chart = new google.visualization.PieChart(document.getElementById('donutchart')); 
+         chart.draw(data, options); 
+       } 
+ 	</script> 
+ 	<!-- bar chart  --> 
+     <script type='text/javascript'> 
+ 		google.charts.load('current', {'packages':['bar']}); 
+ 		google.charts.setOnLoadCallback(drawChart); 
+    
+ 		function drawChart() { 
+ 		  var data = google.visualization.arrayToDataTable([ 
+ 			['Tounament', 'Gold', 'Silver', 'Coper'], 
+ 			['Worlds', 2, 0, 1], 
+ 			['Europeans', 1,0, 0], 
+ 			['Brazil Nationals', 1, 0, 0] 
+ 		  ]); 
+    
+ 		  var options = { 
+ 			chart: { 
+ 			  title: 'Gold, Silver and Copper in IBJJF Tournamets', 
+ 			  subtitle: '', 
+ 			}, 
+ 			bars: 'horizontal', // Required for Material Bar Charts. 
+ 			hAxis: {format: 'decimal'}, 
+           	height: 300, 
+           	colors: ['#FFD700', '#C0C0C0', '#CD7F32'] 
+ 		  }; 
+    
+ 		  var chart = new google.charts.Bar(document.getElementById('barchart_material')); 
+    
+ 		  chart.draw(data, google.charts.Bar.convertOptions(options)); 
+ 		} 
+ 	  </script>  
+  
+ 	<link href='style.css' rel='stylesheet'>  
+ 	<link rel='stylesheet' href='https://m.w3newbie.com/you-tube.css'> 
+     </head> 
+  
+         <body> 
+ 
+            <!--navigation--> 
+  
+         <nav class='navbar navbar-expand-md navbar-light fixed-top'> 
+             <div class='container-fluid'> 
+                 <a class='navbar-brand' href='#'><img src='img/logo.png'></a> 
+                 <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarResponsive'> 
+                     <span class='navbar-toggler-icon'></span> 
+                 </button> 
+  
+                 <div class='collapse navbar-collapse' id='navbarResponsive'> 
+                     <ul class='navbar-nav ml-auto' dir='rtl'> 
+                         <li class='nav-item active'> 
+                             <a class='nav-link' href='https://dbbatalha.github.io/bjjinarabic/' dir='rtl' lang='ar'>Home | الصفحة الرئيسية للموقع</a>  
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#athleteslist' dir='rtl' lang='ar'>athletes list | قائمة الرياضيين</a>                   
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#about' dir='rtl' lang='ar'>About Us | معلومات عنا</a> 
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#connect' dir='rtl' lang='ar'>Connect | الاتصال</a> 
+  
+                         </li> 
+                     </ul> 
+                 </div> 
+             </div> 
+         </nav> 
+  
+ <div class='main-logo-ads-wrap'> 
+ <div class='main-logo-ads'> 
+ <body class='post-template-default single single-post postid-8141 single-format-standard mh-body gecko'> 
+ <div id='body-maha' class='body-maha'> 
+  
+ <div id='body-background'> 
+  
+ <div class='main-logo-ads-wrap'> 
+ <div class='main-logo-ads'> 
+  
+ <div class='container'> 
+ <div class='row '> 
+ <div class='col-sm-12'> 
+  
+ <div id='thelogo' class='logo '> 
+ <a href='https://dbbatalha.github.io/bjjinarabic/'> 
+ <img alt='BJJ in arabic' src='img/logo.png' data-retina='img/logo.png' data-first='img/logo.png' width=70% height=70%> 
+ </a> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+  
+ <div class='page-wrapper'> 
+  <div class='mh-el page-sidebar single-boxed' itemscope itemtype='https://schema.org/Article'> 
+ <div class='container'> 
+ <div class='row'> 
+ <div class='col-sm-12'> 
+ <div class='cover-wrap'> 
+ <div class='player-wrap'><div class='row'> 
+ <div class='col-sm-12'> 
+ <div class='back-nav'> 
+ <i class='tm-cancel'></i> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div class='cover'> 
+ <div class='detail'> 
+ <div class='row' dir='rtl'> 
+ <div class='col-sm-8' dir='rtl'> 
+ <span class='hidden' itemprop='publisher' itemscope itemtype='https://schema.org/Organization'> 
+ <span class='hidden' itemprop='logo' itemscope itemtype='https://schema.org/ImageObject'></span>
+ <meta itemprop='name' content='BJJ in Arabic'> 
+ </span> 
+ <h1 itemprop='name'> 
+ paulo miyao | باولو مفتاح 
+ 
+ </h1> 
+  
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div class='row'> 
+ <div class='col-sm-8' dir='rtl'> 
+ <div class='main-content'> 
+ <div class='maha-crumbs' hidden> 
+ <span class='current'> paulo miyao | باولو مفتاح </span></div> 
+ <article id='post-8141' class='main-content single-post-box'> 
+ <div class='text-content' dir='rtl' style='text-align:justify'> 
+ 	 
+ 
+<div class='g g-4' ><div class='g-single a-142'></div></div> 
+ <p style='text-align:justify'> 
+باولو مياو هو الحزام الأسود فيجيو جيتسووندر سيسيرو كوستا. اعتبر باولو وشقيقه التوأم João Miyao ، التي تعتبر ظاهرة في الرياضة منذ سن المراهقة ، جميع الألقاب الرئيسية في هذه الرياضة أثناء صعوده إلى صفوفها ، بما في ذلك الميدالية الذهبية في قسم الوزن المفتوح لبطولة IBJJF العالمية (2013 الحزام البني) ، وهو إنجاز مذهل لمنافس خفيف الوزن (64 كجم / 141 رطلاً). 
+ </p>
+<p dir='ltr' style='text-align:justify'> 
+Paulo Miyao is a black belt inJiu-JitsuunderCicero Costha. Considered a phenomenon of the sport since his teens, Paulo and his twin brotherJoão Miyao, conquered all major titles in this sport while climbing its ranks, including a gold medal in the open weight division of the IBJJF World Championship (2013 brown belt), an amazing accomplishment for a light featherweight competitor (64kg/141lbs). 
+ </p> 
+<p> 
+الاسم الكامل: باولو هنريكي بوردينيون مياو 
+ </p> 
+<p> 
+Full name:Paulo Henrique Bordignon Miyao 
+ </p> 
+<p> 
+الأكاديمية: Unity JJ - PSLPB Cicero Costha 
+ </p> 
+<p> 
+Academy:Unity JJ – PSLPB Cicero Costha 
+ </p> 
+<p> 
+قسم الوزن: بلوما (64.00 كجم / 141.5 رطل) 
+ </p> 
+<p> 
+Weight Division:Pluma (64,00 kg/141.5 lbs) 
+ </p> 
+<p> 
+Lineage:Carlos Gracie>Helio Gracie>Rickson Gracie>Marcelo Behring>Waldomiro Perez>Roberto Godoi>Marco Barbosa>Cicero Costha> Paulo Miyao 
+ </p> 
+
+<a href='#' class='btn btn-primary' data-toggle='modal' data-target='#highlights' lang='ar'>See Here Athlete Highlights | انظر هنا أبرز الرياضيين</a> 
+ 
+ 	<div class='modal fade' id='highlights'> 
+ 		<div class='modal-dialog modal-dialog-centered modal-lg'> 
+ 			<div class='modal-content'> 
+ 				<div class='modal-body'> 
+ 					<iframe src='https://www.youtube.com/embed/fzAvkg_nrtU' width='770' height='500' frameborder='0' style='border:0;' allowfullscreen='' aria-hidden='false' tabindex='0'></iframe>  
+ 						
+ 				</div> 
+ 			</div> 
+ 		</div> 
+ 	</div> 
+ 	<p> </p> 
+ 
+<h3> 
+ paulo miyao Biography | سيرة  مفتاح باولو  
+ </h3>
+<p> 
+ولد باولو مياو في 11 مايو 1991 في مدينة أنديرا بولاية بارانا بالبرازيل مع شقيقه التوأم جواو مياو. هم من الجيل الثالث من نسل اليابانيين وبدايات متواضعة ، كونهم أبناء مزارع وربة منزل. 
+</p>
+<p></p>
+<p> 
+بدأ أفراد Miyao تعليمهم فنون الدفاع عن النفس من خلال الجودو ، لكنهم وجدوا Jiu Jitsu في سن 16 عامًا ولم ينظروا إلى الوراء أبدًا. كان المعلم الأول في Miyao Bros هو Adriano Carvalho ، الذي أدرك في وقت مبكر الموهبة التي يمتلكها هذان الصبيان وشجعهما على التدريب والقتال بشكل منتظم. مع نمو "حشرة" Jiu Jitsu وتزايدها ، قرر الشقيقان أنهما يريدان أن يصبحا مقاتلي Jiu Jitsu بشكل احترافي ، وبمجرد أن بلغا سن الرشد انتقلوا إلى ساو باولو (على عكس رغبة والديهم) لتحقيق حلمهم . 
+</p>
+<p></p>
+
+<p> 
+في ساو باولو ، وجد الأخوان مياو منزلًا في المشروع الاجتماعي لسيسيرو كوستا ، PSLPB أوProjeto Social Lutando Pelo Bem (Fighting for Good Social Project) ، وهو المكان الذي جلب مقاتلين ذوي جودة عالية لـ BJJ مثل Leandro Loor Mauricio Cristo. عاش الأخوان داخل الأكاديمية جنبًا إلى جنب مع الرياضيين المتحمسين الآخرين ، وبدأوا في الفوز بالعديد من البطولات وركزوا العديد من تقنياتهم على الأخوين مينديز (رافائيل وجيلهيرم). جلب حراسهم الحادون والمثنيون وحقيقة أن Miyao كانوا يتوسطون باستمرار في الأقسام المطلقة التي تزن 64 كيلوغرامًا فقط فضول وسائل الإعلام إلى ثنائي بارانا ، ومع هذا الفضول / الاعتراف جاءت الرعاية اللازمة للأشقاء لعرض مهاراتهم في أفضل المسابقات في العالم ، اختبار اجتازوه بألوان متطايرة 
+</p>
+<p></p>
+<p> 
+على الرغم من أن باولو مياو قد تلقى حزامًا بنيًا قبل جواو ، إلا أن جواو التقى بشقيقه وانتهى الأمر بالحصول على الحزام الأسود المطلوب معًا في يونيو 2013. 
+</p>
+<p></p>
+<p> 
+خلال شهر أبريل / نيسان 2017 ، أصدر باولو بيانًا يوضح أنه قد أثبت أنه كان إيجابيًا لعقار غير قانوني لتحسين الأداء (PED) ، خلال اختبار روتيني للوكالة الأمريكية للتنمية الدولية بعد بطولة العالم للاتحاد البرازيلي للجوجيتسو (IBJJF) لعام 2016. تحمل مياو المسؤولية الكاملة عن هذا الفعل وتم تعليقه لمدة عامين من قبل الاتحاد ، كما تم تجريده من اللقب الذي فاز به. 
+</p>
+<p></p>
+<p dir='ltr'> 
+Paulo Miyao was born on May 11, 1991 in the city Andirá in the state of Paraná – Brazil, along with his twin brother João Miyao. They are 3rd generation Japanese descendants with humble beginnings, being the sons of a farmer and a housewife. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+The Miyao’s began their martial arts instruction through Judo, but found Jiu Jitsu at the age of 16 and never looked back. The Miyao bros first teacher was Adriano Carvalho, who early on recognized the talent these two boys possessed and encouraged them to train and fight more regularly. With the Jiu Jitsu “bug” growing and growing, the two brothers decided they wanted to become Jiu Jitsu fighters professionally and so as they soon as they were of age they moved to São Paulo (against the wishes of their parents) to pursue their dream. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+In São Paulo the Miyao brothers found a home in Cicero Costha’s social project, the PSLPB orProjeto Social Lutando Pelo Bem(Fighting for Good Social Project), a place that has brought to BJJ great quality fighters such asLeandro Loor Mauricio Cristo. Living within the academy along with other eager athletes, the brothers began winning many championships focusing many of their techniques on theMendes brothers(Rafael and Guilherme). Their sharp and bendy guards and the fact the Miyao’s were consistently medalling in the absolute divisions weighing only 64 kilos brought the curiosity of the media to the Paraná duo, and with this curiosity/recognition came the sponsorships needed for siblings to showcase their skills in the top competitions of the world, a test they passed with flying colors. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+Although Paulo Miyao has received a brown belt before João, João caught up with his brother and the two ended up getting the desired black belt together in June 2013. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+During April 2017 news Paulo released astatementexplaining he had tested positive for an illegal performance-enhancing drug (PED), during a USADA routine test after the International Brazilian Jiu-Jitsu Federation (IBJJF) World Championship of 2016. Miyao took full responsibility for the act and was suspended for 2 years by the federation, being also stripped of the title he had won. 
+</p>
+<p></p> 
+
+ <p> 
+ Source: https://www.bjjheroes.com/bjj-fighters/paulo_miyao 
+ </p> 
+ <p> </p> 
+  
+ </div> 
+ </article> 
+   
+ </div> 
+ </div>  
+ <div class='col-sm-4'><div class='sidebar' style='background-color:rgb(207, 207, 207);'> 
+ 	<img src='img/paulo_miyao.jpg' style='width: 100%; height: 100%; '> 
+ 	<div id='donutchart' style='width: 500px; height: 300px;'></div> 
+ 	<div class='ainachievements' dir='rtl' style='font-size:11px'> 
+ 		<strong> 
+ 				Main Achievements | الانجازات الرئيسية: 
+ 		</strong> 
+ 		</p> 
+ 		<p> </p> 
+ 
+<ul>
+<li> 
+ المركز الأول في بطولة العالم IBJF (2015/2016/2019) 
+ </li> 
+ <li> 
+ 1st Place IBJJF World Championship (2015 /2016/ 2019) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة الاتحاد الدولي للجماهير (2014/2015/2016/2019) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Pan Championship (2014 / 2015 / 2016 / 2019) 
+ </li> 
+
+<li> 
+ المركز الأول بطولة IBJJF Pan No-Gi (2015) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Pan No-Gi Championship (2015) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF European Open (2019) 
+ </li> 
+ <li> 
+ 1st Place IBJJF European Open (2019) 
+ </li> 
+
+<li> 
+ المركز الأول ACB JJ 65 كجم (2018) 
+ </li> 
+ <li> 
+ 1st Place ACB JJ 65 KG (2018) 
+ </li> 
+
+<li> 
+ المركز الأول ACB JJ 6 Grand Prix (2017) 
+ </li> 
+ <li> 
+ 1st Place ACB JJ 6 Grand Prix (2017) 
+ </li> 
+
+<li> 
+ المركز الأول ACB JJ 8 Grand Prix (2017) 
+ </li> 
+ <li> 
+ 1st Place ACB JJ 8 Grand Prix (2017) 
+ </li> 
+
+<li> 
+ المركز الأول من مواطني CBJJ البرازيليين (2014) 
+ </li> 
+ <li> 
+ 1st Place CBJJ Brazilian Nationals (2014) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة الإمارات للجوجيتسو أبوظبي وورلد برو (2018/2019) 
+ </li> 
+ <li> 
+ 1st Place UAEJJF Abu Dhabi World Pro (2018 / 2019) 
+ </li> 
+
+<li> 
+ المركز الثاني في بطولة العالم IBJJF (2014) 
+ </li> 
+ <li> 
+ 2nd Place IBJJF World Championship (2014) 
+ </li> 
+
+<li> 
+ المركز الثاني IBJJF European Open (2016) 
+ </li> 
+ <li> 
+ 2nd Place IBJJF European Open (2016) 
+ </li> 
+
+<li> 
+ المركز الثالث في بطولة العالم ADCC (2017/2019) 
+ </li> 
+ <li> 
+ 3rd Place ADCC World Championship (2017 / 2019) 
+ </li> 
+
+<li> 
+ المركز الثالث في بطولة العالم رقم (2015) IBJJF 
+ </li> 
+ <li> 
+ 3rd Place IBJJF World No-Gi Championship (2015) 
+ </li> 
+
+<li> 
+ المركز الثالث للمواطنين البرازيليين في CBJJ (2019) 
+ </li> 
+ <li> 
+ 3rd Place CBJJ Brazilian Nationals (2019) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة العالم IBJF (2013 ** بني ، 2012/2011 بنفسجي) 
+ </li> 
+ <li> 
+ 1st Place IBJJF World Championship (2013** brown, 2012 / 2011 purple) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF European Open (2013 Brown) 
+ </li> 
+ <li> 
+ 1st Place IBJJF European Open (2013 brown) 
+ </li> 
+
+<li> 
+ المركز الأول لمواطني البرازيل في CBJJ (2013 ** بني ، بنفسجي 2012) 
+ </li> 
+ <li> 
+ 1st Place CBJJ Brazilian Nationals (2013** brown, purple 2012) 
+ </li> 
+
+<li> 
+ المركز الأول في CBJJ البرازيليين No-Gi Nationals (2012 البني) 
+ </li> 
+ <li> 
+ 1st Place CBJJ Brazilian No-Gi Nationals (2012 brown) 
+ </li> 
+
+<li> 
+ المركز الثاني في بطولة العالم IBJJF (2012 * بنفسجي) 
+ </li> 
+ <li> 
+ 2nd Place IBJJF World Championship (2012* purple) 
+ </li> 
+
+<li> 
+ المركز الثاني بطولة IBJJF بان (2013 * بني) 
+ </li> 
+ <li> 
+ 2nd Place IBJJF Pan Championship (2013* brown) 
+ </li> 
+
+<li> 
+ المركز الثالث لبطولة الاتحاد الدولي للجيتسو (2012 * بنفسجي) 
+ </li> 
+ <li> 
+ 3rd Place IBJJF Pan Championship (2012* purple) 
+ </li> 
+
+<li> 
+ المركز الثالث IBJJF European Open (2013 * Brown) 
+ </li> 
+ <li> 
+ 3rd Place IBJJF European Open (2013* brown) 
+ </li> 
+
+<li> 
+ المركز الثالث لمواطني No-Gi البرازيليين في CBJJ (2013 * بني) 
+ </li> 
+ <li> 
+ 3rd Place CBJJ Brazilian No-Gi Nationals (2013* brown) 
+ </li> 
+
+</ul>
+	<p> 
+ 	* Absolute<br /> 
+ 	** Weight and Absolute 
+ 	</p> 
+ 	<p> </p> 
+ 	</div> 
+ 	<div id='barchart_material' style='width: 100%; height: 100%;'></div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+  
+ <footer> 
+ 	<div class='container-fluid padding'> 
+ 	<div class='row text-center' dir='rtl'> 
+ 		<div class='col-md-4'> 
+ 			<img src='img/logo2.png'> 
+ 			<hr class='light'> 
+ 			<div class='row'> 
+ 				<div class='col-md-12'> 
+ 					<p><i class='fab fa-whatsapp'></i>     +٥٥ ٢١ ٩٦٩١٧٩٢٢٩</p> 
+ 					<p><i class='fas fa-envelope-open'></i>        db_batalha@hotmail.com</p> 
+ 				</div> 
+ 			</div> 
+ 		</div> 
+  
+ 		<div class='col-md-4'> 
+ 			<hr class='light'> 
+  
+ 			<!-- <h5>Our hours</h5> --> 
+  
+ 			<h5 dir='rtl' lang='ar'>ساعاتنا</h5> 
+  
+ 			<hr class='light'> 
+ 			<!-- <p>Monday - Friday: 8am - 10pm </p> --> 
+ 			<p dir='rtl' lang='ar'>الإثنين - الجمع: ٨ ص - ١٠ م - 10 مساءً</p> 
+  
+ 			<!-- <p>Saturday: Closed </p> --> 
+ 			<p dir='rtl' lang='ar'>السبت: مغلق </p> 
+  
+ 			<!-- <p>Sunday: 8am - 10pm  </p> --> 
+ 			<p dir='rtl' lang='ar'> الأحد: ٨ ص - ١٠ م  </p> 
+ 		</div> 
+  
+ 		<div class='col-md-4'> 
+ 			<hr class='light'> 
+ 			<!-- <h5>Our Place</h5> --> 
+ 			<h5 dir='rtl' lang='ar'>مكاننا</h5> 
+ 			<hr class='light'> 
+ 			<p>شارع فيسكوندي دي أورو بريتو،  ٥٥ - ٥٠٤ - بوتافوغو </p> 
+ 			<p>ريو دي جانيرو ، ريو دي جانيرو -  ٢٢٢٥٠١٨٠ ، </p> 
+ 			<div class='mapend'>  
+ 				<i class='fa fa-map' data-toggle='modal' data-target='#mapplace'></i> 
+ 			</div> 
+  
+ 		<!-- map Section / Modal map --> 
+  
+ 		<div class='modal fade' id='mapplace'> 
+ 			<div class='modal-dialog modal-dialog-centered modal-lg'> 
+ 				<div class='modal-content'> 
+ 					<div class='modal-body'> 
+ 						<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.1082620268853!2d-43.18680018485081!3d-22.94623968499181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fedf6f1aeef%3A0x6f14b63b4ce646b0!2sR.%20Visc.%20de%20Ouro%20Preto%2C%2055%20-%20Botafogo%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022250-180!5e0!3m2!1sen!2sbr!4v1593196739709!5m2!1sen!2sbr' width='770' height='500' frameborder='0' style='border:0;' allowfullscreen='' aria-hidden='false' tabindex='0'></iframe> 
+ 					</div> 
+ 				</div> 
+ 			</div> 
+ 		</div> 
+ 		</div> 
+ 		<div class='col-12'> 
+ 			<hr class='light'> 
+ 			<h5>&copy; dbbatalha.github.io/bjjinarabic/</h5> 
+ 		</div> 
+ 	</div> 
+ 	</div> 
+ </footer> 
+  
+ </div> 
+  
+ <div id='scrolltop'> 
+ <a><i class='tm-go-top'></i></a> 
+ </div> 
+ </div> 
+ </body> 
+ </html> 
+ 

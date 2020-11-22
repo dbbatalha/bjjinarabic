@@ -1,0 +1,419 @@
+<!DOCTYPE html> 
+ <html> 
+ <head> 
+ <meta charset='utf-8'>  
+ <meta name='viewport' content='width=device-width, initial-scale=1'> 
+ <title>BJJ in Arabic | Learn Jiu Jitsu</title> 
+ <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'> 
+ <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script> 
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'></script> 
+ <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script> 
+ <script src='https://use.fontawesome.com/releases/v5.0.8/js/all.js'></script> 
+ <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>  
+ <script type='text/javascript'>  
+       google.charts.load('current', {packages:['corechart']});  
+       google.charts.setOnLoadCallback(drawChart);  
+       function drawChart() {  
+         var data = google.visualization.arrayToDataTable([  
+           ['wins', 'percent over total wins'],
+           ['by Points',     53], 
+           ['by Advantages',      9], 
+           ['by Submission',  72], 
+           ['by Decision', 3],
+ ]); 
+
+        var options = { 
+ 			title: 'Total of Wins', 
+ 			pieHole: 0.6, 
+ 		  colors: ['#a812f8', '#9012d4', '#7a0fb3','#3e075b'] 
+         }; 
+  
+         var chart = new google.visualization.PieChart(document.getElementById('donutchart')); 
+         chart.draw(data, options); 
+       } 
+ 	</script> 
+ 	<!-- bar chart  --> 
+     <script type='text/javascript'> 
+ 		google.charts.load('current', {'packages':['bar']}); 
+ 		google.charts.setOnLoadCallback(drawChart); 
+    
+ 		function drawChart() { 
+ 		  var data = google.visualization.arrayToDataTable([ 
+ 			['Tounament', 'Gold', 'Silver', 'Coper'], 
+ 			['Worlds', 2, 0, 1], 
+ 			['Europeans', 1,0, 0], 
+ 			['Brazil Nationals', 1, 0, 0] 
+ 		  ]); 
+    
+ 		  var options = { 
+ 			chart: { 
+ 			  title: 'Gold, Silver and Copper in IBJJF Tournamets', 
+ 			  subtitle: '', 
+ 			}, 
+ 			bars: 'horizontal', // Required for Material Bar Charts. 
+ 			hAxis: {format: 'decimal'}, 
+           	height: 300, 
+           	colors: ['#FFD700', '#C0C0C0', '#CD7F32'] 
+ 		  }; 
+    
+ 		  var chart = new google.charts.Bar(document.getElementById('barchart_material')); 
+    
+ 		  chart.draw(data, google.charts.Bar.convertOptions(options)); 
+ 		} 
+ 	  </script>  
+  
+ 	<link href='style.css' rel='stylesheet'>  
+ 	<link rel='stylesheet' href='https://m.w3newbie.com/you-tube.css'> 
+     </head> 
+  
+         <body> 
+ 
+            <!--navigation--> 
+  
+         <nav class='navbar navbar-expand-md navbar-light fixed-top'> 
+             <div class='container-fluid'> 
+                 <a class='navbar-brand' href='#'><img src='img/logo.png'></a> 
+                 <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarResponsive'> 
+                     <span class='navbar-toggler-icon'></span> 
+                 </button> 
+  
+                 <div class='collapse navbar-collapse' id='navbarResponsive'> 
+                     <ul class='navbar-nav ml-auto' dir='rtl'> 
+                         <li class='nav-item active'> 
+                             <a class='nav-link' href='https://dbbatalha.github.io/bjjinarabic/' dir='rtl' lang='ar'>Home | الصفحة الرئيسية للموقع</a>  
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#athleteslist' dir='rtl' lang='ar'>athletes list | قائمة الرياضيين</a>                   
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#about' dir='rtl' lang='ar'>About Us | معلومات عنا</a> 
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#connect' dir='rtl' lang='ar'>Connect | الاتصال</a> 
+  
+                         </li> 
+                     </ul> 
+                 </div> 
+             </div> 
+         </nav> 
+  
+ <div class='main-logo-ads-wrap'> 
+ <div class='main-logo-ads'> 
+ <body class='post-template-default single single-post postid-8141 single-format-standard mh-body gecko'> 
+ <div id='body-maha' class='body-maha'> 
+  
+ <div id='body-background'> 
+  
+ <div class='main-logo-ads-wrap'> 
+ <div class='main-logo-ads'> 
+  
+ <div class='container'> 
+ <div class='row '> 
+ <div class='col-sm-12'> 
+  
+ <div id='thelogo' class='logo '> 
+ <a href='https://dbbatalha.github.io/bjjinarabic/'> 
+ <img alt='BJJ in arabic' src='img/logo.png' data-retina='img/logo.png' data-first='img/logo.png' width=70% height=70%> 
+ </a> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+  
+ <div class='page-wrapper'> 
+  <div class='mh-el page-sidebar single-boxed' itemscope itemtype='https://schema.org/Article'> 
+ <div class='container'> 
+ <div class='row'> 
+ <div class='col-sm-12'> 
+ <div class='cover-wrap'> 
+ <div class='player-wrap'><div class='row'> 
+ <div class='col-sm-12'> 
+ <div class='back-nav'> 
+ <i class='tm-cancel'></i> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div class='cover'> 
+ <div class='detail'> 
+ <div class='row' dir='rtl'> 
+ <div class='col-sm-8' dir='rtl'> 
+ <span class='hidden' itemprop='publisher' itemscope itemtype='https://schema.org/Organization'> 
+ <span class='hidden' itemprop='logo' itemscope itemtype='https://schema.org/ImageObject'></span>
+ <meta itemprop='name' content='BJJ in Arabic'> 
+ </span> 
+ <h1 itemprop='name'> 
+ marcus almeida | ماركوس ألميدا 
+ 
+ </h1> 
+  
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div class='row'> 
+ <div class='col-sm-8' dir='rtl'> 
+ <div class='main-content'> 
+ <div class='maha-crumbs' hidden> 
+ <span class='current'> marcus almeida | ماركوس ألميدا </span></div> 
+ <article id='post-8141' class='main-content single-post-box'> 
+ <div class='text-content' dir='rtl' style='text-align:justify'> 
+ 	 
+ 
+<div class='g g-4' ><div class='g-single a-142'></div></div> 
+ <p style='text-align:justify'> 
+Marcus Almeida ، المعروف أيضًا باسم "Buchecha" (أو Bochecha) ، هو حزام برازيلي Jiu-Jitsublack تحت Rodrigo Cavaca وعضو في أكاديمية Checkmat ، ويُنظر إليه على نطاق واسع على أنه أعظم لاعب في جيله ويمكن القول على الإطلاق في رياضة BJJ. تم دعم سمعته من خلال ألقابه الستة في بطولة العالم للوزن المفتوح IBJJF ، حيث كان صاحب الرقم القياسي للميداليات الذهبية المطلقة في "مونديال" بعد تحطيم الرقم القياسي السابق لروجر جرايسي (3) في عام 2016. 
+ </p>
+<p dir='ltr' style='text-align:justify'> 
+Marcus Almeida, also known as “Buchecha” (or Bochecha), is aBrazilian Jiu-Jitsublack belt underRodrigo Cavacaand a member of theCheckmat academy, being widely regarded as the greatest grappler of his generation and arguably of all time in the sport of BJJ. His reputation is backed by his 6 IBJJF World Championship open weight titles, being the record holder of absolute gold medals at the ‘Mundial’ after breakingRoger Gracie‘s previous record (3) back in2016. 
+ </p> 
+<p> 
+الاسم الكامل: ماركوس فينيسيوس أوليفيرا دي ألميدا 
+ </p> 
+<p> 
+Full Name:Marcos Vinicius Oliveira de Almeida 
+ </p> 
+<p> 
+ولد ماركوس ألميدا (طوله 192 سم / 6 أقدام و 3 بوصات) في الثامن من يناير عام 1990 ، في بلدة تسمى ساو فيسينتي بالقرب من سانتوس في ولاية ساو باولو. عندما كان طفلاً ، أراد ماركوس أن يكون لاعب كرة قدم ، لكنه لم يكن جيدًا في ذلك من خلال قبوله. ثم وجه أنظاره إلى رياضة ركوب الأمواج وهي رياضة مارسها منذ صغره. 
+ </p> 
+<p> 
+Marcus Almeida (192cm / 6’3″ tall) was born on the 8thof January, 1990, in a town called Sao Vicente close to Santos in the state of Sao Paulo. As a child, Marcus wanted to be a football (soccer) player, but he was not very good at it by his own admission. He then turned his sights on Surfing a sport he practiced from a young age. 
+ </p> 
+<p> 
+الفريق / الرابطة: Checkmat BJJ 
+ </p> 
+<p> 
+Team/Association:Checkmat BJJ 
+ </p> 
+<p> 
+Lineage:Carlos Gracie>Carlson Gracie> Élcio Figueiredo >Rodrigo Cavaca> Marcus Almeida 
+ </p> 
+
+<a href='#' class='btn btn-primary' data-toggle='modal' data-target='#highlights' lang='ar'>See Here Athlete Highlights | انظر هنا أبرز الرياضيين</a> 
+ 
+ 	<div class='modal fade' id='highlights'> 
+ 		<div class='modal-dialog modal-dialog-centered modal-lg'> 
+ 			<div class='modal-content'> 
+ 				<div class='modal-body'> 
+ 					<iframe src='https://www.youtube.com/embed/fzAvkg_nrtU' width='770' height='500' frameborder='0' style='border:0;' allowfullscreen='' aria-hidden='false' tabindex='0'></iframe>  
+ 						
+ 				</div> 
+ 			</div> 
+ 		</div> 
+ 	</div> 
+ 	<p> </p> 
+ 
+<h3> 
+ marcus almeida Biography | سيرة  ألميدا ماركوس  
+ </h3>
+
+<p> 
+جاء البرازيلي جيو جيتسو إلى حياة "بوتششا" فقط في منتصف سن المراهقة. كان يبلغ من العمر 14 عامًا عندما بدأت أخته تدريب BJJ لأول مرة. كان والد ماركوس ، السيد كليتون ألميدا ، يحمي ابنته للغاية وبدأ في مرافقتها إلى الفصل. مع مرور الوقت ، بدأ السيد كليتون في التدرب على نفسه ، ومن هناك لم يمض وقت طويل حتى كان يجر ابنه ماركوس معه. لحسن الحظ أحب الشاب ماركوس الجيو جيتسو منذ البداية وبدأ التدريب كلما استطاع ذلك. 
+</p>
+<p></p>
+<p> 
+ساعدت قدرات ماركوس الجسدية من خلال عين مدربه البارع ، رودريجو كافاكا ، بطل العالم BJJ ، على تحويل بوتشيشا إلى أحد أكثر الرياضيين المرهوبين في أقسام الحزام السفلي ، وبعد انتصارات متتالية في "البرازيلية" ، بان أمريكان ، كأس ساو باولو ، الاسكندنافية المفتوحة و "مونديال" ، تلقى ألميدا الحزام الأسود (بينما كان على منصة التتويج بعد فوزه في بطولة العالم في 2010) ، بعد وقت قصير من منح والده الحزام الأسود في BJJ. انتقل إلى الولايات المتحدة مع سيده وزميله في الفريق تياجو "بايانو" أراغاو في عام 2010 حيث أكد أنه ينتمي إلى الدوري البرازيلي للجيو جيتسو ، وفاز ببطولة العالم Nogi في وقت لاحق من ذلك العام ، وأغلق قوسه بـ "المنتقمون" "زميله ، روبرتو" سايبورغ "أبرو. بعد فترة قصيرة عندما عاد إلى موطنه سانتوس في عام 2011 مع سيده كافاكا ، عاد بوتشيشا إلى الولايات المتحدة حيث بدأ التدريب والمنافسة بدوام كامل. 
+</p>
+<p></p>
+<p> 
+بعد هذه العودة إلى الولايات المتحدة (2012) ، انتقلت مسيرة ماركوس بوششا ألميدا كمنافس للحزام الأسود إلى مستوى آخر بفوزه في كل من وزنه والفئة المطلقة في بطولة عموم أمريكا وكذلك بطولة العالم للجوجيتسو (كلاهما مع IBJJF). كما حارب في الأسطوري روجر جراسيات ميتاموريس برو دعوة ، وقدم عرضًا رائعًا لجيو جيتسو ، وربط المباراة في قواعد التقديم فقط مع بطل العالم 10x. 
+</p>
+<p></p>
+<p dir='ltr'> 
+Brazilian Jiu-Jitsu only came into “Buchecha’s” life in his mid-teens. He was 14 years old when his sister first started training BJJ. Marcus’s father, Mr. Cleiton Almeida, was very protective of his daughter and started accompanying her to class. With time Mr. Cleiton started practicing himself, and from there it wasn’t long until he was dragging his son Marcus with him. Luckily young Marcus loved Jiu-Jitsu from the start and started training every chance he could. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+Marcus’s physical abilities helped by the masterful eye of his instructor, BJJ World Champion Rodrigo Cavaca, soon turned Buchecha into one of the most feared athletes in the lower belt divisions, and after successive wins in the “Brasileiro”, Pan American, Sao Paulo Cup, Scandinavian Open and “Mundial”, Almeida received his black belt (while on the podium after his win at the World Championship in 2010), not long after his father was also awarded his black belt in BJJ. He moved to the United States with his master and his teammate Thiago “Baiano” Aragao in 2010 where he confirmed he belonged in the major league of Brazilian Jiu-Jitsu, winning the World Nogi Tournament later that year, closing the bracket with his “Avengers” teammate,Roberto “Cyborg” Abreu. After a short spell when he returned to his native Santos in 2011 with his master Cavaca, Buchecha came back to the United States where he started coaching and competing full time. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+After this return to the United States (2012), Marcus Buchecha Almeida’s career as a black belt competitor took off to another level with a win in both his weight and the absolute category at the Pan American Championships as well as the World Jiu-Jitsu Championships (both with IBJJF). He also fought in the legendaryRoger Gracieat theMetamoris Pro Invitational, giving a great display of jiu-jitsu, tying the match in submission only rules with the 10x world champion. 
+</p>
+<p></p> 
+
+ <p> 
+ Source: https://www.bjjheroes.com/bjj-fighters/marcus_almeida 
+ </p> 
+ <p> </p> 
+  
+ </div> 
+ </article> 
+   
+ </div> 
+ </div>  
+ <div class='col-sm-4'><div class='sidebar' style='background-color:rgb(207, 207, 207);'> 
+ 	<img src='img/marcus_almeida.jpg' style='width: 100%; height: 100%; '> 
+ 	<div id='donutchart' style='width: 500px; height: 300px;'></div> 
+ 	<div class='ainachievements' dir='rtl' style='font-size:11px'> 
+ 		<strong> 
+ 				Main Achievements | الانجازات الرئيسية: 
+ 		</strong> 
+ 		</p> 
+ 		<p> </p> 
+ 
+<ul>
+<li> 
+ المركز الأول في بطولة العالم ADCC (2013/2017) 
+ </li> 
+ <li> 
+ 1st Place ADCC World Championship (2013 / 2017) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة العالم للاتحاد الدولي للجيتسو (2012 ** / 2013 ** / 2014 ** / 2016 ** / 2017 ** / 2018/2019 **) 
+ </li> 
+ <li> 
+ 1st Place IBJJF World Championship (2012** / 2013** / 2014** / 2016** / 2017** / 2018 / 2019**) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة العالم IBJF No-Gi (2010 ** / 2011 **) 
+ </li> 
+ <li> 
+ 1st Place IBJJF World Championship No-Gi (2010** / 2011**) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة الاتحاد الدولي للجماهير (2012 **) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Pan Championship (2012**) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF Pro League Grand Prix (2016) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Pro League Grand Prix (2016) 
+ </li> 
+
+<li> 
+ المركز الأول في اتحاد الإمارات للجوجيتسو أبو ظبي برو (2012 * / 2013 * / 2014 ** / 2015 **) 
+ </li> 
+ <li> 
+ 1st Place UAEJJF Abu Dhabi Pro (2012* / 2013* / 2014** / 2015**) 
+ </li> 
+
+<li> 
+ المركز الثاني في بطولة العالم ADCC (2019 *) 
+ </li> 
+ <li> 
+ 2nd Place ADCC World Championship (2019*) 
+ </li> 
+
+<li> 
+ المركز الثالث في بطولة العالم IBJJF (2011 *) 
+ </li> 
+ <li> 
+ 3rd Place IBJJF World Championship (2011*) 
+ </li> 
+
+<li> 
+ المركز الثالث في بطولة العالم ADCC (2017 *) 
+ </li> 
+ <li> 
+ 3rd Place ADCC World Championship (2017*) 
+ </li> 
+
+</ul>
+	<p> 
+ 	* Absolute<br /> 
+ 	** Weight and Absolute 
+ 	</p> 
+ 	<p> </p> 
+ 	</div> 
+ 	<div id='barchart_material' style='width: 100%; height: 100%;'></div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+  
+ <footer> 
+ 	<div class='container-fluid padding'> 
+ 	<div class='row text-center' dir='rtl'> 
+ 		<div class='col-md-4'> 
+ 			<img src='img/logo2.png'> 
+ 			<hr class='light'> 
+ 			<div class='row'> 
+ 				<div class='col-md-12'> 
+ 					<p><i class='fab fa-whatsapp'></i>     +٥٥ ٢١ ٩٦٩١٧٩٢٢٩</p> 
+ 					<p><i class='fas fa-envelope-open'></i>        db_batalha@hotmail.com</p> 
+ 				</div> 
+ 			</div> 
+ 		</div> 
+  
+ 		<div class='col-md-4'> 
+ 			<hr class='light'> 
+  
+ 			<!-- <h5>Our hours</h5> --> 
+  
+ 			<h5 dir='rtl' lang='ar'>ساعاتنا</h5> 
+  
+ 			<hr class='light'> 
+ 			<!-- <p>Monday - Friday: 8am - 10pm </p> --> 
+ 			<p dir='rtl' lang='ar'>الإثنين - الجمع: ٨ ص - ١٠ م - 10 مساءً</p> 
+  
+ 			<!-- <p>Saturday: Closed </p> --> 
+ 			<p dir='rtl' lang='ar'>السبت: مغلق </p> 
+  
+ 			<!-- <p>Sunday: 8am - 10pm  </p> --> 
+ 			<p dir='rtl' lang='ar'> الأحد: ٨ ص - ١٠ م  </p> 
+ 		</div> 
+  
+ 		<div class='col-md-4'> 
+ 			<hr class='light'> 
+ 			<!-- <h5>Our Place</h5> --> 
+ 			<h5 dir='rtl' lang='ar'>مكاننا</h5> 
+ 			<hr class='light'> 
+ 			<p>شارع فيسكوندي دي أورو بريتو،  ٥٥ - ٥٠٤ - بوتافوغو </p> 
+ 			<p>ريو دي جانيرو ، ريو دي جانيرو -  ٢٢٢٥٠١٨٠ ، </p> 
+ 			<div class='mapend'>  
+ 				<i class='fa fa-map' data-toggle='modal' data-target='#mapplace'></i> 
+ 			</div> 
+  
+ 		<!-- map Section / Modal map --> 
+  
+ 		<div class='modal fade' id='mapplace'> 
+ 			<div class='modal-dialog modal-dialog-centered modal-lg'> 
+ 				<div class='modal-content'> 
+ 					<div class='modal-body'> 
+ 						<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.1082620268853!2d-43.18680018485081!3d-22.94623968499181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fedf6f1aeef%3A0x6f14b63b4ce646b0!2sR.%20Visc.%20de%20Ouro%20Preto%2C%2055%20-%20Botafogo%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022250-180!5e0!3m2!1sen!2sbr!4v1593196739709!5m2!1sen!2sbr' width='770' height='500' frameborder='0' style='border:0;' allowfullscreen='' aria-hidden='false' tabindex='0'></iframe> 
+ 					</div> 
+ 				</div> 
+ 			</div> 
+ 		</div> 
+ 		</div> 
+ 		<div class='col-12'> 
+ 			<hr class='light'> 
+ 			<h5>&copy; dbbatalha.github.io/bjjinarabic/</h5> 
+ 		</div> 
+ 	</div> 
+ 	</div> 
+ </footer> 
+  
+ </div> 
+  
+ <div id='scrolltop'> 
+ <a><i class='tm-go-top'></i></a> 
+ </div> 
+ </div> 
+ </body> 
+ </html> 
+ 

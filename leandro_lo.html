@@ -1,0 +1,527 @@
+<!DOCTYPE html> 
+ <html> 
+ <head> 
+ <meta charset='utf-8'>  
+ <meta name='viewport' content='width=device-width, initial-scale=1'> 
+ <title>BJJ in Arabic | Learn Jiu Jitsu</title> 
+ <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'> 
+ <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script> 
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'></script> 
+ <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script> 
+ <script src='https://use.fontawesome.com/releases/v5.0.8/js/all.js'></script> 
+ <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>  
+ <script type='text/javascript'>  
+       google.charts.load('current', {packages:['corechart']});  
+       google.charts.setOnLoadCallback(drawChart);  
+       function drawChart() {  
+         var data = google.visualization.arrayToDataTable([  
+           ['wins', 'percent over total wins'],
+           ['by Points',     164], 
+           ['by Advantages',      30], 
+           ['by Submission',  52], 
+           ['by Decision', 7],
+ ]); 
+
+        var options = { 
+ 			title: 'Total of Wins', 
+ 			pieHole: 0.6, 
+ 		  colors: ['#a812f8', '#9012d4', '#7a0fb3','#3e075b'] 
+         }; 
+  
+         var chart = new google.visualization.PieChart(document.getElementById('donutchart')); 
+         chart.draw(data, options); 
+       } 
+ 	</script> 
+ 	<!-- bar chart  --> 
+     <script type='text/javascript'> 
+ 		google.charts.load('current', {'packages':['bar']}); 
+ 		google.charts.setOnLoadCallback(drawChart); 
+    
+ 		function drawChart() { 
+ 		  var data = google.visualization.arrayToDataTable([ 
+ 			['Tounament', 'Gold', 'Silver', 'Coper'], 
+ 			['Worlds', 2, 0, 1], 
+ 			['Europeans', 1,0, 0], 
+ 			['Brazil Nationals', 1, 0, 0] 
+ 		  ]); 
+    
+ 		  var options = { 
+ 			chart: { 
+ 			  title: 'Gold, Silver and Copper in IBJJF Tournamets', 
+ 			  subtitle: '', 
+ 			}, 
+ 			bars: 'horizontal', // Required for Material Bar Charts. 
+ 			hAxis: {format: 'decimal'}, 
+           	height: 300, 
+           	colors: ['#FFD700', '#C0C0C0', '#CD7F32'] 
+ 		  }; 
+    
+ 		  var chart = new google.charts.Bar(document.getElementById('barchart_material')); 
+    
+ 		  chart.draw(data, google.charts.Bar.convertOptions(options)); 
+ 		} 
+ 	  </script>  
+  
+ 	<link href='style.css' rel='stylesheet'>  
+ 	<link rel='stylesheet' href='https://m.w3newbie.com/you-tube.css'> 
+     </head> 
+  
+         <body> 
+ 
+            <!--navigation--> 
+  
+         <nav class='navbar navbar-expand-md navbar-light fixed-top'> 
+             <div class='container-fluid'> 
+                 <a class='navbar-brand' href='#'><img src='img/logo.png'></a> 
+                 <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarResponsive'> 
+                     <span class='navbar-toggler-icon'></span> 
+                 </button> 
+  
+                 <div class='collapse navbar-collapse' id='navbarResponsive'> 
+                     <ul class='navbar-nav ml-auto' dir='rtl'> 
+                         <li class='nav-item active'> 
+                             <a class='nav-link' href='https://dbbatalha.github.io/bjjinarabic/' dir='rtl' lang='ar'>Home | الصفحة الرئيسية للموقع</a>  
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#athleteslist' dir='rtl' lang='ar'>athletes list | قائمة الرياضيين</a>                   
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#about' dir='rtl' lang='ar'>About Us | معلومات عنا</a> 
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#connect' dir='rtl' lang='ar'>Connect | الاتصال</a> 
+  
+                         </li> 
+                     </ul> 
+                 </div> 
+             </div> 
+         </nav> 
+  
+ <div class='main-logo-ads-wrap'> 
+ <div class='main-logo-ads'> 
+ <body class='post-template-default single single-post postid-8141 single-format-standard mh-body gecko'> 
+ <div id='body-maha' class='body-maha'> 
+  
+ <div id='body-background'> 
+  
+ <div class='main-logo-ads-wrap'> 
+ <div class='main-logo-ads'> 
+  
+ <div class='container'> 
+ <div class='row '> 
+ <div class='col-sm-12'> 
+  
+ <div id='thelogo' class='logo '> 
+ <a href='https://dbbatalha.github.io/bjjinarabic/'> 
+ <img alt='BJJ in arabic' src='img/logo.png' data-retina='img/logo.png' data-first='img/logo.png' width=70% height=70%> 
+ </a> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+  
+ <div class='page-wrapper'> 
+  <div class='mh-el page-sidebar single-boxed' itemscope itemtype='https://schema.org/Article'> 
+ <div class='container'> 
+ <div class='row'> 
+ <div class='col-sm-12'> 
+ <div class='cover-wrap'> 
+ <div class='player-wrap'><div class='row'> 
+ <div class='col-sm-12'> 
+ <div class='back-nav'> 
+ <i class='tm-cancel'></i> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div class='cover'> 
+ <div class='detail'> 
+ <div class='row' dir='rtl'> 
+ <div class='col-sm-8' dir='rtl'> 
+ <span class='hidden' itemprop='publisher' itemscope itemtype='https://schema.org/Organization'> 
+ <span class='hidden' itemprop='logo' itemscope itemtype='https://schema.org/ImageObject'></span>
+ <meta itemprop='name' content='BJJ in Arabic'> 
+ </span> 
+ <h1 itemprop='name'> 
+ leandro lo | لياندرو له 
+ 
+ </h1> 
+  
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div class='row'> 
+ <div class='col-sm-8' dir='rtl'> 
+ <div class='main-content'> 
+ <div class='maha-crumbs' hidden> 
+ <span class='current'> leandro lo | لياندرو له </span></div> 
+ <article id='post-8141' class='main-content single-post-box'> 
+ <div class='text-content' dir='rtl' style='text-align:justify'> 
+ 	 
+ 
+<div class='g g-4' ><div class='g-single a-142'></div></div> 
+ <p style='text-align:justify'> 
+Leandro Lo هو واحد من أنجح لاعبي الجوجيتسو البرازيليين الذين شاركوا في فئة جي (كيمونو) وحامل الرقم القياسي لمعظم ألقاب IBJJF العالمية في فئات الوزن المختلفة (5) - خفيف ، متوسط ​​، متوسط ​​ثقيل ، ثقيل ومفتوح الوزن ، وهو رقم قياسي يبلغ من العمر 20 عامًا تم كسره في عام 2020 (مزيد من التفاصيل هنا). كان لياندرو لو طالبًا سابقًا في شيشرون كوستا ، واتخذت أولى خطواته نحو النجومية في أبريل 2011 عندما هزم مايكل لانغي (الذي لم يهزم لمدة 3 سنوات) ، في طريقه إلى قمة منصة اتحاد الإمارات للجوجيتسو وورلد برو. منذ ذلك الفوز ، عزز لياندرو لو نفسه كواحد من أفضل لاعبي "الجنيه مقابل الجنيه" الذين حصلوا على سجادة على الإطلاق ، مع انتصارات متكررة في بطولات العالم ، وبطولة كوبا بوديو المرموقة ، وبطولات عموم أمريكا. 
+ </p>
+<p dir='ltr' style='text-align:justify'> 
+Leandro Lo is one of the most accomplishedBrazilian jiu-jitsuathletes to have ever competed in the gi class (kimono) and a record holder for most IBJJF World titles in different weight classes (5) — light, middle, medium-heavy, heavy and open weight, a 20-year-old record broken in 2020 (more details here). A former student ofCicero Costha, Leandro Lo’s first steps towards grappling stardom were taken in April 2011 when he defeatedMichael Langhi(who had been unbeaten for 3 years), on his way to the top of the podium of the UAEJJF World Pro. Since that win, Leandro Lo cemented himself as one of the best “Pound for Pound” grapplers to have ever graced a mat, with repeated wins at the World Championships, the prestigiousCopa Pódio,and Pan American Championships. 
+ </p> 
+<p> 
+الاسم الكامل: لياندرو لو بيريرا دو ناسيمنتو 
+ </p> 
+<p> 
+Full Name:Leandro Lo Pereira do Nascimento 
+ </p> 
+<p> 
+الرابطة / الفريق: New School Brotherhood 
+ </p> 
+<p> 
+Association/Team:New School Brotherhood 
+ </p> 
+<p> 
+المركز / التقنية المفضلة: Spider Guard، Toreando Guard Pass 
+ </p> 
+<p> 
+Favorite Position/Technique:Spider Guard,Toreando Guard Pass 
+ </p> 
+<p> 
+Lineage:Carlos Gracie>Helio Gracie>Rickson Gracie>Marcelo Behring>Waldomiro Perez>Roberto Godoi>Marco Barbosa>Cicero Costha> Leandro Lo 
+ </p> 
+
+<a href='#' class='btn btn-primary' data-toggle='modal' data-target='#highlights' lang='ar'>See Here Athlete Highlights | انظر هنا أبرز الرياضيين</a> 
+ 
+ 	<div class='modal fade' id='highlights'> 
+ 		<div class='modal-dialog modal-dialog-centered modal-lg'> 
+ 			<div class='modal-content'> 
+ 				<div class='modal-body'> 
+ 					<iframe src='https://www.youtube.com/embed/fzAvkg_nrtU' width='770' height='500' frameborder='0' style='border:0;' allowfullscreen='' aria-hidden='false' tabindex='0'></iframe>  
+ 						
+ 				</div> 
+ 			</div> 
+ 		</div> 
+ 	</div> 
+ 	<p> </p> 
+ 
+<h3> 
+ leandro lo Biography | سيرة  له لياندرو  
+ </h3>
+
+<p> 
+وُلد لياندرو لو في الحادي عشر من مايو عام 1989 على الجانب الشرقي من ساو باولو - البرازيل. بدأ في ممارسة رياضة الجوجيتسو من خلال Projecto Social Lutando Pelo Bem (PSLPB) وهو مشروع اجتماعي للأطفال المحرومين في عام 2004 ، وهو مشروع بقيادة Cicero Costha. 
+</p>
+<p></p>
+<p> 
+كان لياندرو رياضيًا بالفطرة وفاز بالعديد من الألقاب المهمة بصفته صغارًا ، مثل مونديال في عام 2005 ، وميدالية مرة أخرى في عام 2006. المعروف باسم حارس العنكبوت / نوع المثلث من المصارع ، عندما كان حزامًا أرجوانيًا ، تغيرت لعبة لو بسبب إصابة تعرض لها عندما كان يرتدي الحزام الأرجواني ، مما أبعده عن المنافسات لعدة أشهر. نظرًا لعدم وجود ضغط من أجل الأداء في نهاية كل أسبوع ، فقد بدأ Lo العمل على أفضل لعبة له خلال مرحلة "عدم المنافسة" ، وهي اللعبة التي اشتهر بها خلال ذروة الحزام الأسود. 
+</p>
+<p></p>
+<p> 
+في عام 2007 ، نقلت أكبر منظمة في العالم (CBJJ / IBJJF) أهم بطولاتها ، TheMundial ، إلى الولايات المتحدة سعيًا للحصول على اعتراف عالمي. مع التغيير ، فقد العديد من المنافسين البرازيليين (بما في ذلك Leandro) نافذتهم ، وهي أفضل طريقة لعرض مهاراتهم على جمهور أوسع ، حيث لم تكن لديهم الوسائل للسفر إلى أمريكا. ترك هؤلاء المصارعون مع أحداث أصغر ، فاز لو في معظمها. 
+</p>
+<p></p>
+<p> 
+في الرابع عشر من أبريل من عام 2011 ، تحول لياندرو أخيرًا بعض الرؤوس في طريقه. بعد فوزه في التجارب في جنوب البرازيل (جرامادو) ، واصل Lo هزيمة اثنين من الأساطير في المرحلة النهائية من البطولة ، سيلسو فينيسيوس ومايكل لانغي. كان يعتبر Langhi على نطاق واسع أفضل وزن خفيف في العالم ولم يخسر أي منافسة منذ 3 سنوات. في عام 2012 ، استقر Leandro Lo على اسمه كأفضل منافس للوزن الخفيف في العالم ، بعد فوزه في مونديال (بطولة العالم) في عموم أمريكا والبرازيليين. كما أثبت لياندرو نفسه كقوة لا يستهان بها في أقسام الوزن المفتوح بفوزه في بطولة No-Gi Nationals البرازيلية والمركز الثاني في بطولة العالم No-Gi. 
+</p>
+<p></p>
+<p> 
+بعد فوزه في جميع المسابقات الرئيسية في الوزن الخفيف ، صعد Leandro Lo في قسم الوزن. القتال في الوزن المتوسط ​​لم يزعج أدائه حيث استمر في الفوز بجميع منافسات التصارع الكبرى مع وبدون gi. 
+</p>
+<p></p>
+<p> 
+في أواخر سبتمبر 2015 ، قطع Leandro Lo وعدد قليل من زملائه روابطهم مع فريق PSLPB ، وانتقلوا لتشكيل أكاديمية خاصة بهم ، بقيادة Lo. كان اسم الفريق الجديد هو جماعة الإخوان في مدرسة Jiu-Jitsu الجديدة. من بين أبرز الرياضيين الذين غادروا مع لياندرو: لويزا مونتيرو ، هيليو دياس ، غوستافو "براغوينها" ، يغور شنايدر ، أندرسون ليرا ، وويلينغتون لويس. 
+</p>
+<p></p>
+<p> 
+في يونيو 2018 ، كان لياندرو يأمل في مطابقة 4 ألقاب عالمية في بطولة الاتحاد الدولي للجوجيتسو لساولو ريبيرو في 4 فئات وزن مختلفة ، بعد أن كان قصيرًا في عام 2017. وصل إلى النهائي ضد محمد علي لكنه اضطر للاستقالة بعد إصابة في الكتف من رمية خلع في كتفه. على الرغم من أنه كان لا يزال من المقرر أن ينافس في نهائي فئة الوزن المفتوح ضد ماركوس ألميدا ، إلا أن الإصابة منعته من القفز على السجادة وفقدت الأمل في مطابقة رقم ريبيرو. كان ذلك حتى اختار ماركوس التنازل عن اللقب وعدم تحدي Leandro ، وبهذه الطريقة منح مواطن ساو باولو أول لقب مطلق له ولقبه العالمي الرابع في فئة وزن مختلفة. 
+</p>
+<p></p>
+<p> 
+تم التقاط صورة الغلاف بواسطة BJJPix. 
+</p>
+<p></p>
+<p dir='ltr'> 
+Leandro Lo was born on the 11th of May, 1989 on the east side of São Paulo – Brazil. He started practicing Jiu-Jitsu through theProjecto Social Lutando Pelo Bem(PSLPB) a social project for underprivileged children in 2004, a project led by Cicero Costha. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+Leandro was a natural athlete and won many important titles as a junior, such as the Mundial in 2005, medalling again in 2006. Known as a spider guard /triangle type of grappler, when he was a purple belt, Lo’s game would change due to an injury suffered when he was a purple belt, which kept him away from competitions for few months. Not having the pressure to perform every weekend, it was during his “competition-free” phase that Lo started working on his top game, a game for which he would become known during his black belt heyday. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+In 2007 the world’s biggest organization (CBJJ/IBJJF) moved its most important tournament, theMundial,to the United States seeking worldwide recognition. With the change, many Brazilian competitors (Leandro included) lost their window, the best way to showcase their skills to a wider audience, as they did not have the means to travel to America. These grapplers were left with smaller events, most of which were won by Lo. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+It was on April 14th of 2011 that Leandro finally turned a few heads his way. After winning the trials in the south of Brazil (Gramado), Lo went on to defeat two legends in the tournament’s final stage,Celso ViniciusandMichael Langhi. Langhi was widely considered the best lightweight in the world and hadn’t lost a competition in 3 years. In 2012 Leandro Lo settled his name as the best lightweight competitor in the world, after wins at the Mundial (World Championship) the Pan American and the Brazilian Nationals. Leandro also established himself as a force to be reckoned with in the open weight divisions with a win at the Brazilian No-Gi Nationals and a second place at the No-Gi World Championship. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+After winning all the main competitions at lightweight, Leandro Lo went up a weight division. Fighting at middleweight did not faze his performance as he kept winning all the top grappling competitions with and without the gi. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+In late September 2015, Leandro Lo and a few of his teammates severed their bonds with the PSLPB team, moving on to form their own academy, led by Lo. Jiu-Jitsu New School Brotherhood was the name of the new team.  Among the most significant athletes who left with Leandro, were:Luiza Monteiro, Helio Dias, Gustavo “Braguinha”, Ygor Schneider, Anderson Lira, andWellington Luís. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+In June 2018 Leandro was hoping to match Saulo Ribeiro’s 4 IBJJF world titles in 4 different weight classes, after came up short in 2017.  He reached the final against Mahamed Aly but was forced to quit after a shoulder injury from a throw dislocated his shoulder. Although still scheduled to compete in the final of the open weight class against Marcus Almeida, the injury prevented him from stepping on the mat and all hope of matching Ribeiro’s record was lost. That was until Marcus chose to forfeit the title and not to challenge Leandro, this way awarding the São Paulo native his first absolute title and his 4th world title in a different weight class. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+Cover picture was taken byBJJPix. 
+</p>
+<p></p> 
+
+ <p> 
+ Source: https://www.bjjheroes.com/bjj-fighters/leandro_lo 
+ </p> 
+ <p> </p> 
+  
+ </div> 
+ </article> 
+   
+ </div> 
+ </div>  
+ <div class='col-sm-4'><div class='sidebar' style='background-color:rgb(207, 207, 207);'> 
+ 	<img src='img/leandro_lo.jpg' style='width: 100%; height: 100%; '> 
+ 	<div id='donutchart' style='width: 500px; height: 300px;'></div> 
+ 	<div class='ainachievements' dir='rtl' style='font-size:11px'> 
+ 		<strong> 
+ 				Main Achievements | الانجازات الرئيسية: 
+ 		</strong> 
+ 		</p> 
+ 		<p> </p> 
+ 
+<ul>
+<li> 
+ المركز الأول في بطولة العالم IBJF (2012/2013/2014/2015/2016/2018 * / 2019) 
+ </li> 
+ <li> 
+ 1st Place IBJJF World Championship (2012 / 2013 / 2014 /2015/2016/2018* / 2019) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة IBJF Pans (2012/2014/2015/2016/2017 ** / 2018 **) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Pans Championship (2012 / 2014 / 2015 / 2016 /2017** / 2018**) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF European Open (2017 **) 
+ </li> 
+ <li> 
+ 1st Place IBJJF European Open (2017**) 
+ </li> 
+
+<li> 
+ المركز الأول من مواطني CBJJ البرازيليين (2011/2012/2017 **) 
+ </li> 
+ <li> 
+ 1st Place CBJJ Brazilian Nationals (2011 / 2012 / 2017**) 
+ </li> 
+
+<li> 
+ المركز الأول من مواطني CBJJ البرازيليين No-Gi (2011/2012 **) 
+ </li> 
+ <li> 
+ 1st Place CBJJ Brazilian Nationals No-Gi (2011 / 2012**) 
+ </li> 
+
+<li> 
+ المركز الأول Copa Podio Lightweight GP (2011/2013/2014/2016) 
+ </li> 
+ <li> 
+ 1st Place Copa Podio Lightweight GP (2011 / 2013 / 2014 /2016) 
+ </li> 
+
+<li> 
+ المركز الأول Copa Podio Middleweight GP (2012/2016) 
+ </li> 
+ <li> 
+ 1st Place Copa Podio Middleweight GP (2012 / 2016) 
+ </li> 
+
+<li> 
+ المركز الأول Copa Podio Heavyweight GP (2016) 
+ </li> 
+ <li> 
+ 1st Place Copa Podio Heavyweight GP (2016) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة الإمارات للجوجيتسو أبو ظبي للمحترفين (2011/2013/2014/2015) 
+ </li> 
+ <li> 
+ 1st Place UAEJJF Abu Dhabi Pro (2011 / 2013 / 2014 / 2015) 
+ </li> 
+
+<li> 
+ المركز الثاني Copa Podio Heavyweight GP (2014) 
+ </li> 
+ <li> 
+ 2nd Place Copa Podio Heavyweight GP (2014) 
+ </li> 
+
+<li> 
+ المركز الثاني في بطولة العالم IBJF (2017 ** / 2019 *) 
+ </li> 
+ <li> 
+ 2nd Place IBJJF World Championship (2017** / 2019*) 
+ </li> 
+
+<li> 
+ المركز الثاني في بطولة IBJF World NoGi (2012 *) 
+ </li> 
+ <li> 
+ 2nd Place IBJJF World NoGi Championship (2012*) 
+ </li> 
+
+<li> 
+ المركز الثاني في بطولة IBJF Pans (2016/2014 *) 
+ </li> 
+ <li> 
+ 2nd Place IBJJF Pans Championship (2016/2014*) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة العالم IBJJF (2005 جونيور بلو) 
+ </li> 
+ <li> 
+ 1st Place IBJJF World Championship (2005 junior blue) 
+ </li> 
+
+<li> 
+ المركز الأول CBJJ البرازيلي الوطني (2009/2010 بني) 
+ </li> 
+ <li> 
+ 1st Place CBJJ Brazilian National (2009 / 2010 brown) 
+ </li> 
+
+<li> 
+ المركز الأول في كأس البرازيل CBJJE (بنفسجي 2008) 
+ </li> 
+ <li> 
+ 1st Place CBJJE Brazilian Cup (2008 purple) 
+ </li> 
+
+<li> 
+ المركز الثاني في بطولة العالم IBJJF (2006 الناشئين باللون الأزرق) 
+ </li> 
+ <li> 
+ 2nd Place IBJJF World Championship (2006 junior blue) 
+ </li> 
+
+<li> 
+ المركز الثاني لمواطني البرازيل في CBJJ (بنفسجي 2008) 
+ </li> 
+ <li> 
+ 2nd Place CBJJ Brazilian Nationals (2008 purple) 
+ </li> 
+
+</ul>
+	<p> 
+ 	* Absolute<br /> 
+ 	** Weight and Absolute 
+ 	</p> 
+ 	<p> </p> 
+ 	</div> 
+ 	<div id='barchart_material' style='width: 100%; height: 100%;'></div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+  
+ <footer> 
+ 	<div class='container-fluid padding'> 
+ 	<div class='row text-center' dir='rtl'> 
+ 		<div class='col-md-4'> 
+ 			<img src='img/logo2.png'> 
+ 			<hr class='light'> 
+ 			<div class='row'> 
+ 				<div class='col-md-12'> 
+ 					<p><i class='fab fa-whatsapp'></i>     +٥٥ ٢١ ٩٦٩١٧٩٢٢٩</p> 
+ 					<p><i class='fas fa-envelope-open'></i>        db_batalha@hotmail.com</p> 
+ 				</div> 
+ 			</div> 
+ 		</div> 
+  
+ 		<div class='col-md-4'> 
+ 			<hr class='light'> 
+  
+ 			<!-- <h5>Our hours</h5> --> 
+  
+ 			<h5 dir='rtl' lang='ar'>ساعاتنا</h5> 
+  
+ 			<hr class='light'> 
+ 			<!-- <p>Monday - Friday: 8am - 10pm </p> --> 
+ 			<p dir='rtl' lang='ar'>الإثنين - الجمع: ٨ ص - ١٠ م - 10 مساءً</p> 
+  
+ 			<!-- <p>Saturday: Closed </p> --> 
+ 			<p dir='rtl' lang='ar'>السبت: مغلق </p> 
+  
+ 			<!-- <p>Sunday: 8am - 10pm  </p> --> 
+ 			<p dir='rtl' lang='ar'> الأحد: ٨ ص - ١٠ م  </p> 
+ 		</div> 
+  
+ 		<div class='col-md-4'> 
+ 			<hr class='light'> 
+ 			<!-- <h5>Our Place</h5> --> 
+ 			<h5 dir='rtl' lang='ar'>مكاننا</h5> 
+ 			<hr class='light'> 
+ 			<p>شارع فيسكوندي دي أورو بريتو،  ٥٥ - ٥٠٤ - بوتافوغو </p> 
+ 			<p>ريو دي جانيرو ، ريو دي جانيرو -  ٢٢٢٥٠١٨٠ ، </p> 
+ 			<div class='mapend'>  
+ 				<i class='fa fa-map' data-toggle='modal' data-target='#mapplace'></i> 
+ 			</div> 
+  
+ 		<!-- map Section / Modal map --> 
+  
+ 		<div class='modal fade' id='mapplace'> 
+ 			<div class='modal-dialog modal-dialog-centered modal-lg'> 
+ 				<div class='modal-content'> 
+ 					<div class='modal-body'> 
+ 						<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.1082620268853!2d-43.18680018485081!3d-22.94623968499181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fedf6f1aeef%3A0x6f14b63b4ce646b0!2sR.%20Visc.%20de%20Ouro%20Preto%2C%2055%20-%20Botafogo%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022250-180!5e0!3m2!1sen!2sbr!4v1593196739709!5m2!1sen!2sbr' width='770' height='500' frameborder='0' style='border:0;' allowfullscreen='' aria-hidden='false' tabindex='0'></iframe> 
+ 					</div> 
+ 				</div> 
+ 			</div> 
+ 		</div> 
+ 		</div> 
+ 		<div class='col-12'> 
+ 			<hr class='light'> 
+ 			<h5>&copy; dbbatalha.github.io/bjjinarabic/</h5> 
+ 		</div> 
+ 	</div> 
+ 	</div> 
+ </footer> 
+  
+ </div> 
+  
+ <div id='scrolltop'> 
+ <a><i class='tm-go-top'></i></a> 
+ </div> 
+ </div> 
+ </body> 
+ </html> 
+ 
