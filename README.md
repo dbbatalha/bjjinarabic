@@ -1,2 +1,0 @@
-# bjjinarabic
-bjj data
