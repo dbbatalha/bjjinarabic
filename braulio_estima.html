@@ -1,0 +1,543 @@
+<!DOCTYPE html> 
+ <html> 
+ <head> 
+ <meta charset='utf-8'>  
+ <meta name='viewport' content='width=device-width, initial-scale=1'> 
+ <title>BJJ in Arabic | Learn Jiu Jitsu</title> 
+ <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'> 
+ <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script> 
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'></script> 
+ <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script> 
+ <script src='https://use.fontawesome.com/releases/v5.0.8/js/all.js'></script> 
+ <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>  
+ <script type='text/javascript'>  
+       google.charts.load('current', {packages:['corechart']});  
+       google.charts.setOnLoadCallback(drawChart);  
+       function drawChart() {  
+         var data = google.visualization.arrayToDataTable([  
+           ['wins', 'percent over total wins'],
+           ['by Points',     17], 
+           ['by Advantages',      4], 
+           ['by Submission',  37], 
+           ['by Decision', 0],
+ ]); 
+
+        var options = { 
+ 			title: 'Total of Wins', 
+ 			pieHole: 0.6, 
+ 		  colors: ['#a812f8', '#9012d4', '#7a0fb3','#3e075b'] 
+         }; 
+  
+         var chart = new google.visualization.PieChart(document.getElementById('donutchart')); 
+         chart.draw(data, options); 
+       } 
+ 	</script> 
+ 	<!-- bar chart  --> 
+     <script type='text/javascript'> 
+ 		google.charts.load('current', {'packages':['bar']}); 
+ 		google.charts.setOnLoadCallback(drawChart); 
+    
+ 		function drawChart() { 
+ 		  var data = google.visualization.arrayToDataTable([ 
+ 			['Tounament', 'Gold', 'Silver', 'Coper'], 
+ 			['Worlds', 2, 0, 1], 
+ 			['Europeans', 1,0, 0], 
+ 			['Brazil Nationals', 1, 0, 0] 
+ 		  ]); 
+    
+ 		  var options = { 
+ 			chart: { 
+ 			  title: 'Gold, Silver and Copper in IBJJF Tournamets', 
+ 			  subtitle: '', 
+ 			}, 
+ 			bars: 'horizontal', // Required for Material Bar Charts. 
+ 			hAxis: {format: 'decimal'}, 
+           	height: 300, 
+           	colors: ['#FFD700', '#C0C0C0', '#CD7F32'] 
+ 		  }; 
+    
+ 		  var chart = new google.charts.Bar(document.getElementById('barchart_material')); 
+    
+ 		  chart.draw(data, google.charts.Bar.convertOptions(options)); 
+ 		} 
+ 	  </script>  
+  
+ 	<link href='style.css' rel='stylesheet'>  
+ 	<link rel='stylesheet' href='https://m.w3newbie.com/you-tube.css'> 
+     </head> 
+  
+         <body> 
+ 
+            <!--navigation--> 
+  
+         <nav class='navbar navbar-expand-md navbar-light fixed-top'> 
+             <div class='container-fluid'> 
+                 <a class='navbar-brand' href='#'><img src='img/logo.png'></a> 
+                 <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarResponsive'> 
+                     <span class='navbar-toggler-icon'></span> 
+                 </button> 
+  
+                 <div class='collapse navbar-collapse' id='navbarResponsive'> 
+                     <ul class='navbar-nav ml-auto' dir='rtl'> 
+                         <li class='nav-item active'> 
+                             <a class='nav-link' href='https://dbbatalha.github.io/bjjinarabic/' dir='rtl' lang='ar'>Home | الصفحة الرئيسية للموقع</a>  
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#athleteslist' dir='rtl' lang='ar'>athletes list | قائمة الرياضيين</a>                   
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#about' dir='rtl' lang='ar'>About Us | معلومات عنا</a> 
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#connect' dir='rtl' lang='ar'>Connect | الاتصال</a> 
+  
+                         </li> 
+                     </ul> 
+                 </div> 
+             </div> 
+         </nav> 
+  
+ <div class='main-logo-ads-wrap'> 
+ <div class='main-logo-ads'> 
+ <body class='post-template-default single single-post postid-8141 single-format-standard mh-body gecko'> 
+ <div id='body-maha' class='body-maha'> 
+  
+ <div id='body-background'> 
+  
+ <div class='main-logo-ads-wrap'> 
+ <div class='main-logo-ads'> 
+  
+ <div class='container'> 
+ <div class='row '> 
+ <div class='col-sm-12'> 
+  
+ <div id='thelogo' class='logo '> 
+ <a href='https://dbbatalha.github.io/bjjinarabic/'> 
+ <img alt='BJJ in arabic' src='img/logo.png' data-retina='img/logo.png' data-first='img/logo.png' width=70% height=70%> 
+ </a> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+  
+ <div class='page-wrapper'> 
+  <div class='mh-el page-sidebar single-boxed' itemscope itemtype='https://schema.org/Article'> 
+ <div class='container'> 
+ <div class='row'> 
+ <div class='col-sm-12'> 
+ <div class='cover-wrap'> 
+ <div class='player-wrap'><div class='row'> 
+ <div class='col-sm-12'> 
+ <div class='back-nav'> 
+ <i class='tm-cancel'></i> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div class='cover'> 
+ <div class='detail'> 
+ <div class='row' dir='rtl'> 
+ <div class='col-sm-8' dir='rtl'> 
+ <span class='hidden' itemprop='publisher' itemscope itemtype='https://schema.org/Organization'> 
+ <span class='hidden' itemprop='logo' itemscope itemtype='https://schema.org/ImageObject'></span>
+ <meta itemprop='name' content='BJJ in Arabic'> 
+ </span> 
+ <h1 itemprop='name'> 
+ braulio estima | براوليو التقدير 
+ 
+ </h1> 
+  
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div class='row'> 
+ <div class='col-sm-8' dir='rtl'> 
+ <div class='main-content'> 
+ <div class='maha-crumbs' hidden> 
+ <span class='current'> braulio estima | براوليو التقدير </span></div> 
+ <article id='post-8141' class='main-content single-post-box'> 
+ <div class='text-content' dir='rtl' style='text-align:justify'> 
+ 	 
+ 
+<div class='g g-4' ><div class='g-single a-142'></div></div> 
+ <p style='text-align:justify'> 
+Braulio Estima "Carcará" هو بطل العالم في حزام الجوجيتسوبلاك البرازيلي وبطل ADCC للوزن المفتوح وبطل سوبر قتال. نظرًا لكونه أحد أفضل منافسي الجوجيتسو في حقبة 2000 ، فقد جمع Braulio Estima الجوائز طوال حياته المهنية ، كمقاتل وكمدرب. في السنوات الأخيرة ، تباطأ Braulio في ظهوره التنافسي. براوليو هو أيضًا الشقيق الأكبر لموهبة جيو جيتسو عظيمة أخرى ، فيكتور إستيما. 
+ </p>
+<p dir='ltr' style='text-align:justify'> 
+Braulio Estima “Carcará” is aBrazilian Jiu-Jitsublack belt World Champion and an ADCC open weight & super fight champion. Considered by most, one of the top jiu-jitsu competitors of the 2000’s era, Braulio Estima collected trophies throughout his grappling career, both as a fighter and as an instructor. In recent years Braulio has slowed down on his competitive appearances. Braulio is also the older brother of another great jiu-jitsu talent,Victor Estima. 
+ </p> 
+<p> 
+الاسم الكامل: براوليو دي أوليفيرا إستيما 
+ </p> 
+<p> 
+Full Name:Braulio de Oliveira Estima 
+ </p> 
+<p> 
+الرعاة: مجلة J IU jitsu style 
+ </p> 
+<p> 
+Sponsors:Jiu Jitsu Style Magazine 
+ </p> 
+<p> 
+الرابطة / الفريق: جرايسي بارا 
+ </p> 
+<p> 
+Association/Team:Gracie-Barra 
+ </p> 
+<p> 
+Lineage:Carlos Gracie Sr.>Helio Gracie>Carlos Gracie Jr> Braulio Estima 
+ </p> 
+
+<a href='#' class='btn btn-primary' data-toggle='modal' data-target='#highlights' lang='ar'>See Here Athlete Highlights | انظر هنا أبرز الرياضيين</a> 
+ 
+ 	<div class='modal fade' id='highlights'> 
+ 		<div class='modal-dialog modal-dialog-centered modal-lg'> 
+ 			<div class='modal-content'> 
+ 				<div class='modal-body'> 
+ 					<iframe src='https://www.youtube.com/embed/fzAvkg_nrtU' width='770' height='500' frameborder='0' style='border:0;' allowfullscreen='' aria-hidden='false' tabindex='0'></iframe>  
+ 						
+ 				</div> 
+ 			</div> 
+ 		</div> 
+ 	</div> 
+ 	<p> </p> 
+ 
+<h3> 
+ braulio estima Biography | سيرة  التقدير براوليو  
+ </h3>
+<p> 
+ولد براوليو إستيما عام 1980 في مدينة ريسيفي ، ولاية بيرنامبوكو - البرازيل. بدأ في عالم فنون الدفاع عن النفس عندما كان طفلاً عندما كان عمره 9 سنوات ، تدرب في الجودو ، ومع ذلك ، في يونيو 1990 ، أدى حادث دراجة مأساوي إلى إنهاء حياة مدربه ، وتوقف براوليو عن التدريب تمامًا. استعاد اهتمامه في عام 1996 عندما كان يبلغ من العمر 16 عامًا ، من خلال رفيقه القديم في الجودو فرناندو كافالكانتي الذي كان حينها يدرب الجيو جيتسو. كانت أول صالة ألعاب رياضية حيث بدأ Braulio Estima دروسه في الجوجيتسو تسمى "Free Style" وتم تدريس الفصول بواسطة حزام بني يسمى Charles dos Anjos (الذي أصبح فيما بعد أحد المدرسين المحترمين في Royce Gracie Black Belt الذي يُدرس في الولايات المتحدة الأمريكية) ، دوس أنجوس منح براوليو حزامه الأول (الأزرق) بعد أن فاز إستيما بخمسة ألقاب كبرى للناشئين على التوالي. 
+</p>
+<p></p>
+
+<p> 
+عندما غادر تشارلز دوس أنجوس الصالة الرياضية للانتقال إلى الولايات المتحدة ، تولى خوسيه أوليمبيو دا روشا (المعروف أيضًا باسم "Zé Raidiola") إدارة فصول الصالة الرياضية وقام بتدريس Braulio Estima من هناك حتى وصل إلى الحزام البني. بعد سنوات قليلة من بدء براوليو تدريبه تحت إشراف "راديولا" ، تجاوز كارلوس جرايسي جونيور ريسيفي لإعطاء ندوة وتم الاتفاق على أن أكاديمية "فري ستايل" ستكون تحت درع جرايسي بارا من هناك. 
+</p>
+<p></p>
+<p> 
+في عام 2003 ، فاز براوليو بسباق بان أمريكان باعتباره الحزام البني الذي قدم 7 أشخاص في إجمالي 5 دقائق و 24 ثانية. بحلول نهاية ذلك العام ، التقى براوليو بشريك تدريب قديم اسمه آلان بوزو ، الذي أقام في ذلك الوقت في لندن - إنجلترا وكان في ريسيفي لقضاء عطلاته. دعا Alain Braulio للحضور إلى المملكة المتحدة لتجربة حظه في أوروبا حيث كان BJJ مزدهرًا في "القارة القديمة". لم يتردد براوليو ووقف على متن طائرة متجهة إلى لندن. 
+</p>
+<p></p>
+<p> 
+في لندن ، تدرب براوليو لفترة قصيرة في فريق كارلسون جرايسي في أكاديمية "Boiler Room" الشهيرة ، ولكن سرعان ما اكتشف ماوريسيو جوميز (ممثل جرايسي بارا في البلاد) الموهبة في الشاب Braulio وأخذها تحت جناحه. رأى موريسيو أن براوليو كان شريك تدريب ممتاز لابنه روجر جرايسي ، ولم يكن مخطئًا. نما تدريب المقاتلين معًا بشكل كبير لدرجة أنهما أصبحا اثنين من أفضل مقاتلي الجوجيتسو البرازيليين على هذا الكوكب. بدأ براوليو أيضًا التدريس في جرايسي بارا - برمنغهام في ذلك الوقت تقريبًا ، واستلم الأكاديمية التي بدأها موريسيو جوميز. 
+</p>
+<p></p>
+<p> 
+حصل براوليو على الحزام الأسود في يناير 2004 بفوزه ببطولة العالم للوزن المتوسط ​​في نفس العام. لقد انتقل من قوة إلى قوة في الرياضة حيث فاز بكل بطولة كبرى هناك في قسم الحزام الأسود. وقد فاز أيضًا بواحدة من أكثر البطولات شهرة في تقديم المصارعة ، وهي بطولة ADCC في كل من أقسام الوزن والوزن المفتوح (2009). إنه يركز الآن على مهنة MMA ، على الرغم من أنه لا يزال يتنافس بين الحين والآخر في بطولات BJJ. 
+</p>
+<p></p>
+<p> 
+في عام 2011 على الرغم من تكريسه بالكامل لـ MMA ، قرر Braulio Estima العودة إلى الحصير لتكريم صديق مقرب ، ستيفن فان الذي توفي قبل فترة وجيزة من المنافسة. نجح Braulio مرة أخرى وكان قادرًا على تكريس النصر لستيف. 
+</p>
+<p></p>
+<p> 
+في أكتوبر 2014 ، كشفت وكالة الولايات المتحدة الأمريكية لمكافحة المنشطات أن بروليليو إستيما قد تم اكتشافه مع أدوية تحسين الأداء (PED) في نظامه أثناء تنافسه في بطولة العالم في عام 2014. و USADA ، المنظمة المسؤولة عن اختبار رياضيين IBJJF لتحسين الأداء ، ذكر أنه تم العثور على ميثيلهيكسانامين (DMAA) ، ولهذا السبب قام الاتحاد الدولي للجوجيتسو بتعليق Estima لمدة عامين. السبب في حصول الرياضي على أقصى تعليق كان بسبب عدم معرفة Estima من أين حصل على مادة التعزيز. 
+</p>
+<p></p>
+<p> 
+ذكر براوليو إستيما أن المادة جاءت على الأرجح من مشروب قبل التمرين أخذ من أحد المشجعين أثناء الاحتفال بفوزه في نصف النهائي على موريلو سانتانا (مباراة براوليو الأخيرة في العالم). من خلال ملفه الشخصي على وسائل التواصل الاجتماعي ، أوضح براوليو: 
+</p>
+<p></p>
+<p> 
+سيكون من الأسهل بالنسبة لي كتابة قصة بسيطة وتقليل الحظر إلى 60 يومًا. كنت بحاجة فقط إلى معرفة ما الذي أخذه المنتج بهذه البساطة. نظرًا لأن هذا كان حادثًا وليس لدي أدنى فكرة عما كان عليه ، لم أستطع المقاومة. - براوليو إستيما 
+</p>
+<p></p>
+<p dir='ltr'> 
+Braulio Estima was born in 1980 in the city of Recife, State of Pernambuco – Brazil. He initiated in the world of martial arts as a child when he was 9 years of age, training in Judo, however, In June 1990 a tragic bike accident brought his coach’s life to an end, and Braulio Stopped training altogether. He regained his interest in 1996 when he was 16 years old, through his old Judo buddy Fernando Cavalcanti who was by then training Jiu-Jitsu. The first gym where Braulio Estima started his Jiu-Jitsu tuition was called “Free Style” and the classes were taught by a brown belt called Charles dos Anjos (who later became a respected Royce Gracie Black Belt who teaches in the USA), dos Anjos awarded Braulio his first belt (blue) after Estima won 5 major junior titles in a row. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+When Charles dos Anjos left the gym to move to the United States, Jose Olimpio da Rocha (also known as “Zé Raidiola”) took over the gym’s classes and taught Braulio Estima from there until he reached Brown Belt. A few years after Braulio started his training under “Radiola”,Carlos Gracie Juniorpassed by Recife to give a seminar and it was agreed that the “Free Style” academy would be under Gracie-Barra’s shield from thereon. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+In 2003 Braulio won the Pan American as a Brown Belt submitting 7 people in a total of 5 minutes and 24 seconds. By the end of that year, Braulio met an old training partner by the name of Alain Pozo, who at the time resided in London – England and was in Recife for his holidays. Alain invited Braulio to come over to the United Kingdom to try his luck in Europe as BJJ was booming in “The Old Continent”. Braulio didn’t hesitate and jumped on a plane to London. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+In London, Braulio trained for a short while at Carlson Gracie’s team in the famous “Boiler Room” academy, but soon Mauricio Gomes (The Gracie Barra representative in the country) spotted the talent in young Braulio and took him under his wing. Mauricio saw that Braulio was an excellent training partner for his sonRoger Gracie, and he wasn’t wrong. The two fighters training together grew exponentially to the point where they became two of the best Brazilian Jiu-Jitsu fighters on the planet. Braulio also started teaching in Gracie Barra – Birmingham around that time, taking over the academy that Mauricio Gomes had started. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+Braulio was awarded his Black Belt in January 2004 winning the Mundial (World Championship) as a middleweight on that same year. He has gone from strength to strength in the sport winning every major tournament there is in the Black Belt division. He also won one of the most prestigious tournaments there is in Submission Wrestling, the ADCC in both his weight and the Open weight divisions (2009). He is now focusing on an MMA career, although still competing now and again in BJJ tournaments. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+In 2011 although fully dedicated to MMA, Braulio Estima decided to return to the mats to honor a close friend, Steven Fan that had passed away shortly before the competition. Braulio was successful once again and was able to dedicate the victory to Steve. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+In October 2014 The USADA (United States Anti-Doping Agency) revealed thatBraulio Estimahad been caught with Performance Enhancing Drugs (PED) in his system while competing at theWorld Championship in 2014. The USADA, the organization responsible for testing IBJJF’s athletes for performance enhancers, mentioned that Methylhexaneamine (DMAA) had been found, for this reason the International Jiu-Jitsu Federation suspended Estima for 2 years. The reason why the athlete received a maximum suspension was due to Estima not knowing where he received the enhancing substance. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+Braulio Estima mentioned that the substance likely came from a pre-workout drink he took from a fan while celebrating his victory at the semi-final overMurilo Santana(Braulio’s final match at the worlds). Through his social media profile, Braulio explained: 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+it would be much easier for me to make a simple story up and get the ban reduced to 60 days. I just needed to know what was the product took, as simple as that. As this was an accident and I have no clue what it was I couldn’t fight back. – Braulio Estima 
+</p>
+<p></p> 
+
+ <p> 
+ Source: https://www.bjjheroes.com/bjj-fighters/braulio_estima 
+ </p> 
+ <p> </p> 
+  
+ </div> 
+ </article> 
+   
+ </div> 
+ </div>  
+ <div class='col-sm-4'><div class='sidebar' style='background-color:rgb(207, 207, 207);'> 
+ 	<img src='img/braulio_estima.jpg' style='width: 100%; height: 100%; '> 
+ 	<div id='donutchart' style='width: 500px; height: 300px;'></div> 
+ 	<div class='ainachievements' dir='rtl' style='font-size:11px'> 
+ 		<strong> 
+ 				Main Achievements | الانجازات الرئيسية: 
+ 		</strong> 
+ 		</p> 
+ 		<p> </p> 
+ 
+<ul>
+<li> 
+ بطل العالم IBJF (2004/2006/2009/2014) 
+ </li> 
+ <li> 
+ IBJJF World Champion (2004/2006/2009/2014) 
+ </li> 
+
+<li> 
+ بطل بطولة اتحاد الإمارات للجوجيتسو للمحترفين (2014) 
+ </li> 
+ <li> 
+ UAEJJF World Pro Champion (2014) 
+ </li> 
+
+<li> 
+ بطل ADCC (2009 **) 
+ </li> 
+ <li> 
+ ADCC Champion (2009**) 
+ </li> 
+
+<li> 
+ بطل أوروبا (2007/2009 / 2011) 
+ </li> 
+ <li> 
+ IBJJF European Champion (2007/2009/2011) 
+ </li> 
+
+<li> 
+ IBJJF Pan American Champion (2002 بنفسجي ، 2003 ، 2006 بني) 
+ </li> 
+ <li> 
+ IBJJF Pan American Champion (2002 purple, 2003, 2006 brown) 
+ </li> 
+
+<li> 
+ الوصيف في بطولة العالم IBJJF (2005/2008/2013) 
+ </li> 
+ <li> 
+ IBJJF World Championship Runner-up (2005/2008/2013) 
+ </li> 
+
+<li> 
+ الوصيف ADCC (2007) 
+ </li> 
+ <li> 
+ ADCC Runner-up (2007) 
+ </li> 
+
+<li> 
+ حسب النقاط 17 (29٪) 
+ </li> 
+ <li> 
+ BY POINTS17(29%) 
+ </li> 
+
+<li> 
+ حسب المزايا 4 (7٪) 
+ </li> 
+ <li> 
+ BY ADVANTAGES4(7%) 
+ </li> 
+
+<li> 
+ حسب التقديم 37 (63٪) 
+ </li> 
+ <li> 
+ BY SUBMISSION37(63%) 
+ </li> 
+
+<li> 
+ بالقرار 0 (0٪) 
+ </li> 
+ <li> 
+ BY DECISION0(0%) 
+ </li> 
+
+<li> 
+ عن طريق الغرامات 0 (0٪) 
+ </li> 
+ <li> 
+ BY PENALTIES0(0%) 
+ </li> 
+
+<li> 
+ BY DQ0 (0٪) 
+ </li> 
+ <li> 
+ BY DQ0(0%) 
+ </li> 
+
+<li> 
+ حسب النقاط 10 (48٪) 
+ </li> 
+ <li> 
+ BY POINTS10(48%) 
+ </li> 
+
+<li> 
+ حسب المزايا 3 (14٪) 
+ </li> 
+ <li> 
+ BY ADVANTAGES3(14%) 
+ </li> 
+
+<li> 
+ حسب التقديم 5 (24٪) 
+ </li> 
+ <li> 
+ BY SUBMISSION5(24%) 
+ </li> 
+
+<li> 
+ بالقرار رقم 2 (10٪) 
+ </li> 
+ <li> 
+ BY DECISION2(10%) 
+ </li> 
+
+<li> 
+ عن طريق العقوبات 1 (5٪) 
+ </li> 
+ <li> 
+ BY PENALTIES1(5%) 
+ </li> 
+
+<li> 
+ BY DQ0 (0٪) 
+ </li> 
+ <li> 
+ BY DQ0(0%) 
+ </li> 
+
+</ul>
+	<p> 
+ 	* Absolute<br /> 
+ 	** Weight and Absolute 
+ 	</p> 
+ 	<p> </p> 
+ 	</div> 
+ 	<div id='barchart_material' style='width: 100%; height: 100%;'></div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+  
+ <footer> 
+ 	<div class='container-fluid padding'> 
+ 	<div class='row text-center' dir='rtl'> 
+ 		<div class='col-md-4'> 
+ 			<img src='img/logo2.png'> 
+ 			<hr class='light'> 
+ 			<div class='row'> 
+ 				<div class='col-md-12'> 
+ 					<p><i class='fab fa-whatsapp'></i>     +٥٥ ٢١ ٩٦٩١٧٩٢٢٩</p> 
+ 					<p><i class='fas fa-envelope-open'></i>        db_batalha@hotmail.com</p> 
+ 				</div> 
+ 			</div> 
+ 		</div> 
+  
+ 		<div class='col-md-4'> 
+ 			<hr class='light'> 
+  
+ 			<!-- <h5>Our hours</h5> --> 
+  
+ 			<h5 dir='rtl' lang='ar'>ساعاتنا</h5> 
+  
+ 			<hr class='light'> 
+ 			<!-- <p>Monday - Friday: 8am - 10pm </p> --> 
+ 			<p dir='rtl' lang='ar'>الإثنين - الجمع: ٨ ص - ١٠ م - 10 مساءً</p> 
+  
+ 			<!-- <p>Saturday: Closed </p> --> 
+ 			<p dir='rtl' lang='ar'>السبت: مغلق </p> 
+  
+ 			<!-- <p>Sunday: 8am - 10pm  </p> --> 
+ 			<p dir='rtl' lang='ar'> الأحد: ٨ ص - ١٠ م  </p> 
+ 		</div> 
+  
+ 		<div class='col-md-4'> 
+ 			<hr class='light'> 
+ 			<!-- <h5>Our Place</h5> --> 
+ 			<h5 dir='rtl' lang='ar'>مكاننا</h5> 
+ 			<hr class='light'> 
+ 			<p>شارع فيسكوندي دي أورو بريتو،  ٥٥ - ٥٠٤ - بوتافوغو </p> 
+ 			<p>ريو دي جانيرو ، ريو دي جانيرو -  ٢٢٢٥٠١٨٠ ، </p> 
+ 			<div class='mapend'>  
+ 				<i class='fa fa-map' data-toggle='modal' data-target='#mapplace'></i> 
+ 			</div> 
+  
+ 		<!-- map Section / Modal map --> 
+  
+ 		<div class='modal fade' id='mapplace'> 
+ 			<div class='modal-dialog modal-dialog-centered modal-lg'> 
+ 				<div class='modal-content'> 
+ 					<div class='modal-body'> 
+ 						<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.1082620268853!2d-43.18680018485081!3d-22.94623968499181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fedf6f1aeef%3A0x6f14b63b4ce646b0!2sR.%20Visc.%20de%20Ouro%20Preto%2C%2055%20-%20Botafogo%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022250-180!5e0!3m2!1sen!2sbr!4v1593196739709!5m2!1sen!2sbr' width='770' height='500' frameborder='0' style='border:0;' allowfullscreen='' aria-hidden='false' tabindex='0'></iframe> 
+ 					</div> 
+ 				</div> 
+ 			</div> 
+ 		</div> 
+ 		</div> 
+ 		<div class='col-12'> 
+ 			<hr class='light'> 
+ 			<h5 dir='ltr'>&copy; dbbatalha.github.io/bjjinarabic/</h5> 
+ 		</div> 
+ 	</div> 
+ 	</div> 
+ </footer> 
+  
+ </div> 
+  
+ <div id='scrolltop'> 
+ <a><i class='tm-go-top'></i></a> 
+ </div> 
+ </div> 
+ </body> 
+ </html> 
+ 

@@ -1,0 +1,475 @@
+<!DOCTYPE html> 
+ <html> 
+ <head> 
+ <meta charset='utf-8'>  
+ <meta name='viewport' content='width=device-width, initial-scale=1'> 
+ <title>BJJ in Arabic | Learn Jiu Jitsu</title> 
+ <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'> 
+ <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script> 
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'></script> 
+ <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script> 
+ <script src='https://use.fontawesome.com/releases/v5.0.8/js/all.js'></script> 
+ <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>  
+ <script type='text/javascript'>  
+       google.charts.load('current', {packages:['corechart']});  
+       google.charts.setOnLoadCallback(drawChart);  
+       function drawChart() {  
+         var data = google.visualization.arrayToDataTable([  
+           ['wins', 'percent over total wins'],
+           ['by Points',     31], 
+           ['by Advantages',      6], 
+           ['by Submission',  41], 
+           ['by Decision', 3],
+ ]); 
+
+        var options = { 
+ 			title: 'Total of Wins', 
+ 			pieHole: 0.6, 
+ 		  colors: ['#a812f8', '#9012d4', '#7a0fb3','#3e075b'] 
+         }; 
+  
+         var chart = new google.visualization.PieChart(document.getElementById('donutchart')); 
+         chart.draw(data, options); 
+       } 
+ 	</script> 
+ 	<!-- bar chart  --> 
+     <script type='text/javascript'> 
+ 		google.charts.load('current', {'packages':['bar']}); 
+ 		google.charts.setOnLoadCallback(drawChart); 
+    
+ 		function drawChart() { 
+ 		  var data = google.visualization.arrayToDataTable([ 
+ 			['Tounament', 'Gold', 'Silver', 'Coper'], 
+ 			['Worlds', 2, 0, 1], 
+ 			['Europeans', 1,0, 0], 
+ 			['Brazil Nationals', 1, 0, 0] 
+ 		  ]); 
+    
+ 		  var options = { 
+ 			chart: { 
+ 			  title: 'Gold, Silver and Copper in IBJJF Tournamets', 
+ 			  subtitle: '', 
+ 			}, 
+ 			bars: 'horizontal', // Required for Material Bar Charts. 
+ 			hAxis: {format: 'decimal'}, 
+           	height: 300, 
+           	colors: ['#FFD700', '#C0C0C0', '#CD7F32'] 
+ 		  }; 
+    
+ 		  var chart = new google.charts.Bar(document.getElementById('barchart_material')); 
+    
+ 		  chart.draw(data, google.charts.Bar.convertOptions(options)); 
+ 		} 
+ 	  </script>  
+  
+ 	<link href='style.css' rel='stylesheet'>  
+ 	<link rel='stylesheet' href='https://m.w3newbie.com/you-tube.css'> 
+     </head> 
+  
+         <body> 
+ 
+            <!--navigation--> 
+  
+         <nav class='navbar navbar-expand-md navbar-light fixed-top'> 
+             <div class='container-fluid'> 
+                 <a class='navbar-brand' href='#'><img src='img/logo.png'></a> 
+                 <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarResponsive'> 
+                     <span class='navbar-toggler-icon'></span> 
+                 </button> 
+  
+                 <div class='collapse navbar-collapse' id='navbarResponsive'> 
+                     <ul class='navbar-nav ml-auto' dir='rtl'> 
+                         <li class='nav-item active'> 
+                             <a class='nav-link' href='https://dbbatalha.github.io/bjjinarabic/' dir='rtl' lang='ar'>Home | الصفحة الرئيسية للموقع</a>  
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#athleteslist' dir='rtl' lang='ar'>athletes list | قائمة الرياضيين</a>                   
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#about' dir='rtl' lang='ar'>About Us | معلومات عنا</a> 
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#connect' dir='rtl' lang='ar'>Connect | الاتصال</a> 
+  
+                         </li> 
+                     </ul> 
+                 </div> 
+             </div> 
+         </nav> 
+  
+ <div class='main-logo-ads-wrap'> 
+ <div class='main-logo-ads'> 
+ <body class='post-template-default single single-post postid-8141 single-format-standard mh-body gecko'> 
+ <div id='body-maha' class='body-maha'> 
+  
+ <div id='body-background'> 
+  
+ <div class='main-logo-ads-wrap'> 
+ <div class='main-logo-ads'> 
+  
+ <div class='container'> 
+ <div class='row '> 
+ <div class='col-sm-12'> 
+  
+ <div id='thelogo' class='logo '> 
+ <a href='https://dbbatalha.github.io/bjjinarabic/'> 
+ <img alt='BJJ in arabic' src='img/logo.png' data-retina='img/logo.png' data-first='img/logo.png' width=70% height=70%> 
+ </a> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+  
+ <div class='page-wrapper'> 
+  <div class='mh-el page-sidebar single-boxed' itemscope itemtype='https://schema.org/Article'> 
+ <div class='container'> 
+ <div class='row'> 
+ <div class='col-sm-12'> 
+ <div class='cover-wrap'> 
+ <div class='player-wrap'><div class='row'> 
+ <div class='col-sm-12'> 
+ <div class='back-nav'> 
+ <i class='tm-cancel'></i> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div class='cover'> 
+ <div class='detail'> 
+ <div class='row' dir='rtl'> 
+ <div class='col-sm-8' dir='rtl'> 
+ <span class='hidden' itemprop='publisher' itemscope itemtype='https://schema.org/Organization'> 
+ <span class='hidden' itemprop='logo' itemscope itemtype='https://schema.org/ImageObject'></span>
+ <meta itemprop='name' content='BJJ in Arabic'> 
+ </span> 
+ <h1 itemprop='name'> 
+ jonathan torres | جوناثان الأبراج 
+ 
+ </h1> 
+  
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div class='row'> 
+ <div class='col-sm-8' dir='rtl'> 
+ <div class='main-content'> 
+ <div class='maha-crumbs' hidden> 
+ <span class='current'> jonathan torres | جوناثان الأبراج </span></div> 
+ <article id='post-8141' class='main-content single-post-box'> 
+ <div class='text-content' dir='rtl' style='text-align:justify'> 
+ 	 
+ 
+<div class='g g-4' ><div class='g-single a-142'></div></div> 
+ <p style='text-align:justify'> 
+جوناثان توريس ، المعروف باسم JT Torres ، هو حزام برازيلي Jiu-Jitsublack تحت قيادة لويد إيرفين ، الذي عمل على نطاق واسع مع André Galvã قبل افتتاح أكاديميته الخاصة ، Essential BJJ. كان توريس واحدًا من أكثر لاعبي القتال الخفيفين إنجازًا في جيله ، حيث صنع الأمواج كمنافس بأسلوب يرضي الجماهير وثروة من الإنجازات على أعلى مستوى ، بما في ذلك ألقاب في نادي أبو ظبي القتالي (ADCC) والجوجيتسو البرازيلي الدولي دوائر الاتحاد (IBJJF). 
+ </p>
+<p dir='ltr' style='text-align:justify'> 
+Jonathan Torres, commonly known as JT Torres is aBrazilian Jiu-Jitsublack belt underLloyd Irvin, who worked extensively withAndré Galvãobefore opening his own academy, Essential BJJ. One of the most accomplished lightweight grapplers of his generation, Torres made waves as a competitor with a crowd-pleasing style and a wealth of accomplishments at the highest level, including titles in the Abu Dhabi Combat Club (ADCC) and International Brazilian Jiu-Jitsu Federation (IBJJF) circuits. 
+ </p> 
+<p> 
+الاسم الكامل: جوناثان توريس 
+ </p> 
+<p> 
+Full Name:Jonathan Torres 
+ </p> 
+<p> 
+ولد جي تي توريس في الثاني من سبتمبر 1989 في نيويورك - الولايات المتحدة الأمريكية. بدأ تدريب فنون الدفاع عن النفس في وقت مبكر من حياته ، وحقق الحزام الأسود في الكاراتيه حتى قبل أن يبدأ المدرسة الثانوية. على الرغم من وصوله إلى سن أكثر نضجًا (مراهقة مبكرة) قرر ترك الكاراتيه لتكريس نفسه لرياضات أخرى أكثر تقليدية. 
+ </p> 
+<p> 
+JT Torres was born on the 2nd of September, 1989 in New York – United States of America. He began training martial arts early in life, achieving a black belt in Karate even before he started High School. Though as he reached a more mature age (early teens) he decided to quit Karate to dedicate himself to other more traditional sports. 
+ </p> 
+<p> 
+فريق / جمعية: أعمال 
+ </p> 
+<p> 
+Team/Association:Atos 
+ </p> 
+<p> 
+Lineage:Mitsuyo Maeda >Carlos Gracie(Senior) >Helio Gracie>Rickson Gracie>Jorge Pereira>Leonardo Dalla>Lloyd Irvin> JT Torres 
+ </p> 
+
+<a href='#' class='btn btn-primary' data-toggle='modal' data-target='#highlights' lang='ar'>See Here Athlete Highlights | انظر هنا أبرز الرياضيين</a> 
+ 
+ 	<div class='modal fade' id='highlights'> 
+ 		<div class='modal-dialog modal-dialog-centered modal-lg'> 
+ 			<div class='modal-content'> 
+ 				<div class='modal-body'> 
+ 					<iframe src='https://www.youtube.com/embed/fzAvkg_nrtU' width='770' height='500' frameborder='0' style='border:0;' allowfullscreen='' aria-hidden='false' tabindex='0'></iframe>  
+ 						
+ 				</div> 
+ 			</div> 
+ 		</div> 
+ 	</div> 
+ 	<p> </p> 
+ 
+<h3> 
+ jonathan torres Biography | سيرة  الأبراج جوناثان  
+ </h3>
+
+<p> 
+أصبح جزءًا من فريق كرة السلة في المدرسة الثانوية ، ولكن عندما توقف عن العمل وجد نفسه بدون نشاط بدني. اقترح والده عليه العودة إلى الكاراتيه ، لكن جوناثان لم يكن حريصًا على العودة. بدلاً من ذلك ، سمع أن مدرسته القديمة للفنون القتالية تقدم برنامج جيو جيتسو البرازيلي الصغير. سمعت JT بهذه الرياضة وقررت التسجيل. كان الحب من النظرة الأولى ، JT كان "طبيعيًا" وشعر براحة كبيرة في المصارعة ، بعد أن اشترك على الفور تقريبًا في مدرسة جيو جيتسو. كانت موهبته واضحة منذ البداية ، حيث تمكن من تحقيق الحزام الأزرق في 6 أشهر فقط. 
+</p>
+<p></p>
+<p> 
+انضم توريس لاحقًا إلى المدرب لويس فينتالورو في Performance BJJ في نيو جيرسي ، والذي حصل معه على أحزمة أرجوانية وبنية في أقل من 3 سنوات. لقد كان ناجحًا للغاية تحت قيادة فينتالورو في الفوز ببطولة عموم أمريكا في مناسبتين لكنه قرر التحول إلى فريق أكثر احترافًا بعد ذلك ، ثم انضم إلى لويد إرفينين ماريلاند. حصل على حزامه الأسود من لويد إيرفين عام 2009. 
+</p>
+<p></p>
+<p> 
+في عام 2013 ، بعد سلسلة من الفضائح في Team Lloyd Irvin فيما يتعلق باغتصاب زميلة في الفريق من قبل اثنين من المنافسين الذكور في TLI بالإضافة إلى مزاعم بأن Lloyd Irvin نفسه قد تحرش بواحدة أو أكثر من أعضاء الفريق ، JT Torres ، وعدد قليل من زملائه الآخرين. تم نقل معسكر TLI إلى أكاديمية أتوس Andre Galvao في سان دييغو ، كاليفورنيا. 
+</p>
+<p></p>
+<p dir='ltr'> 
+He became part of his High school Basketball team, but when he got cut-off he found himself without physical activity. His father proposed he should go back to Karate, but Jonathan was not keen to return. Instead, he heard his old martial arts school was offering a small Brazilian Jiu-Jitsu program. JT had heard of this sport and decided to sign up. It was love at first sight, JT was a “natural” and felt very comfortable grappling, having almost immediately signed up to a jiu-jitsu school. His talent was clear from the get-go, managing to achieve his blue belt in only 6 months. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+Torres would later join coach Louis Vintaloro at Performance BJJ in New Jersey, with whom he received his purple and brown belts in less than 3 years. He was very successful under Vintaloro winning the Pan American Championship on 2 occasions but decided to switch to a more professional team after those, then joiningLloyd Irvinin Maryland. He achieved his black belt from Lloyd Irvin in 2009. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+In 2013, after a series of scandals at Team Lloyd Irvin regarding the rape of a female teammate by two male TLI competitors as well as allegations that Lloyd Irvin himself had molested one or more female team members, JT Torres, and a few other teammates left the TLI camp and moved toAndre Galvao‘sAtos Academyin San Diego, California. 
+</p>
+<p></p> 
+
+ <p> 
+ Source: https://www.bjjheroes.com/bjj-fighters/jonathan_torres 
+ </p> 
+ <p> </p> 
+  
+ </div> 
+ </article> 
+   
+ </div> 
+ </div>  
+ <div class='col-sm-4'><div class='sidebar' style='background-color:rgb(207, 207, 207);'> 
+ 	<img src='img/jonathan_torres.jpg' style='width: 100%; height: 100%; '> 
+ 	<div id='donutchart' style='width: 500px; height: 300px;'></div> 
+ 	<div class='ainachievements' dir='rtl' style='font-size:11px'> 
+ 		<strong> 
+ 				Main Achievements | الانجازات الرئيسية: 
+ 		</strong> 
+ 		</p> 
+ 		<p> </p> 
+ 
+<ul>
+<li> 
+ المركز الأول في بطولة العالم ADCC (2017/2019) 
+ </li> 
+ <li> 
+ 1st Place ADCC World Championship (2017 / 2019) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة IBJJF Pans (2015/2018) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Pans Championship (2015 / 2018) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF World Championship NoGi (2013) 
+ </li> 
+ <li> 
+ 1st Place IBJJF World Championship NoGi (2013) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF Pans Championship NoGi (2010) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Pans Championship NoGi (2010) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF European Open (2015) 
+ </li> 
+ <li> 
+ 1st Place IBJJF European Open (2015) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF New York Open (2010) 
+ </li> 
+ <li> 
+ 1st Place IBJJF New York Open (2010) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF Miami Open (2010) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Miami Open (2010) 
+ </li> 
+
+<li> 
+ المركز الثاني في بطولة العالم IBJJF (2014) 
+ </li> 
+ <li> 
+ 2nd Place IBJJF World Championship (2014) 
+ </li> 
+
+<li> 
+ المركز الثاني في بطولة العالم IBJJF NoGi (2009/2012) 
+ </li> 
+ <li> 
+ 2nd Place IBJJF World Championship NoGi (2009/2012) 
+ </li> 
+
+<li> 
+ المركز الثاني من مواطني CBJJ البرازيليين (2010) 
+ </li> 
+ <li> 
+ 2nd Place CBJJ Brazilian Nationals (2010) 
+ </li> 
+
+<li> 
+ المركز الثاني IBJJF European Open (2012) 
+ </li> 
+ <li> 
+ 2nd Place IBJJF European Open (2012) 
+ </li> 
+
+<li> 
+ المركز الثاني في بطولة IBJJF Pans (2009) 
+ </li> 
+ <li> 
+ 2nd Place IBJJF Pans Championship (2009) 
+ </li> 
+
+<li> 
+ المركز الثالث في بطولة العالم IBJJF (2011) 
+ </li> 
+ <li> 
+ 3rd Place IBJJF World Championship (2011) 
+ </li> 
+
+<li> 
+ المركز الثالث بطولة IBJJF Pans (2016) 
+ </li> 
+ <li> 
+ 3rd Place IBJJF Pans Championship (2016) 
+ </li> 
+
+<li> 
+ المركز الثالث في بطولة العالم رقم 3 في بطولة الاتحاد الدولي للجيتسو نو جي (2010) 
+ </li> 
+ <li> 
+ 3rd Place IBJJF World Championship NoGi (2010) 
+ </li> 
+
+<li> 
+ المركز الثاني في بطولة IBJJF Pans (باللون البنفسجي 2007) 
+ </li> 
+ <li> 
+ 2nd Place IBJJF Pans Championship (2007 purple) 
+ </li> 
+
+<li> 
+ المركز الثالث في بطولة IBJJF للمقالي (2006 أزرق ، 2009 بني) 
+ </li> 
+ <li> 
+ 3rd Place IBJJF Pans Championship (2006 blue, 2009 brown) 
+ </li> 
+
+</ul>
+	<p> 
+ 	* Absolute<br /> 
+ 	** Weight and Absolute 
+ 	</p> 
+ 	<p> </p> 
+ 	</div> 
+ 	<div id='barchart_material' style='width: 100%; height: 100%;'></div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+  
+ <footer> 
+ 	<div class='container-fluid padding'> 
+ 	<div class='row text-center' dir='rtl'> 
+ 		<div class='col-md-4'> 
+ 			<img src='img/logo2.png'> 
+ 			<hr class='light'> 
+ 			<div class='row'> 
+ 				<div class='col-md-12'> 
+ 					<p><i class='fab fa-whatsapp'></i>     +٥٥ ٢١ ٩٦٩١٧٩٢٢٩</p> 
+ 					<p><i class='fas fa-envelope-open'></i>        db_batalha@hotmail.com</p> 
+ 				</div> 
+ 			</div> 
+ 		</div> 
+  
+ 		<div class='col-md-4'> 
+ 			<hr class='light'> 
+  
+ 			<!-- <h5>Our hours</h5> --> 
+  
+ 			<h5 dir='rtl' lang='ar'>ساعاتنا</h5> 
+  
+ 			<hr class='light'> 
+ 			<!-- <p>Monday - Friday: 8am - 10pm </p> --> 
+ 			<p dir='rtl' lang='ar'>الإثنين - الجمع: ٨ ص - ١٠ م - 10 مساءً</p> 
+  
+ 			<!-- <p>Saturday: Closed </p> --> 
+ 			<p dir='rtl' lang='ar'>السبت: مغلق </p> 
+  
+ 			<!-- <p>Sunday: 8am - 10pm  </p> --> 
+ 			<p dir='rtl' lang='ar'> الأحد: ٨ ص - ١٠ م  </p> 
+ 		</div> 
+  
+ 		<div class='col-md-4'> 
+ 			<hr class='light'> 
+ 			<!-- <h5>Our Place</h5> --> 
+ 			<h5 dir='rtl' lang='ar'>مكاننا</h5> 
+ 			<hr class='light'> 
+ 			<p>شارع فيسكوندي دي أورو بريتو،  ٥٥ - ٥٠٤ - بوتافوغو </p> 
+ 			<p>ريو دي جانيرو ، ريو دي جانيرو -  ٢٢٢٥٠١٨٠ ، </p> 
+ 			<div class='mapend'>  
+ 				<i class='fa fa-map' data-toggle='modal' data-target='#mapplace'></i> 
+ 			</div> 
+  
+ 		<!-- map Section / Modal map --> 
+  
+ 		<div class='modal fade' id='mapplace'> 
+ 			<div class='modal-dialog modal-dialog-centered modal-lg'> 
+ 				<div class='modal-content'> 
+ 					<div class='modal-body'> 
+ 						<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.1082620268853!2d-43.18680018485081!3d-22.94623968499181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fedf6f1aeef%3A0x6f14b63b4ce646b0!2sR.%20Visc.%20de%20Ouro%20Preto%2C%2055%20-%20Botafogo%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022250-180!5e0!3m2!1sen!2sbr!4v1593196739709!5m2!1sen!2sbr' width='770' height='500' frameborder='0' style='border:0;' allowfullscreen='' aria-hidden='false' tabindex='0'></iframe> 
+ 					</div> 
+ 				</div> 
+ 			</div> 
+ 		</div> 
+ 		</div> 
+ 		<div class='col-12'> 
+ 			<hr class='light'> 
+ 			<h5 dir='ltr'>&copy; dbbatalha.github.io/bjjinarabic/</h5> 
+ 		</div> 
+ 	</div> 
+ 	</div> 
+ </footer> 
+  
+ </div> 
+  
+ <div id='scrolltop'> 
+ <a><i class='tm-go-top'></i></a> 
+ </div> 
+ </div> 
+ </body> 
+ </html> 
+ 

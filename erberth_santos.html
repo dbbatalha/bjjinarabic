@@ -1,0 +1,653 @@
+<!DOCTYPE html> 
+ <html> 
+ <head> 
+ <meta charset='utf-8'>  
+ <meta name='viewport' content='width=device-width, initial-scale=1'> 
+ <title>BJJ in Arabic | Learn Jiu Jitsu</title> 
+ <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'> 
+ <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script> 
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'></script> 
+ <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script> 
+ <script src='https://use.fontawesome.com/releases/v5.0.8/js/all.js'></script> 
+ <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>  
+ <script type='text/javascript'>  
+       google.charts.load('current', {packages:['corechart']});  
+       google.charts.setOnLoadCallback(drawChart);  
+       function drawChart() {  
+         var data = google.visualization.arrayToDataTable([  
+           ['wins', 'percent over total wins'],
+           ['by Points',     68], 
+           ['by Advantages',      22], 
+           ['by Submission',  135], 
+           ['by Decision', 14],
+ ]); 
+
+        var options = { 
+ 			title: 'Total of Wins', 
+ 			pieHole: 0.6, 
+ 		  colors: ['#a812f8', '#9012d4', '#7a0fb3','#3e075b'] 
+         }; 
+  
+         var chart = new google.visualization.PieChart(document.getElementById('donutchart')); 
+         chart.draw(data, options); 
+       } 
+ 	</script> 
+ 	<!-- bar chart  --> 
+     <script type='text/javascript'> 
+ 		google.charts.load('current', {'packages':['bar']}); 
+ 		google.charts.setOnLoadCallback(drawChart); 
+    
+ 		function drawChart() { 
+ 		  var data = google.visualization.arrayToDataTable([ 
+ 			['Tounament', 'Gold', 'Silver', 'Coper'], 
+ 			['Worlds', 2, 0, 1], 
+ 			['Europeans', 1,0, 0], 
+ 			['Brazil Nationals', 1, 0, 0] 
+ 		  ]); 
+    
+ 		  var options = { 
+ 			chart: { 
+ 			  title: 'Gold, Silver and Copper in IBJJF Tournamets', 
+ 			  subtitle: '', 
+ 			}, 
+ 			bars: 'horizontal', // Required for Material Bar Charts. 
+ 			hAxis: {format: 'decimal'}, 
+           	height: 300, 
+           	colors: ['#FFD700', '#C0C0C0', '#CD7F32'] 
+ 		  }; 
+    
+ 		  var chart = new google.charts.Bar(document.getElementById('barchart_material')); 
+    
+ 		  chart.draw(data, google.charts.Bar.convertOptions(options)); 
+ 		} 
+ 	  </script>  
+  
+ 	<link href='style.css' rel='stylesheet'>  
+ 	<link rel='stylesheet' href='https://m.w3newbie.com/you-tube.css'> 
+     </head> 
+  
+         <body> 
+ 
+            <!--navigation--> 
+  
+         <nav class='navbar navbar-expand-md navbar-light fixed-top'> 
+             <div class='container-fluid'> 
+                 <a class='navbar-brand' href='#'><img src='img/logo.png'></a> 
+                 <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarResponsive'> 
+                     <span class='navbar-toggler-icon'></span> 
+                 </button> 
+  
+                 <div class='collapse navbar-collapse' id='navbarResponsive'> 
+                     <ul class='navbar-nav ml-auto' dir='rtl'> 
+                         <li class='nav-item active'> 
+                             <a class='nav-link' href='https://dbbatalha.github.io/bjjinarabic/' dir='rtl' lang='ar'>Home | الصفحة الرئيسية للموقع</a>  
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#athleteslist' dir='rtl' lang='ar'>athletes list | قائمة الرياضيين</a>                   
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#about' dir='rtl' lang='ar'>About Us | معلومات عنا</a> 
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#connect' dir='rtl' lang='ar'>Connect | الاتصال</a> 
+  
+                         </li> 
+                     </ul> 
+                 </div> 
+             </div> 
+         </nav> 
+  
+ <div class='main-logo-ads-wrap'> 
+ <div class='main-logo-ads'> 
+ <body class='post-template-default single single-post postid-8141 single-format-standard mh-body gecko'> 
+ <div id='body-maha' class='body-maha'> 
+  
+ <div id='body-background'> 
+  
+ <div class='main-logo-ads-wrap'> 
+ <div class='main-logo-ads'> 
+  
+ <div class='container'> 
+ <div class='row '> 
+ <div class='col-sm-12'> 
+  
+ <div id='thelogo' class='logo '> 
+ <a href='https://dbbatalha.github.io/bjjinarabic/'> 
+ <img alt='BJJ in arabic' src='img/logo.png' data-retina='img/logo.png' data-first='img/logo.png' width=70% height=70%> 
+ </a> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+  
+ <div class='page-wrapper'> 
+  <div class='mh-el page-sidebar single-boxed' itemscope itemtype='https://schema.org/Article'> 
+ <div class='container'> 
+ <div class='row'> 
+ <div class='col-sm-12'> 
+ <div class='cover-wrap'> 
+ <div class='player-wrap'><div class='row'> 
+ <div class='col-sm-12'> 
+ <div class='back-nav'> 
+ <i class='tm-cancel'></i> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div class='cover'> 
+ <div class='detail'> 
+ <div class='row' dir='rtl'> 
+ <div class='col-sm-8' dir='rtl'> 
+ <span class='hidden' itemprop='publisher' itemscope itemtype='https://schema.org/Organization'> 
+ <span class='hidden' itemprop='logo' itemscope itemtype='https://schema.org/ImageObject'></span>
+ <meta itemprop='name' content='BJJ in Arabic'> 
+ </span> 
+ <h1 itemprop='name'> 
+ erberth santos | اربيرث القديسين 
+ 
+ </h1> 
+  
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div class='row'> 
+ <div class='col-sm-8' dir='rtl'> 
+ <div class='main-content'> 
+ <div class='maha-crumbs' hidden> 
+ <span class='current'> erberth santos | اربيرث القديسين </span></div> 
+ <article id='post-8141' class='main-content single-post-box'> 
+ <div class='text-content' dir='rtl' style='text-align:justify'> 
+ 	 
+ 
+<div class='g g-4' ><div class='g-single a-142'></div></div> 
+ <p style='text-align:justify'> 
+إيربيرث سانتوس هو الحزام الأسود البرازيلي للجوجيتسو تحت قيادة لويس جيلهيرمي (المعروف أيضًا باسم Guigo) ، والذي كان يُنظر إليه على أنه أفضل حزام بني في الرياضة خلال حملته لعام 2014. تم الحصول على هذا اللقب الفخري من خلال الأداء المذهل لسانتوس خلال بطولة العالم IBJJF ، وبطولة عموم أمريكا ، والبطولة الوطنية البرازيلية في ذلك العام ، البطولات التي فاز بها سانتوس في كل من وزنه وقسم الوزن المفتوح. عضو سابق في فريق Guigo Jiu-Jitsu ، تغير Erberth Santos إلى Almeida JJ في نوفمبر 2015 بسبب نزاع داخلي ، ثم قطع العلاقات مع الأخوين ألميدا أيضًا (سبتمبر 2017). 
+ </p>
+<p dir='ltr' style='text-align:justify'> 
+Erberth Santos is a Brazilian jiu-jitsu black belt underLuis Guilherme(also known as Guigo), who was regarded as the sport’s top brown belt during his 2014 campaign. This honorary title was earned through Santos’ incredible performances during the IBJJFWorld Championship,Pan American Championshipand the Brazilian National Championship that year, tournaments won by Santos in both his weight and the open weight divisions. A former member of the Guigo Jiu-Jitsu team, Erberth Santos changed to Almeida JJ in November 2015 due toan internal dispute, later severing ties with the Almeida brothers also (September 2017). 
+ </p> 
+<p> 
+الاسم الكامل: Erberth Santos de Mesquita 
+ </p> 
+<p> 
+Full Name:Erberth Santos de Mesquita 
+ </p> 
+<p> 
+الفريق / الاتحاد: JJ Squad 
+ </p> 
+<p> 
+Team/Association:Esquadrão JJ 
+ </p> 
+<p> 
+قسم الوزن: سوبر بيزادو (100.50 كجم / 222.0 رطل) 
+ </p> 
+<p> 
+Weight Division:Super-Pesado (100,50 kg / 222.0 lbs) 
+ </p> 
+<p> 
+Lineage:C. Gracie>Helio Gracie>Rickson Gracie>Jorge Pereira>Luis Guilherme> Erberth Santos 
+ </p> 
+
+<a href='#' class='btn btn-primary' data-toggle='modal' data-target='#highlights' lang='ar'>See Here Athlete Highlights | انظر هنا أبرز الرياضيين</a> 
+ 
+ 	<div class='modal fade' id='highlights'> 
+ 		<div class='modal-dialog modal-dialog-centered modal-lg'> 
+ 			<div class='modal-content'> 
+ 				<div class='modal-body'> 
+ 					<iframe src='https://www.youtube.com/embed/fzAvkg_nrtU' width='770' height='500' frameborder='0' style='border:0;' allowfullscreen='' aria-hidden='false' tabindex='0'></iframe>  
+ 						
+ 				</div> 
+ 			</div> 
+ 		</div> 
+ 	</div> 
+ 	<p> </p> 
+ 
+<h3> 
+ erberth santos Biography | سيرة  القديسين اربيرث  
+ </h3>
+
+<p> 
+وُلد إيربيرث سانتوس في 17 فبراير 1994 في مارانهاو بالبرازيل ، لكنه انتقل إلى بوا فيستا في رورايما عندما كان يبلغ من العمر 3 سنوات. في سن التاسعة ، تعرف إيربيرث على جيو جيتسو من قبل صديق أخته الذي كان يرتدي حزامًا أزرق في ثيرتي. لم يكن سانتوس يعرف شيئًا عن المصارعة ، ولكن بعد أن سمع عنها قرر زيارة المشروع الاجتماعي المحلي حيث تم تدريسه. استغرق الأمر منه ، في فصل واحد ، أن يقرر أنه يريد التدريب أيضًا ، وسأل على الفور عما إذا كان يمكنه التقدم بطلب للحصول على منحة دراسية. 
+</p>
+<p></p>
+<p> 
+أخذ المدرب بيدرو فريتاس Erberth تحت جناحه في أكاديمية Roraima Top Team وعلى الرغم من أن Pedro كان الحزام الأزرق في ذلك الوقت ، إلا أنه رأى الإمكانات الهائلة في Erberth ، ودائمًا ما دفعه للمنافسة. عندما لم تسمح له والدة إيربيرث بالتدريب بسبب سوء أدائه في المدرسة ، كان المدرب فريتاس يأتي دائمًا إلى مقر إقامة سانتوس لإقناعها بالسماح لإربيرث بالتدريب. 
+</p>
+<p></p>
+<p> 
+على الرغم من كونه فريقًا صغيرًا ، إلا أن Erberth بدأ بشكل جيد في المسابقات على مستوى الولاية والمستوى الوطني. من خلال رؤية موهبة سانتوس في إحدى هذه الأحداث ، أحضره المدرب مارسيو رودريغيز إلى مركز التدريب الخاص به ، وهو فريق أنشأه رودريغيز في جاكاريباغوا ، مع أطفال الشوارع وواحد من أشهر مشاريع الجوجيتسو الاجتماعية في ولاية ريو دي جانيرو. لم يتناسب نجاح سانتوس على الحصير مع موقفه في الخارج وفي صالة الألعاب الرياضية. بعد عدة حوادث مؤسفة مع زملائه في الفريق ، طرد رودريغيز إيربيرث من الأكاديمية. 
+</p>
+<p></p>
+<p> 
+بعد الفترة التي قضاها في Equipe Márcio Rodriges ، تولى سانتوس لويس "Guigo" Guilhermew الذي دعا Erberth للانتقال إلى ساو باولو ، حيث يمكنه التدريب في بيئة أكثر تنافسية والوصول إلى إمكاناته الكاملة. استحوذ Erberth على العرض بكلتا يديه وانتقل إلى الولاية البرازيلية الانتقائية. كان حينها حزام أزرق. 
+</p>
+<p></p>
+<p> 
+في عام 2014 بدأ Erberth Santos المنافسة دوليًا كحزام بني. كونه لويد إيرفين ، أقوى مدرب اتصال يمتلكه "جويجو" في أمريكا الشمالية ، بدأ إيربيرث البقاء مع فريق ماريلاند والتنافس معه عندما كان في الولايات المتحدة. 
+</p>
+<p></p>
+<p> 
+في ديسمبر 2014 ، بعد فوزه في بطولة "ASN Challenge" ، وهي بطولة مختلطة حيث هزم Erberth بعضًا من أفضل الأحزمة السوداء في البرازيل ، حصل Santos على حزامه الأسود من قبل Master Luiz Guilherme. 
+</p>
+<p></p>
+<p> 
+كان سلوك إيربيرث قد جعله يترك فريق Guigo في نوفمبر 2015 ، ثم يتم نقله من قبل أكاديمية Almeida Jiu Jitsu ، وهو فريق بقيادة Caio Almeida وله روابط مع Atos JJ. ستنهار هذه العلاقة أيضًا ، بعد أقل من عامين. 
+</p>
+<p></p>
+<p> 
+اربيرث سانتوس ضد مانويل ريبامار 
+</p>
+<p></p>
+<p dir='ltr'> 
+Erberth Santos was born on February 17, 1994, in Maranhão – Brazil, but moved to Boa Vista in Roraima when he was 3 years old. At the age of 9 Erberth was introduced to jiu-jitsu by his sister’s boyfriend who was a blue belt in thearte suave. Santos didn’t know about grappling, but after hearing about it he decided to visit the local social project where it was taught. It took him, one class, to decide that he wanted to train as well, and immediately asked if he could apply for a scholarship. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+Coach Pedro Freitas took Erberth under his wing at the Roraima Top Team academy and although Pedro was a blue belt at the time, he saw the immense potential in Erberth, and always pushed him to compete. When Erberth’s mother would not let him train for doing poorly at school, coach Freitas would always come to the Santos residence to convince her to allow Erberth to train. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+Although from a small team, Erberth started doing well at state and national level competitions. Seeing the talent Santos had at one of these events, coach Márcio Rodrigues brought him into his training center, a team Rodrigues had built in Jacarepaguá, with street kids and one of the most well-known jiu-jitsu social projects in the state of Rio de Janeiro. Santos’ success on the mats did not match his attitude outside and in the gym. After a few unfortunate incidents with his teammates, Rodrigues expelled Erberth from the academy. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+After his stint at Equipe Márcio Rodriges, Santos was taken in byLuis “Guigo” Guilhermewho invited Erberth to move to Sao Paulo, where he could train in a more competitive environment and reach his full potential. Erberth grabbed the offer with both hands and moved to the eclectic Brazilian state. He was a blue belt then. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+In 2014 Erberth Santos started competing internationally, as a brown belt. Being Lloyd Irvin the strongest connection instructor “Guigo” had in North American land, Erberth began staying with and competing for the Maryland team when in the US. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+In December 2014, just after winning the “ASN Challenge”, a mixed tournament where Erberth defeated some of the best black belts in Brazil, Santos was awarded his black belt by Master Luiz Guilherme. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+Erberth’s behavior would cause him to leave Guigo’s team in November 2015, then being taken by Almeida Jiu Jitsu’s Academy, a team led byCaio Almeidaand with links to Atos JJ. This relationship would also fall through, less than two years later. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+Erberth Santos vs Manuel Ribamar 
+</p>
+<p></p> 
+
+ <p> 
+ Source: https://www.bjjheroes.com/bjj-fighters/erberth_santos 
+ </p> 
+ <p> </p> 
+  
+ </div> 
+ </article> 
+   
+ </div> 
+ </div>  
+ <div class='col-sm-4'><div class='sidebar' style='background-color:rgb(207, 207, 207);'> 
+ 	<img src='img/erberth_santos.jpg' style='width: 100%; height: 100%; '> 
+ 	<div id='donutchart' style='width: 500px; height: 300px;'></div> 
+ 	<div class='ainachievements' dir='rtl' style='font-size:11px'> 
+ 		<strong> 
+ 				Main Achievements | الانجازات الرئيسية: 
+ 		</strong> 
+ 		</p> 
+ 		<p> </p> 
+ 
+<ul>
+<li> 
+ المركز الأول في بطولة العالم IBJJF (2017) 
+ </li> 
+ <li> 
+ 1st Place IBJJF World Championship (2017) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة الإمارات للجوجيتسو ملك ماتس (2018) 
+ </li> 
+ <li> 
+ 1st Place UAEJJF King of Mats (2018) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة الإمارات للجوجيتسو أبو ظبي برو (2016) 
+ </li> 
+ <li> 
+ 1st Place UAEJJF Abu Dhabi Pro (2016) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF European Open (2016/2015) 
+ </li> 
+ <li> 
+ 1st Place IBJJF European Open (2016/2015) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة IBJJF Pans (2017) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Pans Championship (2017) 
+ </li> 
+
+<li> 
+ المركز الأول من مواطني CBJJ البرازيليين (2016 ** / 2015 *) 
+ </li> 
+ <li> 
+ 1st Place CBJJ Brazilian Nationals (2016**/2015*) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة جنوب البرازيل CBJJ (2016 *) 
+ </li> 
+ <li> 
+ 1st Place CBJJ South Brazilian Championship (2016*) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة الإمارات للجوجيتسو البرازيلي المحترف (2015) 
+ </li> 
+ <li> 
+ 1st Place UAEJJF Brazilian National Pro (2015) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة أمريكا الجنوبية IBJJF (2017 ** / 2016/2015 *) 
+ </li> 
+ <li> 
+ 1st Place IBJJF South American Championship (2017**/2016/2015*) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة الإمارات للجوجيتسو جراند سلام ، لندن (2016) 
+ </li> 
+ <li> 
+ 1st Place UAEJJF Grand Slam, London (2016) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة الإمارات للجوجيتسو جراند سلام ، ريو دي جانيرو (2015) 
+ </li> 
+ <li> 
+ 1st Place UAEJJF Grand Slam, Rio de Janeiro (2015) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة الإمارات للجوجيتسو جراند سلام ، لوس أنجلوس (2015) 
+ </li> 
+ <li> 
+ 1st Place UAEJJF Grand Slam, Los Angeles (2015) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة الإمارات للجوجيتسو جراند سلام ، طوكيو (2015) 
+ </li> 
+ <li> 
+ 1st Place UAEJJF Grand Slam, Tokyo (2015) 
+ </li> 
+
+<li> 
+ المركز الثاني Copa Pódio MW Grand Prix (2016) 
+ </li> 
+ <li> 
+ 2nd Place Copa Pódio MW Grand Prix (2016) 
+ </li> 
+
+<li> 
+ المركز الثاني في بطولة العالم IBJF (2016 **) 
+ </li> 
+ <li> 
+ 2nd Place IBJJF World Championship (2016**) 
+ </li> 
+
+<li> 
+ المركز الثالث في بطولة IBJJF Pans (2017 *) 
+ </li> 
+ <li> 
+ 3rd Place IBJJF Pans Championship (2017*) 
+ </li> 
+
+<li> 
+ المركز الثالث في بطولة العالم IBJJF (2017 *) 
+ </li> 
+ <li> 
+ 3rd Place IBJJF World Championship (2017*) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة العالم IBJJF (2014 * بني) 
+ </li> 
+ <li> 
+ 1st Place IBJJF World Championship (2014* brown) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة العالم نوجي (2014 بني) IBJJF 
+ </li> 
+ <li> 
+ 1st Place IBJJF World Championship NoGi (2014 brown) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة IBJJF Pans (2014 * بني) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Pans Championship (2014* brown) 
+ </li> 
+
+<li> 
+ المركز الأول لمواطني البرازيل في CBJJ (2014 * بني) 
+ </li> 
+ <li> 
+ 1st Place CBJJ Brazilian Nationals (2014* brown) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة جنوب البرازيل CBJJF (2016 *) 
+ </li> 
+ <li> 
+ 1st Place CBJJF South Brazilian Championship (2016*) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة أمريكا الجنوبية IBJJF (بني 2014) 
+ </li> 
+ <li> 
+ 1st Place IBJJF South American Championship (2014 brown) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة الإمارات للجوجيتسو جراند سلام ، لندن (2016) 
+ </li> 
+ <li> 
+ 1st Place UAEJJF Grand Slam, London (2016) 
+ </li> 
+
+<li> 
+ حسب النقاط 68 (28٪) 
+ </li> 
+ <li> 
+ BY POINTS68(28%) 
+ </li> 
+
+<li> 
+ حسب المزايا 22 (9٪) 
+ </li> 
+ <li> 
+ BY ADVANTAGES22(9%) 
+ </li> 
+
+<li> 
+ حسب التقديم 135 (56٪) 
+ </li> 
+ <li> 
+ BY SUBMISSION135(56%) 
+ </li> 
+
+<li> 
+ حسب القرار 14 (6٪) 
+ </li> 
+ <li> 
+ BY DECISION14(6%) 
+ </li> 
+
+<li> 
+ عن طريق العقوبات 3 (1٪) 
+ </li> 
+ <li> 
+ BY PENALTIES3(1%) 
+ </li> 
+
+<li> 
+ حسب DQ1 (0٪) 
+ </li> 
+ <li> 
+ BY DQ1(0%) 
+ </li> 
+
+<li> 
+ حسب النقاط 17 (33٪) 
+ </li> 
+ <li> 
+ BY POINTS17(33%) 
+ </li> 
+
+<li> 
+ حسب المزايا 1 (2٪) 
+ </li> 
+ <li> 
+ BY ADVANTAGES1(2%) 
+ </li> 
+
+<li> 
+ حسب التقديم 23 (45٪) 
+ </li> 
+ <li> 
+ BY SUBMISSION23(45%) 
+ </li> 
+
+<li> 
+ حسب القرار رقم 6 (12٪) 
+ </li> 
+ <li> 
+ BY DECISION6(12%) 
+ </li> 
+
+<li> 
+ عن طريق العقوبات 1 (2٪) 
+ </li> 
+ <li> 
+ BY PENALTIES1(2%) 
+ </li> 
+
+<li> 
+ حسب DQ3 (6٪) 
+ </li> 
+ <li> 
+ BY DQ3(6%) 
+ </li> 
+
+</ul>
+	<p> 
+ 	* Absolute<br /> 
+ 	** Weight and Absolute 
+ 	</p> 
+ 	<p> </p> 
+ 	</div> 
+ 	<div id='barchart_material' style='width: 100%; height: 100%;'></div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+  
+ <footer> 
+ 	<div class='container-fluid padding'> 
+ 	<div class='row text-center' dir='rtl'> 
+ 		<div class='col-md-4'> 
+ 			<img src='img/logo2.png'> 
+ 			<hr class='light'> 
+ 			<div class='row'> 
+ 				<div class='col-md-12'> 
+ 					<p><i class='fab fa-whatsapp'></i>     +٥٥ ٢١ ٩٦٩١٧٩٢٢٩</p> 
+ 					<p><i class='fas fa-envelope-open'></i>        db_batalha@hotmail.com</p> 
+ 				</div> 
+ 			</div> 
+ 		</div> 
+  
+ 		<div class='col-md-4'> 
+ 			<hr class='light'> 
+  
+ 			<!-- <h5>Our hours</h5> --> 
+  
+ 			<h5 dir='rtl' lang='ar'>ساعاتنا</h5> 
+  
+ 			<hr class='light'> 
+ 			<!-- <p>Monday - Friday: 8am - 10pm </p> --> 
+ 			<p dir='rtl' lang='ar'>الإثنين - الجمع: ٨ ص - ١٠ م - 10 مساءً</p> 
+  
+ 			<!-- <p>Saturday: Closed </p> --> 
+ 			<p dir='rtl' lang='ar'>السبت: مغلق </p> 
+  
+ 			<!-- <p>Sunday: 8am - 10pm  </p> --> 
+ 			<p dir='rtl' lang='ar'> الأحد: ٨ ص - ١٠ م  </p> 
+ 		</div> 
+  
+ 		<div class='col-md-4'> 
+ 			<hr class='light'> 
+ 			<!-- <h5>Our Place</h5> --> 
+ 			<h5 dir='rtl' lang='ar'>مكاننا</h5> 
+ 			<hr class='light'> 
+ 			<p>شارع فيسكوندي دي أورو بريتو،  ٥٥ - ٥٠٤ - بوتافوغو </p> 
+ 			<p>ريو دي جانيرو ، ريو دي جانيرو -  ٢٢٢٥٠١٨٠ ، </p> 
+ 			<div class='mapend'>  
+ 				<i class='fa fa-map' data-toggle='modal' data-target='#mapplace'></i> 
+ 			</div> 
+  
+ 		<!-- map Section / Modal map --> 
+  
+ 		<div class='modal fade' id='mapplace'> 
+ 			<div class='modal-dialog modal-dialog-centered modal-lg'> 
+ 				<div class='modal-content'> 
+ 					<div class='modal-body'> 
+ 						<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.1082620268853!2d-43.18680018485081!3d-22.94623968499181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fedf6f1aeef%3A0x6f14b63b4ce646b0!2sR.%20Visc.%20de%20Ouro%20Preto%2C%2055%20-%20Botafogo%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022250-180!5e0!3m2!1sen!2sbr!4v1593196739709!5m2!1sen!2sbr' width='770' height='500' frameborder='0' style='border:0;' allowfullscreen='' aria-hidden='false' tabindex='0'></iframe> 
+ 					</div> 
+ 				</div> 
+ 			</div> 
+ 		</div> 
+ 		</div> 
+ 		<div class='col-12'> 
+ 			<hr class='light'> 
+ 			<h5>&copy; dbbatalha.github.io/bjjinarabic/</h5> 
+ 		</div> 
+ 	</div> 
+ 	</div> 
+ </footer> 
+  
+ </div> 
+  
+ <div id='scrolltop'> 
+ <a><i class='tm-go-top'></i></a> 
+ </div> 
+ </div> 
+ </body> 
+ </html> 
+ 

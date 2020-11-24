@@ -1,0 +1,602 @@
+<!DOCTYPE html> 
+ <html> 
+ <head> 
+ <meta charset='utf-8'>  
+ <meta name='viewport' content='width=device-width, initial-scale=1'> 
+ <title>BJJ in Arabic | Learn Jiu Jitsu</title> 
+ <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'> 
+ <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script> 
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'></script> 
+ <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script> 
+ <script src='https://use.fontawesome.com/releases/v5.0.8/js/all.js'></script> 
+ <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>  
+ <script type='text/javascript'>  
+       google.charts.load('current', {packages:['corechart']});  
+       google.charts.setOnLoadCallback(drawChart);  
+       function drawChart() {  
+         var data = google.visualization.arrayToDataTable([  
+           ['wins', 'percent over total wins'],
+           ['by Points',     82], 
+           ['by Advantages',      4], 
+           ['by Submission',  85], 
+           ['by Decision', 3],
+ ]); 
+
+        var options = { 
+ 			title: 'Total of Wins', 
+ 			pieHole: 0.6, 
+ 		  colors: ['#a812f8', '#9012d4', '#7a0fb3','#3e075b'] 
+         }; 
+  
+         var chart = new google.visualization.PieChart(document.getElementById('donutchart')); 
+         chart.draw(data, options); 
+       } 
+ 	</script> 
+ 	<!-- bar chart  --> 
+     <script type='text/javascript'> 
+ 		google.charts.load('current', {'packages':['bar']}); 
+ 		google.charts.setOnLoadCallback(drawChart); 
+    
+ 		function drawChart() { 
+ 		  var data = google.visualization.arrayToDataTable([ 
+ 			['Tounament', 'Gold', 'Silver', 'Coper'], 
+ 			['Worlds', 2, 0, 1], 
+ 			['Europeans', 1,0, 0], 
+ 			['Brazil Nationals', 1, 0, 0] 
+ 		  ]); 
+    
+ 		  var options = { 
+ 			chart: { 
+ 			  title: 'Gold, Silver and Copper in IBJJF Tournamets', 
+ 			  subtitle: '', 
+ 			}, 
+ 			bars: 'horizontal', // Required for Material Bar Charts. 
+ 			hAxis: {format: 'decimal'}, 
+           	height: 300, 
+           	colors: ['#FFD700', '#C0C0C0', '#CD7F32'] 
+ 		  }; 
+    
+ 		  var chart = new google.charts.Bar(document.getElementById('barchart_material')); 
+    
+ 		  chart.draw(data, google.charts.Bar.convertOptions(options)); 
+ 		} 
+ 	  </script>  
+  
+ 	<link href='style.css' rel='stylesheet'>  
+ 	<link rel='stylesheet' href='https://m.w3newbie.com/you-tube.css'> 
+     </head> 
+  
+         <body> 
+ 
+            <!--navigation--> 
+  
+         <nav class='navbar navbar-expand-md navbar-light fixed-top'> 
+             <div class='container-fluid'> 
+                 <a class='navbar-brand' href='#'><img src='img/logo.png'></a> 
+                 <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarResponsive'> 
+                     <span class='navbar-toggler-icon'></span> 
+                 </button> 
+  
+                 <div class='collapse navbar-collapse' id='navbarResponsive'> 
+                     <ul class='navbar-nav ml-auto' dir='rtl'> 
+                         <li class='nav-item active'> 
+                             <a class='nav-link' href='https://dbbatalha.github.io/bjjinarabic/' dir='rtl' lang='ar'>Home | الصفحة الرئيسية للموقع</a>  
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#athleteslist' dir='rtl' lang='ar'>athletes list | قائمة الرياضيين</a>                   
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#about' dir='rtl' lang='ar'>About Us | معلومات عنا</a> 
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#connect' dir='rtl' lang='ar'>Connect | الاتصال</a> 
+  
+                         </li> 
+                     </ul> 
+                 </div> 
+             </div> 
+         </nav> 
+  
+ <div class='main-logo-ads-wrap'> 
+ <div class='main-logo-ads'> 
+ <body class='post-template-default single single-post postid-8141 single-format-standard mh-body gecko'> 
+ <div id='body-maha' class='body-maha'> 
+  
+ <div id='body-background'> 
+  
+ <div class='main-logo-ads-wrap'> 
+ <div class='main-logo-ads'> 
+  
+ <div class='container'> 
+ <div class='row '> 
+ <div class='col-sm-12'> 
+  
+ <div id='thelogo' class='logo '> 
+ <a href='https://dbbatalha.github.io/bjjinarabic/'> 
+ <img alt='BJJ in arabic' src='img/logo.png' data-retina='img/logo.png' data-first='img/logo.png' width=70% height=70%> 
+ </a> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+  
+ <div class='page-wrapper'> 
+  <div class='mh-el page-sidebar single-boxed' itemscope itemtype='https://schema.org/Article'> 
+ <div class='container'> 
+ <div class='row'> 
+ <div class='col-sm-12'> 
+ <div class='cover-wrap'> 
+ <div class='player-wrap'><div class='row'> 
+ <div class='col-sm-12'> 
+ <div class='back-nav'> 
+ <i class='tm-cancel'></i> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div class='cover'> 
+ <div class='detail'> 
+ <div class='row' dir='rtl'> 
+ <div class='col-sm-8' dir='rtl'> 
+ <span class='hidden' itemprop='publisher' itemscope itemtype='https://schema.org/Organization'> 
+ <span class='hidden' itemprop='logo' itemscope itemtype='https://schema.org/ImageObject'></span>
+ <meta itemprop='name' content='BJJ in Arabic'> 
+ </span> 
+ <h1 itemprop='name'> 
+ adam wardzinski | آدم واردزينسكي 
+ 
+ </h1> 
+  
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div class='row'> 
+ <div class='col-sm-8' dir='rtl'> 
+ <div class='main-content'> 
+ <div class='maha-crumbs' hidden> 
+ <span class='current'> adam wardzinski | آدم واردزينسكي </span></div> 
+ <article id='post-8141' class='main-content single-post-box'> 
+ <div class='text-content' dir='rtl' style='text-align:justify'> 
+ 	 
+ 
+<div class='g g-4' ><div class='g-single a-142'></div></div> 
+ <p style='text-align:justify'> 
+آدم Wardziński هو مصارع بولندي وحزام أسود في البرازيلية جيو جيتسووندر آلان "فينفو" دو ناسيمنتو. يعتبر Wardziński على نطاق واسع أحد أكبر المنافسين في الوزن الثقيل (94.30 كجم / 208.0 رطلاً) من جيله في BJJ ، وهو أيضًا أحد أوائل المصارعين ذوي الأسماء الكبيرة الذين ظهروا من بولندا - وهي دولة لها تاريخ طويل في الرياضات القتالية ، غالبًا ما يشار إليه على أنه لاعب أوروبي كبير في تصارع الخضوع. 
+ </p>
+<p dir='ltr' style='text-align:justify'> 
+Adam Wardziński is a Polish grappler and black belt inBrazilian jiu-jitsuunderAlan “Finfou” do Nascimento. Widely regarded as one of the top heavyweight (94,30 kg / 208.0 lbs) competitors of his generation in BJJ, Wardziński is also one of the first big-name grapplers to emerge from Poland – a country with a long history in combat sports, often referenced as a big European player in submission grappling. 
+ </p> 
+<p> 
+الاسم الكامل: Adam Wardziński 
+ </p> 
+<p> 
+Full Name:Adam Wardziński 
+ </p> 
+<p> 
+فريق / جمعية: Checkmat 
+ </p> 
+<p> 
+Team/Association:Checkmat 
+ </p> 
+<p> 
+قسم الوزن: بيزادو (94.30 كجم / 208.0 رطل) 
+ </p> 
+<p> 
+Weight Division:Pesado (94,30 kg / 208.0 lbs) 
+ </p> 
+<p> 
+Lineage:Carlos Gracie>Helio Gracie>Rolls Gracie>Romero Cavalcanti>Ricardo Vieira>Alan Finfou> Adam Wardziński 
+ </p> 
+
+<a href='#' class='btn btn-primary' data-toggle='modal' data-target='#highlights' lang='ar'>See Here Athlete Highlights | انظر هنا أبرز الرياضيين</a> 
+ 
+ 	<div class='modal fade' id='highlights'> 
+ 		<div class='modal-dialog modal-dialog-centered modal-lg'> 
+ 			<div class='modal-content'> 
+ 				<div class='modal-body'> 
+ 					<iframe src='https://www.youtube.com/embed/fzAvkg_nrtU' width='770' height='500' frameborder='0' style='border:0;' allowfullscreen='' aria-hidden='false' tabindex='0'></iframe>  
+ 						
+ 				</div> 
+ 			</div> 
+ 		</div> 
+ 	</div> 
+ 	<p> </p> 
+ 
+<h3> 
+ adam wardzinski Biography | سيرة  واردزينسكي آدم  
+ </h3>
+<p> 
+ولد آدم Wardziński في 22 أبريل 1991 ، في غرب بولندا ، حيث نشأ. 
+</p>
+<p></p>
+<p> 
+حدث أول اتصال لـ Wardziński بفنون الدفاع عن النفس في سن 14 ، من خلال aikido - وهو نشاط اختاره والدا آدم. على الرغم من أنه تدرب لفترة طويلة ، مع تقدمه في السن ، فقد الاهتمام بأيكيدو بسبب افتقارها إلى فعالية القتال اليدوي والمنافسة بين الممارسين. 
+</p>
+<p></p>
+
+<p> 
+قبل وقت طويل من بدء آدم في تدريب الجوجيتسو ، كان يتابع هذه الرياضة بالفعل عبر YouTube ، حيث كان مفتونًا بكل أشكال المواجهات السائدة منذ منتصف فترة المراهقة. بصرف النظر عن المكون الفني للجوجيتسو ، كان Wardziński يطمح أيضًا إلى المنافسة وعندما ظهرت فرصة التدريب ، أمسكها آدم بكلتا يديه. 
+</p>
+<p></p>
+<p> 
+بدأ Wardziński تدريب الجوجيتسو عندما كان يبلغ من العمر 18 عامًا مع Karol Matuszczak ، وهو رائد يتصارع في بولندا وحزام أسود تحت قيادة روي هاريساند جو موريرا. ماتوزكزاك من Combat Zone Poznan كان مدرب آدم من الحزام الأبيض إلى البني. 
+</p>
+<p></p>
+<p> 
+كحزام أزرق ، بدأ آدم تدريب مجموعة صغيرة من الطلاب في بوزنان - غرب بولندا. استمرت تلك المجموعة في النمو مع مرور الوقت ، مما دفع Wardziński إلى توحيد الجهود مع صديق جيد ومدرب ذكي - Andrzej Stolzmann. 
+</p>
+<p></p>
+<p> 
+كحزام بني ، عرف آدم Alan do Nascimento ، المعروف باسم Finfou. الحزام الأسود المشهور عالميًا ، قام Finfou بتدريس الجوجيتسو في السويد - التي لم تكن بعيدة جدًا عن بولندا. لهذا السبب ، اتصل Wardziński ودعا البرازيلي الأصلي للحضور إلى بولندا لحضور ندوة. بعد ورشة العمل ، تأثر آدم كثيرًا بمهارات آلان التدريبية وطلب منه أن ينتسب إلى جمعيته ، ويتدرب تحت إشراف فينفو منذ ذلك الحين. 
+</p>
+<p></p>
+<p> 
+في أكتوبر 2016 ، قام آلان فينفو بترقية آدم Wardziński إلى الحزام الأسود ، في حفل حضره أيضًا بطل الوزن المفتوح العالمي ماركوس “Buchecha” Almeida. 
+</p>
+<p></p>
+<p dir='ltr'> 
+Adam Wardziński was born on April 22, 1991, in Western Poland, where he grew up. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+Wardziński’s first contact with martial arts occurred at the age of 14, through aikido – an activity chosen by Adam’s parents. Although he trained for an extensive period, as he grew older he lost interest in aikido due to its lack of hand-to-hand combat effectiveness and competition between practitioners. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+Long before Adam started training jiu-jitsu he was already following the sport through YouTube, having been fascinated by every form of mainstream grappling from his mid-teens. Aside from the technical component of jiu-jitsu, Wardziński also aspired to compete and when the opportunity to train arose Adam grabbed it with both hands. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+Wardziński started training jiu-jitsu as an 18-year-old with Karol Matuszczak, a grappling pioneer in Poland and a black belt underRoy HarrisandJoe Moreira. Matuszczak of Combat Zone Poznan was Adam’s coach from white to brown belt. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+As a blue belt, Adam started coaching a small group of students in Poznań – Western Poland. That group continued to grow with the passing of time, leading Wardziński to join forces with a good friend and savvy instructor – Andrzej Stolzmann. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+As a brown belt, Adam got to knownAlan do Nascimento, commonly known as Finfou. A world-renowned black belt, Finfou taught jiu-jitsu in Sweden – which was not too far from Poland. For that reason, Wardziński contacted and invited the Brazilian native to come to Poland for a seminar. After the workshop Adam was very impressed by Alan’s coaching skills and requested that he become affiliated with his association, training under Finfou’s guidance from then on. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+In October 2016 Alan Finfou promoted Adam Wardziński to black belt, in a ceremony also attended by World open weight championMarcus “Buchecha” Almeida. 
+</p>
+<p></p> 
+
+ <p> 
+ Source: https://www.bjjheroes.com/bjj-fighters/adam_wardzinski 
+ </p> 
+ <p> </p> 
+  
+ </div> 
+ </article> 
+   
+ </div> 
+ </div>  
+ <div class='col-sm-4'><div class='sidebar' style='background-color:rgb(207, 207, 207);'> 
+ 	<img src='img/adam_wardzinski.jpg' style='width: 100%; height: 100%; '> 
+ 	<div id='donutchart' style='width: 500px; height: 300px;'></div> 
+ 	<div class='ainachievements' dir='rtl' style='font-size:11px'> 
+ 		<strong> 
+ 				Main Achievements | الانجازات الرئيسية: 
+ 		</strong> 
+ 		</p> 
+ 		<p> </p> 
+ 
+<ul>
+<li> 
+ المركز الأول في بطولة الإمارات للجوجيتسو جراند سلام ، أبوظبي (2019) 
+ </li> 
+ <li> 
+ 1st Place UAEJJF Grand Slam, Abu Dhabi (2019) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF ساو باولو المفتوحة (2018) 
+ </li> 
+ <li> 
+ 1st Place IBJJF São Paulo Open (2018) 
+ </li> 
+
+<li> 
+ المركز الأول ACBJJ بطولة أوروبا المفتوحة (2018) 
+ </li> 
+ <li> 
+ 1st Place ACBJJ European Open (2018) 
+ </li> 
+
+<li> 
+ المركز الأول ACBJJ European Open NoGi (2019) 
+ </li> 
+ <li> 
+ 1st Place ACBJJ European Open NoGi (2019) 
+ </li> 
+
+<li> 
+ المركز الأول في تجارب الاتحاد الأوروبي الخاصة بـ ADCC (2018) 
+ </li> 
+ <li> 
+ 1st Place ADCC EU Trials (2018) 
+ </li> 
+
+<li> 
+ المركز الأول للمواطنين البولنديين (2016 **) 
+ </li> 
+ <li> 
+ 1st Place Polish Nationals (2016**) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF روما المفتوحة (2017) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Rome Open (2017) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة الإمارات للجوجيتسو إسبانيا للمحترفين (2016) 
+ </li> 
+ <li> 
+ 1st Place UAEJJF Spain National Pro (2016) 
+ </li> 
+
+<li> 
+ المركز الثاني بطولة IBJJF عموم (2019) 
+ </li> 
+ <li> 
+ 2nd Place IBJJF Pan Championship (2019) 
+ </li> 
+
+<li> 
+ المركز الثاني IBJJF European Open (2020) 
+ </li> 
+ <li> 
+ 2nd Place IBJJF European Open (2020) 
+ </li> 
+
+<li> 
+ المركز الثاني في بطولة الإمارات للجوجيتسو أبوظبي برو (2017/2019) 
+ </li> 
+ <li> 
+ 2nd Place UAEJJF Abu Dhabi Pro (2017 / 2019) 
+ </li> 
+
+<li> 
+ المركز الثاني في بطولة الإمارات للجوجيتسو جراند سلام ، لندن (2017) 
+ </li> 
+ <li> 
+ 2nd Place UAEJJF Grand Slam, London (2017) 
+ </li> 
+
+<li> 
+ أند بلاك أجف جراند سلام أبو ظبي (٢٠١٧) 
+ </li> 
+ <li> 
+ 2nd Place UAEJJF Grand Slam Abu Dhabi (2017) 
+ </li> 
+
+<li> 
+ المركز الثاني في بطولة الإمارات للجوجيتسو جراند سلام ، طوكيو (2017) 
+ </li> 
+ <li> 
+ 2nd Place UAEJJF Grand Slam, Tokyo (2017) 
+ </li> 
+
+<li> 
+ المركز الثالث IBJJF European Open (2018) 
+ </li> 
+ <li> 
+ 3rd Place IBJJF European Open (2018) 
+ </li> 
+
+<li> 
+ المركز الثالث IBJJF European NoGi Open (2017) 
+ </li> 
+ <li> 
+ 3rd Place IBJJF European NoGi Open (2017) 
+ </li> 
+
+<li> 
+ عرض بلاك أجف جراند سلام, ريو د جانيرو (٢٠١٧) 
+ </li> 
+ <li> 
+ 3rd Place UAEJJF Grand Slam, Rio de Janeiro (2017) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF European Open (2015 Brown) 
+ </li> 
+ <li> 
+ 1st Place IBJJF European Open (2015 brown) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF European Open NoGi (2015 بني) 
+ </li> 
+ <li> 
+ 1st Place IBJJF European Open NoGi (2015 brown) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة الإمارات للجوجيتسو جراند سلام ، لندن (2016 ** بني) 
+ </li> 
+ <li> 
+ 1st Place UAEJJF Grand Slam, London (2016** brown) 
+ </li> 
+
+<li> 
+ المركز الأول للمواطنين البولنديين (2013/2012 بنفسجي) 
+ </li> 
+ <li> 
+ 1st Place Polish Nationals (2013/2012 purple) 
+ </li> 
+
+<li> 
+ المركز الأول للمواطنين البولنديين NoGi (2016/2015 بني ، 2012 أزرق) 
+ </li> 
+ <li> 
+ 1st Place Polish Nationals NoGi (2016 / 2015 brown, 2012 blue) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF London Open (2014 بني) 
+ </li> 
+ <li> 
+ 1st Place IBJJF London Open (2014 brown) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF London Open NoGi (2014 بني) 
+ </li> 
+ <li> 
+ 1st Place IBJJF London Open NoGi (2014 brown) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF روما المفتوحة (2014/2013 بنفسجي) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Rome Open (2014 / 2013 purple) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF كوبنهاغن المفتوحة (2014 بنفسجي) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Copenhagen Open (2014 purple) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF Paris Open (2014 بنفسجي) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Paris Open (2014 purple) 
+ </li> 
+
+<li> 
+ المركز الأول بوزنان المفتوحة (2014/2013 بنفسجي ، 2012 أزرق) 
+ </li> 
+ <li> 
+ 1st Place Poznań Open (2014 / 2013 purple, 2012 blue) 
+ </li> 
+
+<li> 
+ المركز الثاني IBJJF European Open NoGi (2013 بنفسجي) 
+ </li> 
+ <li> 
+ 2nd Place IBJJF European Open NoGi (2013 purple) 
+ </li> 
+
+<li> 
+ المركز الثالث IBJJF European Open (2013 بنفسجي) 
+ </li> 
+ <li> 
+ 3rd Place IBJJF European Open (2013 purple) 
+ </li> 
+
+</ul>
+	<p> 
+ 	* Absolute<br /> 
+ 	** Weight and Absolute 
+ 	</p> 
+ 	<p> </p> 
+ 	</div> 
+ 	<div id='barchart_material' style='width: 100%; height: 100%;'></div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+  
+ <footer> 
+ 	<div class='container-fluid padding'> 
+ 	<div class='row text-center' dir='rtl'> 
+ 		<div class='col-md-4'> 
+ 			<img src='img/logo2.png'> 
+ 			<hr class='light'> 
+ 			<div class='row'> 
+ 				<div class='col-md-12'> 
+ 					<p><i class='fab fa-whatsapp'></i>     +٥٥ ٢١ ٩٦٩١٧٩٢٢٩</p> 
+ 					<p><i class='fas fa-envelope-open'></i>        db_batalha@hotmail.com</p> 
+ 				</div> 
+ 			</div> 
+ 		</div> 
+  
+ 		<div class='col-md-4'> 
+ 			<hr class='light'> 
+  
+ 			<!-- <h5>Our hours</h5> --> 
+  
+ 			<h5 dir='rtl' lang='ar'>ساعاتنا</h5> 
+  
+ 			<hr class='light'> 
+ 			<!-- <p>Monday - Friday: 8am - 10pm </p> --> 
+ 			<p dir='rtl' lang='ar'>الإثنين - الجمع: ٨ ص - ١٠ م - 10 مساءً</p> 
+  
+ 			<!-- <p>Saturday: Closed </p> --> 
+ 			<p dir='rtl' lang='ar'>السبت: مغلق </p> 
+  
+ 			<!-- <p>Sunday: 8am - 10pm  </p> --> 
+ 			<p dir='rtl' lang='ar'> الأحد: ٨ ص - ١٠ م  </p> 
+ 		</div> 
+  
+ 		<div class='col-md-4'> 
+ 			<hr class='light'> 
+ 			<!-- <h5>Our Place</h5> --> 
+ 			<h5 dir='rtl' lang='ar'>مكاننا</h5> 
+ 			<hr class='light'> 
+ 			<p>شارع فيسكوندي دي أورو بريتو،  ٥٥ - ٥٠٤ - بوتافوغو </p> 
+ 			<p>ريو دي جانيرو ، ريو دي جانيرو -  ٢٢٢٥٠١٨٠ ، </p> 
+ 			<div class='mapend'>  
+ 				<i class='fa fa-map' data-toggle='modal' data-target='#mapplace'></i> 
+ 			</div> 
+  
+ 		<!-- map Section / Modal map --> 
+  
+ 		<div class='modal fade' id='mapplace'> 
+ 			<div class='modal-dialog modal-dialog-centered modal-lg'> 
+ 				<div class='modal-content'> 
+ 					<div class='modal-body'> 
+ 						<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.1082620268853!2d-43.18680018485081!3d-22.94623968499181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fedf6f1aeef%3A0x6f14b63b4ce646b0!2sR.%20Visc.%20de%20Ouro%20Preto%2C%2055%20-%20Botafogo%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022250-180!5e0!3m2!1sen!2sbr!4v1593196739709!5m2!1sen!2sbr' width='770' height='500' frameborder='0' style='border:0;' allowfullscreen='' aria-hidden='false' tabindex='0'></iframe> 
+ 					</div> 
+ 				</div> 
+ 			</div> 
+ 		</div> 
+ 		</div> 
+ 		<div class='col-12'> 
+ 			<hr class='light'> 
+ 			<h5>&copy; dbbatalha.github.io/bjjinarabic/</h5> 
+ 		</div> 
+ 	</div> 
+ 	</div> 
+ </footer> 
+  
+ </div> 
+  
+ <div id='scrolltop'> 
+ <a><i class='tm-go-top'></i></a> 
+ </div> 
+ </div> 
+ </body> 
+ </html> 
+ 

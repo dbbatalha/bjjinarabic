@@ -1,0 +1,522 @@
+<!DOCTYPE html> 
+ <html> 
+ <head> 
+ <meta charset='utf-8'>  
+ <meta name='viewport' content='width=device-width, initial-scale=1'> 
+ <title>BJJ in Arabic | Learn Jiu Jitsu</title> 
+ <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'> 
+ <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script> 
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'></script> 
+ <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script> 
+ <script src='https://use.fontawesome.com/releases/v5.0.8/js/all.js'></script> 
+ <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>  
+ <script type='text/javascript'>  
+       google.charts.load('current', {packages:['corechart']});  
+       google.charts.setOnLoadCallback(drawChart);  
+       function drawChart() {  
+         var data = google.visualization.arrayToDataTable([  
+           ['wins', 'percent over total wins'],
+           ['by Points',     7], 
+           ['by Advantages',      0], 
+           ['by Submission',  8], 
+           ['by Decision', 3],
+ ]); 
+
+        var options = { 
+ 			title: 'Total of Wins', 
+ 			pieHole: 0.6, 
+ 		  colors: ['#a812f8', '#9012d4', '#7a0fb3','#3e075b'] 
+         }; 
+  
+         var chart = new google.visualization.PieChart(document.getElementById('donutchart')); 
+         chart.draw(data, options); 
+       } 
+ 	</script> 
+ 	<!-- bar chart  --> 
+     <script type='text/javascript'> 
+ 		google.charts.load('current', {'packages':['bar']}); 
+ 		google.charts.setOnLoadCallback(drawChart); 
+    
+ 		function drawChart() { 
+ 		  var data = google.visualization.arrayToDataTable([ 
+ 			['Tounament', 'Gold', 'Silver', 'Coper'], 
+ 			['Worlds', 2, 0, 1], 
+ 			['Europeans', 1,0, 0], 
+ 			['Brazil Nationals', 1, 0, 0] 
+ 		  ]); 
+    
+ 		  var options = { 
+ 			chart: { 
+ 			  title: 'Gold, Silver and Copper in IBJJF Tournamets', 
+ 			  subtitle: '', 
+ 			}, 
+ 			bars: 'horizontal', // Required for Material Bar Charts. 
+ 			hAxis: {format: 'decimal'}, 
+           	height: 300, 
+           	colors: ['#FFD700', '#C0C0C0', '#CD7F32'] 
+ 		  }; 
+    
+ 		  var chart = new google.charts.Bar(document.getElementById('barchart_material')); 
+    
+ 		  chart.draw(data, google.charts.Bar.convertOptions(options)); 
+ 		} 
+ 	  </script>  
+  
+ 	<link href='style.css' rel='stylesheet'>  
+ 	<link rel='stylesheet' href='https://m.w3newbie.com/you-tube.css'> 
+     </head> 
+  
+         <body> 
+ 
+            <!--navigation--> 
+  
+         <nav class='navbar navbar-expand-md navbar-light fixed-top'> 
+             <div class='container-fluid'> 
+                 <a class='navbar-brand' href='#'><img src='img/logo.png'></a> 
+                 <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarResponsive'> 
+                     <span class='navbar-toggler-icon'></span> 
+                 </button> 
+  
+                 <div class='collapse navbar-collapse' id='navbarResponsive'> 
+                     <ul class='navbar-nav ml-auto' dir='rtl'> 
+                         <li class='nav-item active'> 
+                             <a class='nav-link' href='https://dbbatalha.github.io/bjjinarabic/' dir='rtl' lang='ar'>Home | الصفحة الرئيسية للموقع</a>  
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#athleteslist' dir='rtl' lang='ar'>athletes list | قائمة الرياضيين</a>                   
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#about' dir='rtl' lang='ar'>About Us | معلومات عنا</a> 
+  
+                         </li> 
+  
+                         <li class='nav-item'> 
+                             <a class='nav-link' href='#connect' dir='rtl' lang='ar'>Connect | الاتصال</a> 
+  
+                         </li> 
+                     </ul> 
+                 </div> 
+             </div> 
+         </nav> 
+  
+ <div class='main-logo-ads-wrap'> 
+ <div class='main-logo-ads'> 
+ <body class='post-template-default single single-post postid-8141 single-format-standard mh-body gecko'> 
+ <div id='body-maha' class='body-maha'> 
+  
+ <div id='body-background'> 
+  
+ <div class='main-logo-ads-wrap'> 
+ <div class='main-logo-ads'> 
+  
+ <div class='container'> 
+ <div class='row '> 
+ <div class='col-sm-12'> 
+  
+ <div id='thelogo' class='logo '> 
+ <a href='https://dbbatalha.github.io/bjjinarabic/'> 
+ <img alt='BJJ in arabic' src='img/logo.png' data-retina='img/logo.png' data-first='img/logo.png' width=70% height=70%> 
+ </a> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+  
+ <div class='page-wrapper'> 
+  <div class='mh-el page-sidebar single-boxed' itemscope itemtype='https://schema.org/Article'> 
+ <div class='container'> 
+ <div class='row'> 
+ <div class='col-sm-12'> 
+ <div class='cover-wrap'> 
+ <div class='player-wrap'><div class='row'> 
+ <div class='col-sm-12'> 
+ <div class='back-nav'> 
+ <i class='tm-cancel'></i> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div class='cover'> 
+ <div class='detail'> 
+ <div class='row' dir='rtl'> 
+ <div class='col-sm-8' dir='rtl'> 
+ <span class='hidden' itemprop='publisher' itemscope itemtype='https://schema.org/Organization'> 
+ <span class='hidden' itemprop='logo' itemscope itemtype='https://schema.org/ImageObject'></span>
+ <meta itemprop='name' content='BJJ in Arabic'> 
+ </span> 
+ <h1 itemprop='name'> 
+ johnatha barbosa | جوناثان باربوزا 
+ 
+ </h1> 
+  
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <div class='row'> 
+ <div class='col-sm-8' dir='rtl'> 
+ <div class='main-content'> 
+ <div class='maha-crumbs' hidden> 
+ <span class='current'> johnatha barbosa | جوناثان باربوزا </span></div> 
+ <article id='post-8141' class='main-content single-post-box'> 
+ <div class='text-content' dir='rtl' style='text-align:justify'> 
+ 	 
+ 
+<div class='g g-4' ><div class='g-single a-142'></div></div> 
+ <p style='text-align:justify'> 
+جوناثا ألفيس هو حزام جيو جيتسوبلاك البرازيلي بقيادة جيلهيرم مينديز ، وهو أيضًا نتاج منحة Believe & Achieve المصارعة ، كونه أول رياضي في برنامج المصارعة يصل إلى التصنيف المرموق. يُعرف ألفيس على نطاق واسع بأنه أحد أفضل لاعبي BJJ في جيله ، وهي سمعة اكتسبها أثناء التنافس مع فريق Atos Jiu-Jitsu في أقسام الحزام السفلي للرياضة ، في وقت كان فيه فريق Guilherme Mendes's Art Of Jiu-Jitsu مرتبطًا مع فريق سان دييغو. 
+ </p>
+<p dir='ltr' style='text-align:justify'> 
+Johnatha Alves is aBrazilian jiu-jitsublack belt underGuilherme Mendes, who is also a product of the Believe & Achieve grappling scholarship, being the grappling program’s very first athlete to reach the prestigious rank. Alves is widely recognized as one of the top BJJ athletes of his generation, a reputation earned while competing for the Atos Jiu-Jitsu team in the lower belt divisions of the sport, a time when Guilherme Mendes’ Art Of Jiu-Jitsu team was linked with the San Diego based squad. 
+ </p> 
+<p> 
+الاسم الكامل: جوناثا باربوسا ألفيس 
+ </p> 
+<p> 
+Full Name:Johnatha Barbosa Alves 
+ </p> 
+<p> 
+فريق / جمعية: AOJ 
+ </p> 
+<p> 
+Team/Association:AOJ 
+ </p> 
+<p> 
+قسم الوزن: بيزو ليف (76،00 كجم / 168.0 رطل) 
+ </p> 
+<p> 
+Weight Division:Peso Leve (76,00 kg / 168.0 lbs) 
+ </p> 
+<p> 
+Lineage:Carlos Gracie>Carlson Gracie>André Pederneiras>Ramon Lemos>Guilherme Mendes> Johnatha Alves 
+ </p> 
+
+<a href='#' class='btn btn-primary' data-toggle='modal' data-target='#highlights' lang='ar'>See Here Athlete Highlights | انظر هنا أبرز الرياضيين</a> 
+ 
+ 	<div class='modal fade' id='highlights'> 
+ 		<div class='modal-dialog modal-dialog-centered modal-lg'> 
+ 			<div class='modal-content'> 
+ 				<div class='modal-body'> 
+ 					<iframe src='https://www.youtube.com/embed/fzAvkg_nrtU' width='770' height='500' frameborder='0' style='border:0;' allowfullscreen='' aria-hidden='false' tabindex='0'></iframe>  
+ 						
+ 				</div> 
+ 			</div> 
+ 		</div> 
+ 	</div> 
+ 	<p> </p> 
+ 
+<h3> 
+ johnatha barbosa Biography | سيرة  باربوزا جوناثان  
+ </h3>
+<p> 
+وُلد جوناثا ألفيس في 12 يناير 1999 ، في ساو باولو ، البرازيل ، حيث بدأ التدريب لأول مرة في سن التاسعة. كان المدرب كايو إيزيدرو أول مدرب لجوناثا ، وتم تسليم الرسوم الدراسية لاحقًا إلى رودريجو "سما" وروجيريو "أليماو" الذي منح ألفيس حزامه الأزرق. 
+</p>
+<p></p>
+
+<p> 
+خلال منتصف فترة المراهقة ، تقدم ألفيس بطلب للحصول على منحة Believe & Achieve المتصارع ، وهي صندوق تم تطويره بواسطة Mendes Brothers و Guilherme و Rafael في كوستا ميسا ، كاليفورنيا. تم تصميم برنامج المصارعة هذا بهدف مساعدة المواهب الصاعدة في الرياضة من خلال منحهم غرفة كاملة ووجبة كاملة ، وأفضل مساعدة تدريبية متاحة في الرياضة ، بالإضافة إلى التسجيل في البطولة وتغطية رسوم السفر. أثبت ألفيس أنه المرشح المثالي ، حيث انضم إلى فريق مينديز في عام 2016 ، كحزام أزرق للأحداث ، في مركز أدائهم في كوستا ميسا ، كاليفورنيا - Art of Jiu-Jitsu. 
+</p>
+<p></p>
+<p dir='ltr'> 
+Johnatha Alves was born on January 12, 1999, in São Paulo, Brazil, where he first started training at the age of 9. Coach Caio Izidro was Johnatha’s first instructor, tuition later handed to Rodrigo “Sama” and Rogerio “Alemão” who awarded Alves his blue belt. 
+</p>
+<p></p> 
+
+<p dir='ltr'> 
+During his mid-teens, Alves applied for the Believe & Achieve grappling scholarship, a fund developed by theMendes Brothers, Guilherme, andRafael, in Costa Mesa, California. This grappling program was designed with the intent of helping the sport’s rising talent by granting them full room and board, the best training assistance available in the sport, as well as tournament registration and travel fee coverage. Alves proved to be the perfect candidate, joining the Mendes team in 2016, as a juvenile blue belt, at their performance center in Costa Mesa, California – Art of Jiu-Jitsu. 
+</p>
+<p></p> 
+
+ <p> 
+ Source: https://www.bjjheroes.com/bjj-fighters/johnatha_barbosa 
+ </p> 
+ <p> </p> 
+  
+ </div> 
+ </article> 
+   
+ </div> 
+ </div>  
+ <div class='col-sm-4'><div class='sidebar' style='background-color:rgb(207, 207, 207);'> 
+ 	<img src='img/johnatha_barbosa.jpg' style='width: 100%; height: 100%; '> 
+ 	<div id='donutchart' style='width: 500px; height: 300px;'></div> 
+ 	<div class='ainachievements' dir='rtl' style='font-size:11px'> 
+ 		<strong> 
+ 				Main Achievements | الانجازات الرئيسية: 
+ 		</strong> 
+ 		</p> 
+ 		<p> </p> 
+ 
+<ul>
+<li> 
+ المركز الأول في بطولة الاتحاد الدولي للجيتسو (2020) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Pan Championship (2020) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF Fresno Open (2019) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Fresno Open (2019) 
+ </li> 
+
+<li> 
+ أند بلاك أجف جراند سلام, ما (٢٠٢٠) 
+ </li> 
+ <li> 
+ 2nd Place UAEJJF Grand Slam, MIA (2020) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة العالم IBJJF (2017 باللون الأزرق ، 2019 البني) 
+ </li> 
+ <li> 
+ 1st Place IBJJF World Championship (2017 blue, 2019 brown) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة IBJJF Pans (2017 بنفسجي ، 2019 بني) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Pans Championship (2017 purple, 2019 brown) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة العالم للأحداث IBJJF (2016 ** أزرق) 
+ </li> 
+ <li> 
+ 1st Place IBJJF World Championship Juvenile (2016** blue) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة IBJJF Pans للشباب (2016 ** أزرق) 
+ </li> 
+ <li> 
+ 1st Place IBJJF Pans Championship Juvenile (2016** blue) 
+ </li> 
+
+<li> 
+ المركز الأول IBJJF European Open Juvenile (2016 ** أزرق) 
+ </li> 
+ <li> 
+ 1st Place IBJJF European Open Juvenile (2016** blue) 
+ </li> 
+
+<li> 
+ المركز الأول في بطولة الإمارات للجوجيتسو جراند سلام ، لوس أنجلوس (2018 بني) 
+ </li> 
+ <li> 
+ 1st Place UAEJJF Grand Slam, LA (2018 brown) 
+ </li> 
+
+<li> 
+ المركز الأول ROYAL Invitational (2017 بنفسجي) 
+ </li> 
+ <li> 
+ 1st Place ROYAL Invitational (2017 purple) 
+ </li> 
+
+<li> 
+ المركز الأول في تحدي سبايدر الدولي (2018) 
+ </li> 
+ <li> 
+ 1st Place Spyder International Challenge (2018) 
+ </li> 
+
+<li> 
+ المركز الثاني في بطولة العالم IBJJF (بنفسجي 2018) 
+ </li> 
+ <li> 
+ 2nd Place IBJJF World Championship (2018 purple) 
+ </li> 
+
+<li> 
+ المركز الثالث IBJJF European Open (2019 Brown) 
+ </li> 
+ <li> 
+ 3rd Place IBJJF European Open (2019 brown) 
+ </li> 
+
+<li> 
+ حسب النقاط 7 (39٪) 
+ </li> 
+ <li> 
+ BY POINTS7(39%) 
+ </li> 
+
+<li> 
+ حسب المزايا 0 (0٪) 
+ </li> 
+ <li> 
+ BY ADVANTAGES0(0%) 
+ </li> 
+
+<li> 
+ حسب التقديم 8 (44٪) 
+ </li> 
+ <li> 
+ BY SUBMISSION8(44%) 
+ </li> 
+
+<li> 
+ حسب القرار رقم 3 (17٪) 
+ </li> 
+ <li> 
+ BY DECISION3(17%) 
+ </li> 
+
+<li> 
+ عن طريق الغرامات 0 (0٪) 
+ </li> 
+ <li> 
+ BY PENALTIES0(0%) 
+ </li> 
+
+<li> 
+ BY DQ0 (0٪) 
+ </li> 
+ <li> 
+ BY DQ0(0%) 
+ </li> 
+
+<li> 
+ حسب النقاط 2 (40٪) 
+ </li> 
+ <li> 
+ BY POINTS2(40%) 
+ </li> 
+
+<li> 
+ حسب المزايا 2 (40٪) 
+ </li> 
+ <li> 
+ BY ADVANTAGES2(40%) 
+ </li> 
+
+<li> 
+ حسب التقديم 0 (0٪) 
+ </li> 
+ <li> 
+ BY SUBMISSION0(0%) 
+ </li> 
+
+<li> 
+ حسب القرار الأول (20٪) 
+ </li> 
+ <li> 
+ BY DECISION1(20%) 
+ </li> 
+
+<li> 
+ عن طريق الغرامات 0 (0٪) 
+ </li> 
+ <li> 
+ BY PENALTIES0(0%) 
+ </li> 
+
+<li> 
+ BY DQ0 (0٪) 
+ </li> 
+ <li> 
+ BY DQ0(0%) 
+ </li> 
+
+</ul>
+	<p> 
+ 	* Absolute<br /> 
+ 	** Weight and Absolute 
+ 	</p> 
+ 	<p> </p> 
+ 	</div> 
+ 	<div id='barchart_material' style='width: 100%; height: 100%;'></div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+  
+ <footer> 
+ 	<div class='container-fluid padding'> 
+ 	<div class='row text-center' dir='rtl'> 
+ 		<div class='col-md-4'> 
+ 			<img src='img/logo2.png'> 
+ 			<hr class='light'> 
+ 			<div class='row'> 
+ 				<div class='col-md-12'> 
+ 					<p><i class='fab fa-whatsapp'></i>     +٥٥ ٢١ ٩٦٩١٧٩٢٢٩</p> 
+ 					<p><i class='fas fa-envelope-open'></i>        db_batalha@hotmail.com</p> 
+ 				</div> 
+ 			</div> 
+ 		</div> 
+  
+ 		<div class='col-md-4'> 
+ 			<hr class='light'> 
+  
+ 			<!-- <h5>Our hours</h5> --> 
+  
+ 			<h5 dir='rtl' lang='ar'>ساعاتنا</h5> 
+  
+ 			<hr class='light'> 
+ 			<!-- <p>Monday - Friday: 8am - 10pm </p> --> 
+ 			<p dir='rtl' lang='ar'>الإثنين - الجمع: ٨ ص - ١٠ م - 10 مساءً</p> 
+  
+ 			<!-- <p>Saturday: Closed </p> --> 
+ 			<p dir='rtl' lang='ar'>السبت: مغلق </p> 
+  
+ 			<!-- <p>Sunday: 8am - 10pm  </p> --> 
+ 			<p dir='rtl' lang='ar'> الأحد: ٨ ص - ١٠ م  </p> 
+ 		</div> 
+  
+ 		<div class='col-md-4'> 
+ 			<hr class='light'> 
+ 			<!-- <h5>Our Place</h5> --> 
+ 			<h5 dir='rtl' lang='ar'>مكاننا</h5> 
+ 			<hr class='light'> 
+ 			<p>شارع فيسكوندي دي أورو بريتو،  ٥٥ - ٥٠٤ - بوتافوغو </p> 
+ 			<p>ريو دي جانيرو ، ريو دي جانيرو -  ٢٢٢٥٠١٨٠ ، </p> 
+ 			<div class='mapend'>  
+ 				<i class='fa fa-map' data-toggle='modal' data-target='#mapplace'></i> 
+ 			</div> 
+  
+ 		<!-- map Section / Modal map --> 
+  
+ 		<div class='modal fade' id='mapplace'> 
+ 			<div class='modal-dialog modal-dialog-centered modal-lg'> 
+ 				<div class='modal-content'> 
+ 					<div class='modal-body'> 
+ 						<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.1082620268853!2d-43.18680018485081!3d-22.94623968499181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fedf6f1aeef%3A0x6f14b63b4ce646b0!2sR.%20Visc.%20de%20Ouro%20Preto%2C%2055%20-%20Botafogo%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022250-180!5e0!3m2!1sen!2sbr!4v1593196739709!5m2!1sen!2sbr' width='770' height='500' frameborder='0' style='border:0;' allowfullscreen='' aria-hidden='false' tabindex='0'></iframe> 
+ 					</div> 
+ 				</div> 
+ 			</div> 
+ 		</div> 
+ 		</div> 
+ 		<div class='col-12'> 
+ 			<hr class='light'> 
+ 			<h5 dir='ltr'>&copy; dbbatalha.github.io/bjjinarabic/</h5> 
+ 		</div> 
+ 	</div> 
+ 	</div> 
+ </footer> 
+  
+ </div> 
+  
+ <div id='scrolltop'> 
+ <a><i class='tm-go-top'></i></a> 
+ </div> 
+ </div> 
+ </body> 
+ </html> 
+ 
